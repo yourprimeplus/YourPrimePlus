@@ -1,20 +1,215 @@
-[
-  {
-    "title": "10 Useful Android Tips Every User Should Know",
-    "category": "TECHNOLOGY",
-    "description": "Discover simple Android features, settings and practical tips.",
-    "url": "technology.html"
-  },
-  {
-    "title": "Best Study Tips for Students",
-    "category": "EDUCATION",
-    "description": "Useful study techniques and practical tips for students.",
-    "url": "education.html"
-  },
-  {
-    "title": "BGMI Gaming Tips and Settings",
-    "category": "GAMING",
-    "description": "Gaming tips, settings, guides and useful updates.",
-    "url": "gaming.html"
-  }
-]
+{
+  "updatedAt": "2026-10-01T18:48:25.575771+00:00",
+  "items": [
+    {
+      "title": "Harvard Researchers Develop AI Smartphone Navigation App for Blind and Low-Vision Users - techbriefs.com",
+      "category": "TECHNOLOGY",
+      "description": "Harvard Researchers Develop AI Smartphone Navigation App for Blind and Low-Vision Users techbriefs.com",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUWtKRXYxaU1BbUhOUDcwWi1ubGluVkV4Yms3WUtjNklMQTA4R09rYjVITWVBWkFLb2hVYUJTemdOY2k1MEJDVk1ZRFZScXQtdVIxV0RadWN5WUl0ZHc5U0sxR0pQWDJxcElfMzZ2ZS1EZkdSVzFYb01XdVhEUGd2Z1llVmlqamF2X0l5ZDBFNXZHRHB0bDJ6VXpIbWRxaWVqeTduQjIxOFJFT2N4djk2NE1mbS1Ea1ZfTEduY2NoRmRoRDNfZmVRWV96S29GamUtNkZkTm9jRzZlVHhzenow?oc=5",
+      "published": "Mon, 28 Sep 2026 14:04:17 GMT"
+    },
+    {
+      "title": "On-Device AI: Powering the Future of Computing - Coursera",
+      "category": "TECHNOLOGY",
+      "description": "On-Device AI: Powering the Future of Computing Coursera",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tNjJSZGtXVkhmbE55TFB1NEhCWjVFWnBSQzU3X0Y4OGNuTTRNaldxelJnUl9IQXA0QTdyMFZEbHoxcjNxaEZ1X1JHLVQ2Tkp3VW8zYmdzWkhDZw?oc=5",
+      "published": "Mon, 21 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Forget apps: Qualcomm CEO says AI agents will change how we use smartphones - WION",
+      "category": "TECHNOLOGY",
+      "description": "Forget apps: Qualcomm CEO says AI agents will change how we use smartphones WION",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPV0U3QjdtcHB5eTBBVzBVZDM1amNIN1RmRFg4YVlJc0dSUl95LTEyNXBzZWE2bDUyaTFxMTRER0dMb2tLcUdPOEY4THRfSEJlSnpKdGJqd0tKVXBPZ2g4aTNyV0lsNkdTN0dPd0g2RHRhVUhFemVfeDNrc0hGQm5hOUw5d0tWQldLZWN4MTZ2ay03VWNqYzNuYlowZVVWN2cyNF9BeG94TjB2QjJHRHN0Y3d0Yml0VmdIbVByeGpDUVHSAcYBQVVfeXFMTnJfdndwdnRvXzhRS2t3OWpGRHczUXZsSnJEWTVYOVZsbXdjclkzT0l6RVpzcDV6cFJKVnJhVVNLeXpmR2dWWVB2RFdfbHNER2otY3RxLXhuN18yRy1sTktYeXhlc3FiWlhUcnRPQW1KNUJDZDZIaG5QNVVBVWdLSzN1eWs4cUV2M3ZtQkNLWURwV2wzclBFVVo4a296T2Rud0FDdDlvNGVsaFlwNEhPT1RpS1F2RDU1TkRxSmgyUkFYOGlUdnpn?oc=5",
+      "published": "Wed, 23 Sep 2026 06:48:00 GMT"
+    },
+    {
+      "title": "What is AI, how do apps like ChatGPT work and why are there concerns? - bbc.com",
+      "category": "TECHNOLOGY",
+      "description": "What is AI, how do apps like ChatGPT work and why are there concerns? bbc.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiVlVDbllHd2t2NVB2YjJQYkQwOEF6ZzhqRVhyNmNQRGlzSTkzbkVrYUtLV20wMzFrWDktM0VFQXUzZEtseC0ybTRYX0xjUjI0QkZNX0M2Z3oyZw?oc=5",
+      "published": "Mon, 14 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "From apps to 'intent': How AI agents will rewrite the way we use next‑generation smartphones - The Times of India",
+      "category": "TECHNOLOGY",
+      "description": "From apps to 'intent': How AI agents will rewrite the way we use next‑generation smartphones The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPUHVUeGNHdTc2RmYyT3A5c3VGUktXaUhQUkctV2hWSlBjZ3NxYUcwYW9MaHRTQnFJTlp4Y2l6R2piS3VwNk5uN3pqR2lONXdGS2pZdGdibFpQZ3A1bHBXVEs0cW03OEprNGlFY0g3MXlXQ3RxMHhreDlFOUtXYjQzMV95NFVkUjBONkxVcVNHUXgyalEzd3VnMVVCa1c4UnRESTZOOXJHdHRSaWpPSmdiUDV6OHpkQ1FNQXVRbGhNSVZnM1pKSjlIQ2M5bTdMYUUyY0JwMnZ3MVZtdE9teEZxMmtHbzlVaVhoaGNBc1JaZHUyemdOMXd6QUpnQnRybjFW?oc=5",
+      "published": "Wed, 05 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "10 ways to use Meta's Muse AI app, from flight credits to outfit ideas - Mashable",
+      "category": "TECHNOLOGY",
+      "description": "10 ways to use Meta's Muse AI app, from flight credits to outfit ideas Mashable",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSTHFGcjNzM3JsMlhmMktOOUxBTkpfVzNlenJXRFFyRHlRclhNdWI5SEdxV280aVJrTlVuYVE4SlZnSWhUMU9uaGhzWTdXQU11eklXWVB5Z3BKMThudmI5djVaOXBFSzg?oc=5",
+      "published": "Wed, 23 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "OpenAI’s next bet: Smartphones with AI agents that replace apps and challenge the iPhone - The Indian Express",
+      "category": "TECHNOLOGY",
+      "description": "OpenAI’s next bet: Smartphones with AI agents that replace apps and challenge the iPhone The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX2dIYmVMMXJES1RVSmFzQlVJaFVJdU9Vdm1TSUNGRU5DQXZHNmNaRTh2bF9IX25fRGNrOE1NUlZHeFhBRjdsaTJlSVhvdlhQQUM2Y3lIQmJVYVo0blRoWDUxMGlYVks3cl9VQWg2cFU1UHU2YjNnbkdyYndTeDZtV3VWaV9MQzZVb1c5NFk3SnoyTkNWaDd5ZDhHVHVlRFFqdko1a1NLTmRlMExWX25tTlR1ZlF0c3EzRVNuN2xPaGlKdTlkOGFLMFJrLWNwcnRxVC1hWnFwRUpJcVpJcWFPQ2hmRWVVTHRqMm5xNmcyeU5OcUtRV0hnSlhNSdIBggJBVV95cUxOa0p1ckMwX2k1NUFzWThHdC1YTmhwYUQ0d3ZmaFpEdXRJZVBMNU5uZVZVVDU5b1RfRUZwVEZjd1liLWJ0SmJhYUVjd3d3NnhyNHgyUXEtTThXU2dzSEZVS3VPV3lnUG0tVkFUOXhYZURxUXhzcmx2dzEyZ3dOam5reF93ck5zVHgyWWo4XzRwM0xvODIxaTVsUGRLMXY0emRxYzhwejAzMldjOENHVHFKOGtxRG14SG1wVktCbGR1T2pUa0ZKeHRCZUpjem1YSGZuT1dkbnNPUy1qd0c5eWhSODBuRlY1ODJmdTI0anJYTFZRekE2Q2ktalNKZTdsVnpRaHc?oc=5",
+      "published": "Tue, 28 Apr 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Nothing CEO says apps will soon disappear from your smartphones, AI will take over everything - India Today",
+      "category": "TECHNOLOGY",
+      "description": "Nothing CEO says apps will soon disappear from your smartphones, AI will take over everything India Today",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcHRYU0VLanlFdlFPZkV1Wk5kbnROcDNQZXRPdGEtTnZlalVTNEdwNHlmTV9BLUZtNzFaY09mSTl5cDBIQTI3QTVRNDhBVFVibjVNdUNtdy0wUFRlZi1Wd1VzRGVxX2gxQ1gzM3lVbko2WWFlRFZ1RHpraGRiLTRVMXRGYkt3QndFV3Fqb0JSOTJ3ZGg2NkhVTGxTd3RBRFI3czN3NzVrU1ZuQWRZNTRtd2xMTzlWaDhrNndPcFJJd083NDloMEFXMVZLNDRkdkF3c3BHaWpLTy1JT3BHdVJxZkwxMkFzZkx3OURkZFZJQm3SAfYBQVVfeXFMTWtwNXdfS3hnV3dsMFZTUEdqR3FkX2F4Vzhidzd3ODJRRjdGay1fS0ZDVE1DVGZtSUM5SkE1d2hUcVVEVFJhLUVsTGw2SEZpVGpGLUI0bnJJcFRfZjlQRVJwVmJHVHhxSWtkZHU4ZWFiNnVZVWg0Vk55VEVuZV9XYnV2Ml9GZ1pUM1VHUXZtclJGcS13bFRtSHJLekZmT1FUdGJzOThIUjIzdzVrTzJVWklnX2VoNi1iYzFwQWZiN2U2LUNKeDlDLVo2NmRHb3B3WXBFVEprSG5BVlc2UVJCY3JDaGpRRmNCWGREY1VIaVJRekZzc21R?oc=5",
+      "published": "Thu, 19 Mar 2026 07:00:00 GMT"
+    },
+    {
+      "title": "DC intervention clears uncertainty over 2,637 students' scholarship exam - Bangladesh Sangbad Sangstha (BSS)",
+      "category": "EDUCATION",
+      "description": "DC intervention clears uncertainty over 2,637 students' scholarship exam Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9JSmpRaElGTkhPcFkwR2M2SVRyRHRXUEhDRW9Bc244UlNMQXJtV1ZnVGdHNFFUOWxRWEJ5UFVnN05pTDFPUFY4RE5Wb2dkQQ?oc=5",
+      "published": "Wed, 30 Sep 2026 17:00:10 GMT"
+    },
+    {
+      "title": "Scholarship for 12th Class Students 2026-27: Government and Private Schemes, Eligibility, Amount and How to Apply - Shiksha.com",
+      "category": "EDUCATION",
+      "description": "Scholarship for 12th Class Students 2026-27: Government and Private Schemes, Eligibility, Amount and How to Apply Shiksha.com",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPS0dlc2QtSW94X2hJSllwa3BuWFRIZmNFVjVnSXd3LS1PTHpwUDNCb21IVXpGOHBZeVFIT011OWdUR3VhUWt2WGxKb0ljNVJnZC00aG5BWDRGcFViaWlya0JaLUJYZ3BHM2o3SEw1a3VCWHNFREdpSS10MUNrOHpHd19FOXVmcDZEMmZoY1lKSnExNjBNZENfSVJFbnItZFZEX1dmTVhVZ1pZLUl1VDM0UDdQa2RsU282aXVXakxMNGMtNEx6V3JQNk1rSmxGdEVGSmgyTDdSTDdvT3ZNRmMyMW5KdE44R3Q0eEZOTXB3VFB0RkloM3dieA?oc=5",
+      "published": "Tue, 22 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "PW NSAT Scholarship 2025 Phase 2, Apply Now for PW National Scholarship Test - PW",
+      "category": "EDUCATION",
+      "description": "PW NSAT Scholarship 2025 Phase 2, Apply Now for PW National Scholarship Test PW",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ndV9HWUEwZTNiS3F0N3F4TVFQRmNHYjVOZkx5ckdzSmtzWnJHNFh5SDN1TlZIUTU3ZktNX1Z4c29FQTJFYWJMVFhFbEtsLU4yMUllOTdJdUdqbEJVQVpwQXRRZw?oc=5",
+      "published": "Wed, 16 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Viral “Easy Exam” Student Did Not Score 193 in 2026 Scholarship Results - srilanka.factcrescendo.com",
+      "category": "EDUCATION",
+      "description": "Viral “Easy Exam” Student Did Not Score 193 in 2026 Scholarship Results srilanka.factcrescendo.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWHpRQmg3Nl8yeU1MM3U1SFR3eGVVankwd3liclRIWTE3bG0xcVJscnZ0YWhxNEZ4MnhPN3J2QWVwWXY5Z2xuNUxBa2JoSlNfMEQ3YXltN2pGSFc3ZDFUS2hJZ3pXUEhHZXF4YWtzT1ZNdVB2MTRtaGpKcWtsZHdhVEJmLTNoUTMxVTNqV3oweDNPNDk2d2lyUHo4MFlfQWlXR29wZl9lanRxZkliWWYyd2Zlakt1SldSR295OFJSM3VHN3kxemc?oc=5",
+      "published": "Fri, 04 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "NMMSS 2026: Delhi to conduct Class 8 scholarship exam on December 5, applications open till October 5 - The Times of India",
+      "category": "EDUCATION",
+      "description": "NMMSS 2026: Delhi to conduct Class 8 scholarship exam on December 5, applications open till October 5 The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxON1FjLVo4MnJVdFZMZnVQSTFLLVpaRVZ2MDNWMUNXOEhKeXV5SEpMeERNWFRiT2dLWkRQRFdabVNpdDk1alFkaFRsNHVWTXBWMXlDeGpJVFVxU2tDaFp1eWVMaGlsOFBiOThYQnoyT1BvMWpfN2I3Y25uUlBaZU1fVmFOX3Z4cmlVdnltUlMtZlJlTGVNZzQ5blVnLWlrenIyMkVzeGszdEFqR2RlaHpIOTMtcXZ2eG1qZEhGMHZQcXpmVVRNRF81bUhmdVZQNzJYT0JOZVk0SlFOOGNGejZaNDVKME11OHN4THVhZ1ZvT3BLQ0hjbnM1WkVmNWVnZTFJa1hGUlNTVdIBjAJBVV95cUxPZGk0cXItYUZLVEFlVDVRSFdkNzltWnNlWUp4QmNNaVhJaVUwc2t3TmRlUVZ6aG5qcEI5S2xBeWktWHdZaDFJR01ackQtVm0ycFJQVzJOOVdhUTVlcUo3eGVaRDh5WGlvSkI1R0d6TWJfRkx4RGFoMjA1cjdwM21ud0NLSzVHZ2hILXl4c01id0s0X2lYbUYxWTVFT0F5NnlES0ppT2ZlZ1dlaDRhNDNqWE1xMVJ1YkNiZU5zcHVjbHE0LUdaR3NKM2NmcllYRjRZeUtCVzVUd2E5Vk96MFpGM1NVSG40bWY5NlFfS3ItdHd5WjczQ3dDZHZGQjcxaF9kbUdPMG9uRHZSbU96?oc=5",
+      "published": "Thu, 10 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "258 students clear NMMS scholarship exam Tiruchi - The Hindu",
+      "category": "EDUCATION",
+      "description": "258 students clear NMMS scholarship exam Tiruchi The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTDY0QnJvamt6dFpkbmRTUm1SVF9UV1ZlYUFJM1VweWFNMURJSWxPMXYwQ3RtZTl0YWtkTFJqNE1MQ3loNmlrazdMUVlyeTJlSXZzQW5VVEtXRGhWQTNzUWNaZlZnMFpkV056U1dwMDZTal9UbHNaZC05Si1Ic0RtNFBKWktNLTJGTGdSSWpVZmhSUV9pb3gwWEFaLXBrMmF1dDdvNENQTHpiUmVRT1FFcFI1Q3Nqc3gtUEEwLTA2Sjd4ODN40gHLAUFVX3lxTFBoc2p1UnBfVnFwVlZNVDVjZy1OMmxKN2JpWk1EVENzSVZ1UTNtd0lta3p2dG93T2wtQy1nUUZuZ0Npai1jRlhCWVlQdE5hM1otSlpLNXJScWh2MElaaVdCWmtUM0VvWExOeHFabVBDNFA3dU11RlVmMGJhaXhqUG9CNHNOZnRQLXRXc2lad1ZmVjdXUkcxRmlxWDM1cjdiRlZyVnpBemtZcDBNNENHMmdyV3BhLXpRM3hVa2RCZm1vVzN4b2otQlJKSFpn?oc=5",
+      "published": "Mon, 16 Mar 2026 07:00:00 GMT"
+    },
+    {
+      "title": "PM-YASASVI Scholarship: Classes 9 To 12 Students Can Apply, Check Details - NDTV",
+      "category": "EDUCATION",
+      "description": "PM-YASASVI Scholarship: Classes 9 To 12 Students Can Apply, Check Details NDTV",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM3VvbUJaQ2ZTQUR3V3NfRkxpaTJhNXh6R2NYbnVidE5jMHZCWHdtV1ZYWlRNbmZFU2xMVkptUkFpV0JtVEoxNk1POUtTWnl3TUtMTm9UTUNWMko4VWxoU1VoamZmcnY1WHRlX2kxdHIxdUN2WmtWLTNJOUlXbjczRUEzVmZCNm1nYV9nQnJtcHVFdUtDcHc2eXZyTnVYZjUzX1g4OWI1V3ZGeUtoOVB3YdIBuAFBVV95cUxNaWRYbUpSc1RvOXJnSzVzMDZKUWtMNVJmcjFvcmlCdmhpeF9iMlFwNGVuUGFhaEhCMW1ZWUpWRnY5X0tOck1JTllHMGlvLVRjYV91TG1wX1JiNTFlM1Q2SEFPc3N6X3VHSGpXSDJXcXpSbWY4eDFHR0M2bHFLZ0xhMWxLcV9icXZIZkdtLV9EYWstelo5V1JMLTVjQkp0Z0FQWHBzbTFlX09BR0Z0SEZsa0dzazYyVXFt?oc=5",
+      "published": "Thu, 20 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "PhysicsWallah, NWWA Partner for Navy Family Scholarships - Education Today",
+      "category": "EDUCATION",
+      "description": "PhysicsWallah, NWWA Partner for Navy Family Scholarships Education Today",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPUlkweWtiS0VwVkwtRlJGNERhREtVaWF6V1d2NW5xNFRGUEl0QVViLXQ4YkNjZWM4TXhRVnpPQTVrNnFqWnR0cjdlZTFSbWtvSzIyM3dlb3Jmai1tbUFlSWh0VTlTZWVDWmFXWXIzMXJ3NnVjTzFkWFRHU2Jzem4xWHNxT0FCUnhGX3c0SVdsNzg0MnNyNXJTZ2JTRjRkZXY2cUpkcl9xQ1ptc19TV2x1cE5lbm1lUmFBWVlBMFVLRjZMWjZtaWlib0xhanllakVoMjAyZWd3cmZYQjZPRHc4Wlg5dENHeE9yRWdDMmlubzA?oc=5",
+      "published": "Wed, 29 Jul 2026 09:57:18 GMT"
+    },
+    {
+      "title": "Who Is ScoutOP? The PUBG Mobile Star On Bigg Boss 20 Who Says He Makes Rs. 30 Lakh A Month - brut.media",
+      "category": "GAMING",
+      "description": "Who Is ScoutOP? The PUBG Mobile Star On Bigg Boss 20 Who Says He Makes Rs. 30 Lakh A Month brut.media",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObUh2R2hsTDM5TFFMT2hVa1FtV2gyazBnZmIxM1FLdHRJcUkyOTAwdzB0T3FPNFhHb0dJb1lHVTVDSTdaYTBkNTNYeWUxWkpuaUFjNzYwdDJSc3htNjlZc21ybnQtQjg3dzJ3dkxGX0JOT3JDdUNBalJMS28zOU5QMFpoTm1GN3VNRkw4bGNzaG1qRWJWb0VEZy1nd0JIWHFwclZianZTVDdhcHpBOUVxYXBjSjV4Szc4eGJWcVJNLWxtb0VYNFd1WUNYNkhiMjRCdHJIc3NRdHk1azRoNGRoOXVGVGY?oc=5",
+      "published": "Thu, 17 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Bigg Boss 20: From PUBG Mobile star to popular gaming creator and earning Rs 30 lakhs a month; all about - The Times of India",
+      "category": "GAMING",
+      "description": "Bigg Boss 20: From PUBG Mobile star to popular gaming creator and earning Rs 30 lakhs a month; all about The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPaDFVdzZ6WThkRnlvZ3E2MEVCeHNXUXozUkVjTzc5cnJZbVFtRTloZVRzM1A3OC1USWVMV1RMXzBnRjVaUC0xYm5HLU1wMTFHQXB1VHE3dkdUTUVWTVA1eUMxWFMwMXlMOFd0Vll0eFN0T3FURVdqMzY2MldGOUlTaHo4Z2h3RWRRRjl3WjV5MUFRbGQ5NkhTc2U5dU5YOEV3NHVKUGVVWVBzQ0pUaHJ1MS1PMkZtREpiS3dDYzBsUXBMWTdGNUJYUXRrS0NtREJvdkZYamRRRzhyUXpjeFlBMlNRckRZNFRNY0FQM0F1eG56RXJFNWRDNEFaOWZseFZaVzkzLWNJUjdNTmZrSC1jMGkycWpOU09XZ2hmcGRCQWZVb0h3VkU0ZC04d9IBsAJBVV95cUxNYTBFbTBOWllaSS10WnEwcFBwVFdUT3U1SnNWLUJ5Q3pOU3IxVllDVlBITW92d3dNbE80eTBSb2JCTmFzSGJ0QzlhNm0xZXNsWjRMWUZ4dFoyUjhQMDRNUTEzSWNHRmV4eE5TWURnYUhmSzFxcHdhWVNmVjJxOEhuRURocUFwSGNtLXFESHhUczBCZW5MY0hPWVJzZFJpZFJZTmRkeGFpSU0zakpOeDlMZFJCRkpLZERLcnZGbHhIbks0cE5tdTJQVEtrMHI0UlZIVlVXRkdyNmVXMzFIdXBuR1o0c191Y0x3Y0xuck5xNGhYay05MkNLWEtkRTdjWlp5cDVicjMteDdtdDNsU01mVlp5cUF3dWVxQWhmcUxNdVQ4SWFuaWRQTTVfY3VQNy1f?oc=5",
+      "published": "Mon, 07 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "A Historic First for Indian Gaming: CarryMinati Enters BGMI as a Fully Playable Character, with an Entire In-Game Collection Designed by NotYourType - TheWire.in",
+      "category": "GAMING",
+      "description": "A Historic First for Indian Gaming: CarryMinati Enters BGMI as a Fully Playable Character, with an Entire In-Game Collection Designed by NotYourType TheWire.in",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQSTl0YVVkUVV4S2VEcThLdFVxQ182b0lRdHFyMkZ1cEdmM21OMWZ5YTNnZDZEbGtNdTktUE1VenlsV2V3dHRDUXFjVWxCTDB6aTdNLWNEVHcxWmZmcE5nWTJvVlp5WC14UjdUeWtwRDRTNGE5dUlLcW1yWFdjamFTWjV2QjZmbU53WEpqbnNwWHJtWEZLaklqMUE5X0ZVNTVJUmFCSHhpWEVjcXBxNGotV2xkR0R3VUFBdjFieHdYaTV2bmhVOXFfWlpTSndjUlE5NHo5UTdTczVwRnNxdGpYcU54Z1V2QlZpZTBIQkowdnRpUk1rSXJpVmd1d3FzNVdVV2hnVkVRamNrQXhYLXF6UWxmUdIBmAJBVV95cUxORzR4cE1oTjgwVjF3U085LW9fS0FRWGRsTExkVEFuWlpteC1Bcm92MzJwclppVjhlNjkxNzdDakUxSEE0S2RyUkJIVVJScmR0SzVLeGhJbzRiUlhnSWpHTFlTUUtIb1gtb3I2eUNDbTl6VFhoYkxDMlZCd3I5dW5zRGtWUXN1S2RCSTR0RFoyVkNoaDdlZl9iUVl3MThUdnROcE4yMkxnT0NGTXhfRHNPempHZlBZcEFoM3ZlQ19NcEE0akJ2RGpiaW1ERkY4czJaWWNqWVBDNzM2LXFyeUFDODducmpLSU5WYWNhcEpWQXB2OS1QQk1MbE4tNWhUSUU2am5PekE1Zk5UQmkxUUc0dl9nSHlSSjBx?oc=5",
+      "published": "Tue, 11 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Krafton doubles down on India with another $250M bet beyond gaming - TechCrunch",
+      "category": "GAMING",
+      "description": "Krafton doubles down on India with another $250M bet beyond gaming TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUDNMNWhMcnY0T1N6czY2dTh5NU5nOU9CQ2RsRUJFaGZFb2JPZVBkNm5SeHRQaEFVT3lUR0JCNWVEMmViQ2FSUXowRHhUYW5RN3VsSmFfZldhS0lyMmNTSFhIV1YzRE5OOUQ5NjQ3MUFtQktqc181UjBVQndEUjVic1RtZFhFN2dLT3Jkc3JNQ211OU9jemxoTlFsS2kyZ0ZOanc?oc=5",
+      "published": "Fri, 04 Sep 2026 07:00:00 GMT"
+    },
+    {
+      "title": "From Goa to glory: How Jonathan Gaming became India's esports king - Esports Charts",
+      "category": "GAMING",
+      "description": "From Goa to glory: How Jonathan Gaming became India's esports king Esports Charts",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0weFZnZVVEQl9YbjJpSFliN2JjWDFtbFNyUEIza0lJU0JhZWhWb3Z1ODVEUTdMcGRNVlUya3MzOUk1Mm9FNHhVRjViNHZmNmFzdEpVM0VHbUN3eHcwTHlMMi1oS05EZi1MNlBmOA?oc=5",
+      "published": "Wed, 20 May 2026 07:00:00 GMT"
+    },
+    {
+      "title": "BGMI Lite Release Date in India: Krafton Launch Update for 2026 - Business Outreach Magazine",
+      "category": "GAMING",
+      "description": "BGMI Lite Release Date in India: Krafton Launch Update for 2026 Business Outreach Magazine",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lT1lYeWw1a0s5UHNRUkhxTXpITTlHTzFjVGp5WWhjQ2NTNE9JWTNDX0UyVzg3SG9XTkRMX3JKYUxhaG45OWE0SWFCeXBxeUFoU1JUVlBwSk1Wdk03YU9nam5Fdk9pRE5uQ0lpY3BB?oc=5",
+      "published": "Mon, 17 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "BGMI Lite Finally Becomes Official, Bringing a Lighter Version of the Battle Royale to Budget Devices - IGN India",
+      "category": "GAMING",
+      "description": "BGMI Lite Finally Becomes Official, Bringing a Lighter Version of the Battle Royale to Budget Devices IGN India",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWUdndXAzWEdwb3NweXhSR21GXzNQaGd2WUpZdE5hMy1lU0JMaXo4VmZZSURtUTBLWVdUNjhESWhvMHdhZHJxY0UyOG9rME1ZS0kzUUxhTXRNbm9ZQ3k0UlVndlItaFVpOXppS1d2eU1Rc1VRMjBreHZzVG1HdzlsNXZSVzZibllMcjZvTXBvbV8wd1kxNXRuUlRfb2JWTlRJQ2U0SE5Iby1qd0VSd0ZZSEpVZHdFR1dpaFJ1UHVBbDlFVFFyZnRPM3dKbjI3Y0Z6V3c?oc=5",
+      "published": "Mon, 17 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "PUBG Mobile Light to launch in 2026 with lower device requirements - pocketgamer.biz",
+      "category": "GAMING",
+      "description": "PUBG Mobile Light to launch in 2026 with lower device requirements pocketgamer.biz",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa3JGVEdIaE9EU0xybUo5djdVR3g4cVNvNVZBSXNnWHhuU21iYzl1UnVteXdtWHMwcGN4cnJqNk5UMi1MbThwcnJSODNYR3BmOUJEbVMxTFIxRS02STVMS3V6bXQ4dkpzcFF1QTdYNEdVeVNVTWxDZHlSb1MwTWZQZldHZDg4MUtjSndWeWFfdjUxQWRlbTB3WVloVQ?oc=5",
+      "published": "Mon, 17 Aug 2026 07:00:00 GMT"
+    },
+    {
+      "title": "India and Romania sign three agreements in the fields of Science and Technology, Education and Sports - News On AIR",
+      "category": "UPDATES",
+      "description": "India and Romania sign three agreements in the fields of Science and Technology, Education and Sports News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVlZTUlFwcTlSZFRqQmxmWnFzbW9TZ2YzTVhvZ0ZNc29WWFRjYWNqM2kwQU95ZDJBMmZBR21uWFRXMzk5a0dEODNjblVzZVVMYy1HRWxjZF9vbGlKNzBTRkZVeVhGYW4tZlRQMk9nNzRJR3lveG96ODZfTzBxeC1fdmRkbU5ySzJrbUFJd0VDX0N2OUpXWnU4N1hDbXJEdm96QlZhSXZYV0g1R1pUTWotWWVKdGlsM0F6SHhBeEV1YktFcnVy?oc=5",
+      "published": "Fri, 24 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "From access to transformation: reimagining India's engineering education - ET Education",
+      "category": "UPDATES",
+      "description": "From access to transformation: reimagining India's engineering education ET Education",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZENwTXk2RTdYWVU3bGJwTlNSM0FMSURyQW8xRXg4OW1nbk9UdmhHc3gxT2dNMzVJS2JtOWdkek1mNFQ3WUYxd3dQSEZaOXQ5Z2M1YXo1TW9rdTFKTW9XVTN6UTNlVlo1VGhYMUJEclhhcmNwZHFHVi1TTm1GQk5YQklpLXhobHZITXRHN2ZoV3d0cTlNaXlIZnJSc0t3cWYzZkg4NnVuaDBQbWxxVHdDWHp2UHpRMXhJdVdtOEdUX0lDd0luNUpQenN1Nms0TV9jUEpyYUtYTnM5YmNGVFowSUV0YmsxMUFYQWFPeUF6b9IB9AFBVV95cUxPWlJiQzg2S3BSS3pSdzdNQWczQ2ZRdTlMdVFSc3dScUpyVHBCZVJBUEp1QWl3Y3U5VC1HVndKcWpKNEFWV0V5bEZ4ZGhxS2Ria3BseGl1eUVvTXoxQ0RXQ2Q5aEh2NHJnNmY3bFpRQ3FJUkh0QlJMWmd5eERySnk0YWFNT0pOZU5rYWpYN2ZBa2tKUmlpQnVEMzdVc21id3Z1ZWE5UVlacS13Xy1QQTN0Z1l2NW9iU0c3a3h6RXJFcV9McmRXTXB4R3Vya3lSaFNidTRTakpLbnZfU0tmaEdYRFgtRzBueUlVZy1TQ2dhWTZuZVUt?oc=5",
+      "published": "Wed, 22 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "India using technology at massive scale for financial inclusion, education, telemedicine, agriculture: PM Modi at VivaTech 2026 - ANI News",
+      "category": "UPDATES",
+      "description": "India using technology at massive scale for financial inclusion, education, telemedicine, agriculture: PM Modi at VivaTech 2026 ANI News",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQenZqRnFQZjlSSzU1OHZTZFdjUVdhWHdSVUh1LVVhd29DWWFFNlhiX2ZVUThFaEVOVzl5c2VxaVlqNEYyLV9BOUxPeE5CNWFfQzJ2V0RCVnZOTXoyeUF2S3BCNEVQbFhmdHVyQk5SSVJzLWJiOFFGdWVmeE04V1BBWmJDcVhFQUQyVFQ3cWFNWl95MHJlUUlNZ1NERnYzWlZ4bFRLMlRmcExiUFpFT0lIMWUzRFA1aERhYjJ3djZOcjVwVTEtZW4xMkFQdk9oTzJmdFJCaWxWeFoxVmhEUGItaTV2TnVFTGJKSkY3NUxOY3BYNXZXSmtRRFdOWlphbUd5NWFKWVZNOTY4dw?oc=5",
+      "published": "Thu, 18 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "title": "First Indian Institute of Technology campus to open in US - University World News",
+      "category": "UPDATES",
+      "description": "First Indian Institute of Technology campus to open in US University World News",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5JcnpYTE0xT2FtWUlrQmVKQnlzQ1hPR1JzVXotTm1CZDFnR2xnZDJDcVR0SjZtQWdzUnhRSUlqMmFkSWtYdTR2SUM5b2dQeWhrYXNUeGJETlBjbGJEbkJFdE9zR25KX3BabVlzSmlQd0NGT1paVmdB?oc=5",
+      "published": "Fri, 03 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "title": "National Technology Day: AI Courses Are India's New Craze. But Are They Helping Students Land Jobs? - NDTV",
+      "category": "UPDATES",
+      "description": "National Technology Day: AI Courses Are India's New Craze. But Are They Helping Students Land Jobs? NDTV",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNC1ValNqM0hpQkdjWDdGRUhZRG9ab1kwUEpEaVFlRHJYbTBOVzlBRVpfSmpWVXFSaVlsMW1TSkJfQms5TWs0cGRWU3ZXd3Q3cmNwZTF3b2NNRXREQnJnLVJjc0c3MVg1dEZzdFpjclRvUl9LX1dGNUFwdWFIb1BZMXNqeXBCTnFjVS1vb2lTTHJQMVJSWnpLZEc3NTloQmhrWHE2MElUYTBqREwzc2RXM2x3X085WnZyWjdCZXJDWlk4UQ?oc=5",
+      "published": "Mon, 11 May 2026 01:24:17 GMT"
+    },
+    {
+      "title": "Google launches AI education initiatives for teachers and students in India - The Indian Express",
+      "category": "UPDATES",
+      "description": "Google launches AI education initiatives for teachers and students in India The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNk5MZ1hCaGVxUGd2ZGp2QTE4ZXVaV1JRaXRPaHNwNHBhOWl6TjZveDlkYVNJZ2ZkeC0tNnBmZnVSUFJQY0RwODF0NWhMRXZudnFnUTZiUkJMdnRyMk9PaVlaQm1FZ0Vkc2tPYXJmQjZVdHZ3T3pOWlRpZEZEb1l3ejhhYVVmZ1pTX2JGdWo2TVEzY0dpa1BqVFBzRHNrOGRkSHRlQXVoenVOQzBWc1VXTVJPUk1YLWZFZzZCeTBfVHp5WldKTE1kY3lJazI5dGE3ek93ekdFU3UtVVhsYnMxZXg4YU9Vd9IB7AFBVV95cUxPcXdrV3RxR2ZMQ0loZWVhZDhSS1ZpSGpaU2c1S3QzUnc2V2dLYUNwbndOamZob3dUb3ZKMW9RQlZLQ0ZRTFV5VGJMWkFFUnNnOUFteE9LY3pxckdKY2NRYXV0bTN4d014TVhaWFQ3LXdLcmdEMTNzSnFrbHRvdnpiakRpX0VqMWhqWkJKeW5kdTBESDR3eW13cnFLOExMYUpaV19ZQTVpSXpaYUpVYXRzUTFvWTZJWlQ2RFhlZ09McTFLOEM2Nmo0YXR4UGlwMnlRSU9fcDI2UFBsQzZOOEZTRDRId08wTTdaaGxnTg?oc=5",
+      "published": "Wed, 20 May 2026 07:00:00 GMT"
+    }
+  ]
+}
