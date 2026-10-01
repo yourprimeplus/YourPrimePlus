@@ -13,14 +13,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Fetch latest articles
         run: |
+
           python3 <<'PY'
+
           import urllib.request
-          import urllib.parse
           import xml.etree.ElementTree as ET
           import json
           import html
@@ -28,36 +30,97 @@ jobs:
           from datetime import datetime, timezone
 
           feeds = [
+
               (
                   "Technology",
                   "https://news.google.com/rss/search?q=technology+smartphone+AI+apps&hl=en-IN&gl=IN&ceid=IN:en"
               ),
+
               (
                   "Education",
                   "https://news.google.com/rss/search?q=education+students+exams+scholarship&hl=en-IN&gl=IN&ceid=IN:en"
               ),
+
               (
                   "Gaming",
                   "https://news.google.com/rss/search?q=gaming+BGMI+PUBG+mobile+gaming&hl=en-IN&gl=IN&ceid=IN:en"
               ),
+
               (
                   "Updates",
                   "https://news.google.com/rss/search?q=India+latest+updates+technology+education&hl=en-IN&gl=IN&ceid=IN:en"
               )
+
           ]
 
           articles = []
 
+
           def clean_text(text):
+
               if not text:
                   return ""
+
               text = html.unescape(text)
-              text = re.sub(r"<[^>]+>", "", text)
-              text = re.sub(r"\s+", " ", text)
+
+              text = re.sub(
+                  r"<[^>]+>",
+                  "",
+                  text
+              )
+
+              text = re.sub(
+                  r"\s+",
+                  " ",
+                  text
+              )
+
               return text.strip()
 
+
+          # --------------------------------
+          # LOAD MANUAL ARTICLES
+          # --------------------------------
+
+          try:
+
+              with open(
+                  "manual-articles.json",
+                  "r",
+                  encoding="utf-8"
+              ) as file:
+
+                  manual_data = json.load(file)
+
+              manual_articles = manual_data.get(
+                  "items",
+                  []
+              )
+
+              for article in manual_articles:
+
+                  if article.get("title"):
+
+                      article["source"] = "YourPrimePlus"
+
+                      articles.append(article)
+
+          except Exception as error:
+
+              print(
+                  "Manual articles error:",
+                  error
+              )
+
+
+          # --------------------------------
+          # LOAD AUTOMATIC NEWS
+          # --------------------------------
+
           for category, feed_url in feeds:
+
               try:
+
                   request = urllib.request.Request(
                       feed_url,
                       headers={
@@ -65,71 +128,184 @@ jobs:
                       }
                   )
 
-                  with urllib.request.urlopen(request, timeout=20) as response:
+                  with urllib.request.urlopen(
+                      request,
+                      timeout=20
+                  ) as response:
+
                       data = response.read()
+
 
                   root = ET.fromstring(data)
 
-                  for item in root.findall(".//item")[:8]:
-                      title = item.findtext("title", "")
-                      link = item.findtext("link", "")
-                      description = item.findtext("description", "")
-                      pub_date = item.findtext("pubDate", "")
 
-                      title = clean_text(title)
-                      description = clean_text(description)
+                  for item in root.findall(
+                      ".//item"
+                  )[:10]:
+
+                      title = clean_text(
+                          item.findtext(
+                              "title",
+                              ""
+                          )
+                      )
+
+                      link = item.findtext(
+                          "link",
+                          ""
+                      )
+
+                      description = clean_text(
+                          item.findtext(
+                              "description",
+                              ""
+                          )
+                      )
+
+                      pub_date = item.findtext(
+                          "pubDate",
+                          ""
+                      )
+
 
                       if not title or not link:
                           continue
 
+
                       if len(description) > 220:
-                          description = description[:217] + "..."
+
+                          description = (
+                              description[:217]
+                              + "..."
+                          )
+
 
                       articles.append({
+
+                          "id":
+                              "auto-"
+                              + str(
+                                  abs(
+                                      hash(
+                                          title
+                                      )
+                                  )
+                              ),
+
                           "title": title,
-                          "category": category.upper(),
-                          "description": description or "Read the latest useful information and updates.",
+
+                          "category":
+                              category.upper(),
+
+                          "description":
+                              description
+                              or
+                              "Read the latest useful information and updates.",
+
                           "url": link,
-                          "published": pub_date
+
+                          "published":
+                              pub_date,
+
+                          "source":
+                              "Google News"
+
                       })
 
-              except Exception as error:
-                  print(f"Feed error for {category}: {error}")
 
-          # Remove duplicate titles
+              except Exception as error:
+
+                  print(
+                      f"Feed error for {category}: {error}"
+                  )
+
+
+          # --------------------------------
+          # REMOVE DUPLICATES
+          # --------------------------------
+
           unique = []
+
           seen = set()
 
+
           for article in articles:
-              key = article["title"].lower().strip()
 
-              if key not in seen:
-                  seen.add(key)
-                  unique.append(article)
+              title = (
+                  article.get(
+                      "title",
+                      ""
+                  )
+                  .lower()
+                  .strip()
+              )
 
-          articles = unique[:30]
 
-          output = {
-              "updatedAt": datetime.now(timezone.utc).isoformat(),
-              "items": articles
-          }
+              if title in seen:
+                  continue
 
-          with open("articles.json", "w", encoding="utf-8") as file:
-              json.dump(output, file, ensure_ascii=False, indent=2)
 
-          print(f"Saved {len(articles)} articles.")
+              seen.add(title)
+
+              unique.append(article)
+
+
+          # --------------------------------
+          # LIMIT ARTICLES
+          # --------------------------------
+
+          articles = unique[:50]
+
+
+          # --------------------------------
+          # SAVE ARTICLES.JSON
+          # --------------------------------
+
+          with open(
+              "articles.json",
+              "w",
+              encoding="utf-8"
+          ) as file:
+
+              json.dump(
+                  articles,
+                  file,
+                  ensure_ascii=False,
+                  indent=2
+              )
+
+
+          print(
+              f"Saved {len(articles)} articles."
+          )
+
+          print(
+              "Updated:",
+              datetime.now(
+                  timezone.utc
+              ).isoformat()
+          )
+
           PY
+
 
       - name: Save updated articles
         run: |
+
           git config user.name "YourPrimePlus Bot"
+
           git config user.email "yourprimeplus-bot@users.noreply.github.com"
 
           git add articles.json
 
           if git diff --cached --quiet; then
+
             echo "No article changes."
+
           else
+
             git commit -m "Auto update articles"
+
             git push
+
           fi
