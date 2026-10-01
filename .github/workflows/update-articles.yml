@@ -1,0 +1,135 @@
+name: Update Articles
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-articles:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch latest articles
+        run: |
+          python3 <<'PY'
+          import urllib.request
+          import urllib.parse
+          import xml.etree.ElementTree as ET
+          import json
+          import html
+          import re
+          from datetime import datetime, timezone
+
+          feeds = [
+              (
+                  "Technology",
+                  "https://news.google.com/rss/search?q=technology+smartphone+AI+apps&hl=en-IN&gl=IN&ceid=IN:en"
+              ),
+              (
+                  "Education",
+                  "https://news.google.com/rss/search?q=education+students+exams+scholarship&hl=en-IN&gl=IN&ceid=IN:en"
+              ),
+              (
+                  "Gaming",
+                  "https://news.google.com/rss/search?q=gaming+BGMI+PUBG+mobile+gaming&hl=en-IN&gl=IN&ceid=IN:en"
+              ),
+              (
+                  "Updates",
+                  "https://news.google.com/rss/search?q=India+latest+updates+technology+education&hl=en-IN&gl=IN&ceid=IN:en"
+              )
+          ]
+
+          articles = []
+
+          def clean_text(text):
+              if not text:
+                  return ""
+              text = html.unescape(text)
+              text = re.sub(r"<[^>]+>", "", text)
+              text = re.sub(r"\s+", " ", text)
+              return text.strip()
+
+          for category, feed_url in feeds:
+              try:
+                  request = urllib.request.Request(
+                      feed_url,
+                      headers={
+                          "User-Agent": "Mozilla/5.0"
+                      }
+                  )
+
+                  with urllib.request.urlopen(request, timeout=20) as response:
+                      data = response.read()
+
+                  root = ET.fromstring(data)
+
+                  for item in root.findall(".//item")[:8]:
+                      title = item.findtext("title", "")
+                      link = item.findtext("link", "")
+                      description = item.findtext("description", "")
+                      pub_date = item.findtext("pubDate", "")
+
+                      title = clean_text(title)
+                      description = clean_text(description)
+
+                      if not title or not link:
+                          continue
+
+                      if len(description) > 220:
+                          description = description[:217] + "..."
+
+                      articles.append({
+                          "title": title,
+                          "category": category.upper(),
+                          "description": description or "Read the latest useful information and updates.",
+                          "url": link,
+                          "published": pub_date
+                      })
+
+              except Exception as error:
+                  print(f"Feed error for {category}: {error}")
+
+          # Remove duplicate titles
+          unique = []
+          seen = set()
+
+          for article in articles:
+              key = article["title"].lower().strip()
+
+              if key not in seen:
+                  seen.add(key)
+                  unique.append(article)
+
+          articles = unique[:30]
+
+          output = {
+              "updatedAt": datetime.now(timezone.utc).isoformat(),
+              "items": articles
+          }
+
+          with open("articles.json", "w", encoding="utf-8") as file:
+              json.dump(output, file, ensure_ascii=False, indent=2)
+
+          print(f"Saved {len(articles)} articles.")
+          PY
+
+      - name: Save updated articles
+        run: |
+          git config user.name "YourPrimePlus Bot"
+          git config user.email "yourprimeplus-bot@users.noreply.github.com"
+
+          git add articles.json
+
+          if git diff --cached --quiet; then
+            echo "No article changes."
+          else
+            git commit -m "Auto update articles"
+            git push
+          fi
