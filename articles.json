@@ -1,26 +1,32 @@
 [
   {
     "title": "10 Useful Android Tips Every User Should Know",
-    "category": "Technology",
+    "category": "TECHNOLOGY",
     "description": "Discover simple Android features, settings and practical tips that can improve your everyday smartphone experience.",
     "url": "technology.html"
   },
   {
-    "title": "Study Smarter: Useful Study Techniques",
-    "category": "Education",
-    "description": "Useful study techniques, education information and career guidance for students.",
+    "title": "Best Study Tips for Students",
+    "category": "EDUCATION",
+    "description": "Useful study techniques, education information and practical tips for students.",
     "url": "education.html"
   },
   {
-    "title": "Gaming Guides and Useful Updates",
-    "category": "Gaming",
-    "description": "Gaming tips, settings, guides and useful updates for gamers.",
+    "title": "BGMI Gaming Tips and Settings",
+    "category": "GAMING",
+    "description": "Gaming tips, settings, guides and useful updates for mobile gamers.",
     "url": "gaming.html"
   },
   {
     "title": "Latest Technology Updates",
-    "category": "Updates",
-    "description": "Stay updated with useful technology news, apps, gadgets and important updates.",
+    "category": "TECHNOLOGY",
+    "description": "Important technology news, useful apps, smartphones and digital updates.",
+    "url": "technology.html"
+  },
+  {
+    "title": "Latest Useful Updates",
+    "category": "UPDATES",
+    "description": "Useful information and important latest updates in one place.",
     "url": "updates.html"
   }
 ]
