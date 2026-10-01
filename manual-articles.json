@@ -1,9 +1,13 @@
 {
-  "title": "New Android Update",
-  "category": "TECHNOLOGY",
-  "description": "Latest Android information and useful tips.",
-  "content": "Full article content here.",
-  "image": "",
-  "url": "",
-  "published": "2026-10-02"
+  "items": [
+    {
+      "id": "manual-android-update",
+      "title": "New Android Update",
+      "category": "TECHNOLOGY",
+      "description": "Latest Android information and useful tips.",
+      "content": "Full article content here.",
+      "image": "",
+      "published": "2026-10-02"
+    }
+  ]
 }
