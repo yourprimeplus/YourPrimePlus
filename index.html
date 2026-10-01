@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
 
     <meta name="viewport"
@@ -11,40 +12,1556 @@
           content="YourPrimePlus - Technology, Education, Gaming and Latest Updates">
 
     <meta name="theme-color"
-          content="#ffffff">
+          content="#071a3a">
 
-    <title>YourPrimePlus - Technology, Education, Gaming & Updates</title>
+    <title>YourPrimePlus | Technology • Education • Gaming • Updates</title>
 
-    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family:
+                Arial,
+                Helvetica,
+                sans-serif;
+
+            background:
+                #f5f7fb;
+
+            color:
+                #111827;
+
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+
+        /* =========================
+           HEADER
+        ========================= */
+
+        header {
+
+            position: sticky;
+
+            top: 0;
+
+            z-index: 1000;
+
+            background:
+                rgba(255,255,255,0.88);
+
+            backdrop-filter:
+                blur(18px);
+
+            -webkit-backdrop-filter:
+                blur(18px);
+
+            border-bottom:
+                1px solid rgba(229,231,235,0.8);
+        }
+
+
+        .header-inner {
+
+            max-width:
+                1200px;
+
+            margin:
+                auto;
+
+            min-height:
+                78px;
+
+            padding:
+                8px 20px;
+
+            display:
+                flex;
+
+            align-items:
+                center;
+
+            justify-content:
+                space-between;
+
+            gap:
+                25px;
+        }
+
+
+        /* =========================
+           LOGO
+        ========================= */
+
+        .logo {
+
+            display:
+                flex;
+
+            align-items:
+                center;
+
+            width:
+                220px;
+
+            flex-shrink:
+                0;
+        }
+
+
+        .logo-svg {
+
+            width:
+                220px;
+
+            height:
+                auto;
+
+            display:
+                block;
+        }
+
+
+        /* =========================
+           NAVIGATION
+        ========================= */
+
+        nav {
+
+            display:
+                flex;
+
+            align-items:
+                center;
+
+            gap:
+                5px;
+
+            padding:
+                5px;
+
+            border-radius:
+                50px;
+
+            background:
+                rgba(255,255,255,0.65);
+
+            border:
+                1px solid rgba(15,23,42,0.07);
+        }
+
+
+        nav a {
+
+            position:
+                relative;
+
+            color:
+                #374151;
+
+            padding:
+                9px 13px;
+
+            border-radius:
+                30px;
+
+            font-size:
+                13px;
+
+            font-weight:
+                700;
+
+            white-space:
+                nowrap;
+
+            transition:
+                0.25s;
+        }
+
+
+        nav a:hover {
+
+            color:
+                #0b5ed7;
+
+            background:
+                rgba(11,94,215,0.06);
+        }
+
+
+        nav a.active {
+
+            color:
+                #0b5ed7;
+
+            background:
+                rgba(255,255,255,0.55);
+
+            border:
+                1px solid
+                rgba(11,94,215,0.18);
+
+            box-shadow:
+                0 4px 14px
+                rgba(15,23,42,0.08);
+
+            backdrop-filter:
+                blur(12px);
+        }
+
+
+        /* =========================
+           HERO
+        ========================= */
+
+        .hero {
+
+            max-width:
+                1200px;
+
+            margin:
+                28px auto 0;
+
+            padding:
+                80px 25px;
+
+            border-radius:
+                28px;
+
+            overflow:
+                hidden;
+
+            position:
+                relative;
+
+            text-align:
+                center;
+
+            color:
+                white;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #061633,
+                    #0b3d91,
+                    #06234d
+                );
+
+            box-shadow:
+                0 20px 55px
+                rgba(0,35,90,0.18);
+        }
+
+
+        .hero::before {
+
+            content:
+                "";
+
+            position:
+                absolute;
+
+            width:
+                300px;
+
+            height:
+                300px;
+
+            top:
+                -150px;
+
+            left:
+                -100px;
+
+            border-radius:
+                50%;
+
+            background:
+                rgba(56,189,248,0.16);
+
+            filter:
+                blur(5px);
+        }
+
+
+        .hero::after {
+
+            content:
+                "";
+
+            position:
+                absolute;
+
+            width:
+                280px;
+
+            height:
+                280px;
+
+            right:
+                -120px;
+
+            bottom:
+                -150px;
+
+            border-radius:
+                50%;
+
+            background:
+                rgba(20,184,166,0.14);
+
+            filter:
+                blur(5px);
+        }
+
+
+        .hero-content {
+
+            position:
+                relative;
+
+            z-index:
+                2;
+
+            max-width:
+                760px;
+
+            margin:
+                auto;
+        }
+
+
+        .hero-badge {
+
+            display:
+                inline-flex;
+
+            align-items:
+                center;
+
+            gap:
+                7px;
+
+            padding:
+                7px 15px;
+
+            margin-bottom:
+                20px;
+
+            border-radius:
+                50px;
+
+            color:
+                #dbeafe;
+
+            background:
+                rgba(255,255,255,0.08);
+
+            border:
+                1px solid
+                rgba(255,255,255,0.2);
+
+            backdrop-filter:
+                blur(12px);
+
+            font-size:
+                12px;
+
+            font-weight:
+                700;
+        }
+
+
+        .hero h1 {
+
+            font-size:
+                clamp(34px, 6vw, 58px);
+
+            line-height:
+                1.08;
+
+            letter-spacing:
+                -1.5px;
+
+            margin-bottom:
+                20px;
+        }
+
+
+        .hero h1 span {
+
+            color:
+                #38bdf8;
+        }
+
+
+        .hero p {
+
+            max-width:
+                680px;
+
+            margin:
+                auto;
+
+            color:
+                #dbeafe;
+
+            font-size:
+                16px;
+
+            line-height:
+                1.8;
+        }
+
+
+        .hero-buttons {
+
+            margin-top:
+                30px;
+
+            display:
+                flex;
+
+            justify-content:
+                center;
+
+            gap:
+                12px;
+
+            flex-wrap:
+                wrap;
+        }
+
+
+        .hero-button {
+
+            display:
+                inline-flex;
+
+            align-items:
+                center;
+
+            justify-content:
+                center;
+
+            padding:
+                13px 22px;
+
+            border-radius:
+                12px;
+
+            font-weight:
+                800;
+
+            font-size:
+                14px;
+
+            transition:
+                0.25s;
+        }
+
+
+        .hero-button.primary {
+
+            background:
+                white;
+
+            color:
+                #0b3d91;
+        }
+
+
+        .hero-button.secondary {
+
+            color:
+                white;
+
+            background:
+                rgba(255,255,255,0.08);
+
+            border:
+                1px solid
+                rgba(255,255,255,0.25);
+
+            backdrop-filter:
+                blur(12px);
+        }
+
+
+        .hero-button:hover {
+
+            transform:
+                translateY(-3px);
+        }
+
+
+        /* =========================
+           SEARCH
+        ========================= */
+
+        .search-wrapper {
+
+            max-width:
+                700px;
+
+            margin:
+                -28px auto 0;
+
+            position:
+                relative;
+
+            z-index:
+                10;
+
+            padding:
+                0 20px;
+        }
+
+
+        .search-box {
+
+            display:
+                flex;
+
+            align-items:
+                center;
+
+            gap:
+                10px;
+
+            padding:
+                7px;
+
+            background:
+                rgba(255,255,255,0.92);
+
+            border:
+                1px solid #e5e7eb;
+
+            border-radius:
+                16px;
+
+            box-shadow:
+                0 15px 35px
+                rgba(15,23,42,0.12);
+
+            backdrop-filter:
+                blur(16px);
+        }
+
+
+        .search-icon {
+
+            padding-left:
+                12px;
+
+            font-size:
+                18px;
+        }
+
+
+        .search-box input {
+
+            flex:
+                1;
+
+            min-width:
+                0;
+
+            border:
+                0;
+
+            outline:
+                none;
+
+            background:
+                transparent;
+
+            font-size:
+                14px;
+
+            color:
+                #111827;
+
+            padding:
+                12px 4px;
+        }
+
+
+        .search-box button {
+
+            border:
+                0;
+
+            cursor:
+                pointer;
+
+            padding:
+                11px 18px;
+
+            border-radius:
+                11px;
+
+            background:
+                #0b5ed7;
+
+            color:
+                white;
+
+            font-weight:
+                700;
+        }
+
+
+        /* =========================
+           CONTAINER
+        ========================= */
+
+        .container {
+
+            max-width:
+                1200px;
+
+            margin:
+                60px auto;
+
+            padding:
+                0 20px;
+        }
+
+
+        /* =========================
+           SECTION HEADING
+        ========================= */
+
+        .section-heading {
+
+            display:
+                flex;
+
+            align-items:
+                center;
+
+            justify-content:
+                space-between;
+
+            gap:
+                15px;
+
+            margin-bottom:
+                22px;
+        }
+
+
+        .section-heading h2 {
+
+            font-size:
+                27px;
+
+            letter-spacing:
+                -0.5px;
+        }
+
+
+        .section-heading p {
+
+            color:
+                #6b7280;
+
+            font-size:
+                14px;
+        }
+
+
+        .section-link {
+
+            color:
+                #0b5ed7;
+
+            font-size:
+                14px;
+
+            font-weight:
+                800;
+        }
+
+
+        /* =========================
+           FEATURED
+        ========================= */
+
+        .featured {
+
+            display:
+                grid;
+
+            grid-template-columns:
+                1.5fr 1fr;
+
+            gap:
+                20px;
+
+            margin-bottom:
+                60px;
+        }
+
+
+        .featured-main {
+
+            min-height:
+                330px;
+
+            padding:
+                35px;
+
+            border-radius:
+                22px;
+
+            color:
+                white;
+
+            position:
+                relative;
+
+            overflow:
+                hidden;
+
+            display:
+                flex;
+
+            flex-direction:
+                column;
+
+            justify-content:
+                flex-end;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #0f172a,
+                    #0b4aa2
+                );
+
+            box-shadow:
+                0 15px 35px
+                rgba(15,23,42,0.12);
+        }
+
+
+        .featured-main::after {
+
+            content:
+                "✦";
+
+            position:
+                absolute;
+
+            right:
+                30px;
+
+            top:
+                20px;
+
+            font-size:
+                100px;
+
+            color:
+                rgba(255,255,255,0.06);
+        }
+
+
+        .featured-main .tag {
+
+            display:
+                inline-block;
+
+            width:
+                fit-content;
+
+            padding:
+                6px 10px;
+
+            border-radius:
+                20px;
+
+            background:
+                rgba(255,255,255,0.12);
+
+            border:
+                1px solid
+                rgba(255,255,255,0.15);
+
+            font-size:
+                11px;
+
+            font-weight:
+                800;
+
+            margin-bottom:
+                14px;
+        }
+
+
+        .featured-main h3 {
+
+            font-size:
+                28px;
+
+            line-height:
+                1.25;
+
+            max-width:
+                600px;
+
+            margin-bottom:
+                12px;
+        }
+
+
+        .featured-main p {
+
+            color:
+                #dbeafe;
+
+            max-width:
+                600px;
+
+            font-size:
+                14px;
+        }
+
+
+        .featured-side {
+
+            display:
+                grid;
+
+            gap:
+                20px;
+        }
+
+
+        .mini-feature {
+
+            background:
+                white;
+
+            border:
+                1px solid #e5e7eb;
+
+            border-radius:
+                20px;
+
+            padding:
+                25px;
+
+            transition:
+                0.25s;
+        }
+
+
+        .mini-feature:hover {
+
+            transform:
+                translateY(-4px);
+
+            box-shadow:
+                0 14px 30px
+                rgba(15,23,42,0.08);
+        }
+
+
+        .mini-icon {
+
+            font-size:
+                28px;
+
+            margin-bottom:
+                10px;
+        }
+
+
+        .mini-feature h3 {
+
+            font-size:
+                18px;
+
+            margin-bottom:
+                6px;
+        }
+
+
+        .mini-feature p {
+
+            color:
+                #6b7280;
+
+            font-size:
+                13px;
+
+            line-height:
+                1.6;
+        }
+
+
+        /* =========================
+           CATEGORIES
+        ========================= */
+
+        .categories {
+
+            display:
+                grid;
+
+            grid-template-columns:
+                repeat(4, 1fr);
+
+            gap:
+                17px;
+
+            margin-bottom:
+                60px;
+        }
+
+
+        .category {
+
+            background:
+                rgba(255,255,255,0.9);
+
+            border:
+                1px solid #e5e7eb;
+
+            border-radius:
+                18px;
+
+            padding:
+                24px;
+
+            transition:
+                0.25s;
+        }
+
+
+        .category:hover {
+
+            transform:
+                translateY(-5px);
+
+            box-shadow:
+                0 15px 30px
+                rgba(15,23,42,0.08);
+        }
+
+
+        .category-icon {
+
+            width:
+                48px;
+
+            height:
+                48px;
+
+            display:
+                flex;
+
+            align-items:
+                center;
+
+            justify-content:
+                center;
+
+            border-radius:
+                14px;
+
+            background:
+                #eff6ff;
+
+            font-size:
+                24px;
+
+            margin-bottom:
+                15px;
+        }
+
+
+        .category h3 {
+
+            font-size:
+                18px;
+
+            margin-bottom:
+                7px;
+        }
+
+
+        .category p {
+
+            color:
+                #6b7280;
+
+            font-size:
+                13px;
+
+            line-height:
+                1.6;
+
+            margin-bottom:
+                14px;
+        }
+
+
+        .category-link {
+
+            color:
+                #0b5ed7;
+
+            font-size:
+                13px;
+
+            font-weight:
+                800;
+        }
+
+
+        /* =========================
+           ARTICLES
+        ========================= */
+
+        .posts {
+
+            display:
+                grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap:
+                20px;
+        }
+
+
+        .card {
+
+            background:
+                white;
+
+            padding:
+                25px;
+
+            border:
+                1px solid #e5e7eb;
+
+            border-radius:
+                18px;
+
+            transition:
+                0.25s;
+        }
+
+
+        .card:hover {
+
+            transform:
+                translateY(-4px);
+
+            box-shadow:
+                0 15px 30px
+                rgba(15,23,42,0.08);
+        }
+
+
+        .card-category {
+
+            color:
+                #0b5ed7;
+
+            font-size:
+                11px;
+
+            font-weight:
+                800;
+
+            letter-spacing:
+                0.8px;
+
+            text-transform:
+                uppercase;
+
+            margin-bottom:
+                10px;
+        }
+
+
+        .card h3 {
+
+            font-size:
+                19px;
+
+            line-height:
+                1.4;
+
+            margin-bottom:
+                9px;
+        }
+
+
+        .card p {
+
+            color:
+                #6b7280;
+
+            font-size:
+                14px;
+
+            line-height:
+                1.65;
+        }
+
+
+        .read {
+
+            display:
+                inline-block;
+
+            margin-top:
+                17px;
+
+            color:
+                #111827;
+
+            font-size:
+                13px;
+
+            font-weight:
+                800;
+
+            transition:
+                0.2s;
+        }
+
+
+        .read:hover {
+
+            color:
+                #0b5ed7;
+        }
+
+
+        /* =========================
+           FOOTER
+        ========================= */
+
+        footer {
+
+            margin-top:
+                80px;
+
+            padding:
+                45px 20px;
+
+            text-align:
+                center;
+
+            color:
+                white;
+
+            background:
+                #071a3a;
+        }
+
+
+        footer h3 {
+
+            font-size:
+                21px;
+
+            margin-bottom:
+                8px;
+        }
+
+
+        footer p {
+
+            color:
+                #bfdbfe;
+
+            font-size:
+                13px;
+
+            margin-top:
+                7px;
+        }
+
+
+        .footer-links {
+
+            display:
+                flex;
+
+            justify-content:
+                center;
+
+            flex-wrap:
+                wrap;
+
+            gap:
+                18px;
+
+            margin-top:
+                20px;
+        }
+
+
+        .footer-links a {
+
+            color:
+                #dbeafe;
+
+            font-size:
+                13px;
+
+            font-weight:
+                600;
+        }
+
+
+        .footer-links a:hover {
+
+            color:
+                white;
+        }
+
+
+        /* =========================
+           MOBILE
+        ========================= */
+
+        @media (max-width: 950px) {
+
+            .header-inner {
+
+                flex-direction:
+                    column;
+
+                align-items:
+                    flex-start;
+
+                padding:
+                    10px 15px;
+            }
+
+
+            .logo {
+
+                width:
+                    205px;
+            }
+
+
+            .logo-svg {
+
+                width:
+                    205px;
+            }
+
+
+            nav {
+
+                width:
+                    100%;
+
+                overflow-x:
+                    auto;
+
+                justify-content:
+                    flex-start;
+
+                padding:
+                    4px;
+
+                scrollbar-width:
+                    none;
+            }
+
+
+            nav::-webkit-scrollbar {
+
+                display:
+                    none;
+            }
+
+
+            .featured {
+
+                grid-template-columns:
+                    1fr;
+            }
+
+
+            .categories {
+
+                grid-template-columns:
+                    repeat(2, 1fr);
+            }
+
+
+            .posts {
+
+                grid-template-columns:
+                    repeat(2, 1fr);
+            }
+
+        }
+
+
+        @media (max-width: 600px) {
+
+            .hero {
+
+                margin:
+                    15px 12px 0;
+
+                padding:
+                    60px 20px;
+
+                border-radius:
+                    22px;
+            }
+
+
+            .hero h1 {
+
+                font-size:
+                    34px;
+            }
+
+
+            .hero p {
+
+                font-size:
+                    14px;
+            }
+
+
+            .search-wrapper {
+
+                padding:
+                    0 12px;
+            }
+
+
+            .search-box {
+
+                border-radius:
+                    14px;
+            }
+
+
+            .search-box button {
+
+                padding:
+                    10px 13px;
+
+                font-size:
+                    12px;
+            }
+
+
+            .container {
+
+                margin:
+                    45px auto;
+
+                padding:
+                    0 15px;
+            }
+
+
+            .section-heading h2 {
+
+                font-size:
+                    22px;
+            }
+
+
+            .featured-main {
+
+                min-height:
+                    300px;
+
+                padding:
+                    25px;
+            }
+
+
+            .featured-main h3 {
+
+                font-size:
+                    23px;
+            }
+
+
+            .categories {
+
+                grid-template-columns:
+                    1fr;
+            }
+
+
+            .posts {
+
+                grid-template-columns:
+                    1fr;
+            }
+
+
+            .hero-buttons {
+
+                flex-direction:
+                    column;
+            }
+
+
+            .hero-button {
+
+                width:
+                    100%;
+            }
+
+        }
+
+    </style>
+
 </head>
 
 
 <body>
 
-<!-- =====================================================
-     HEADER
-===================================================== -->
 
-<header class="site-header">
+<!-- =========================
+     HEADER
+========================= -->
+
+<header>
 
     <div class="header-inner">
 
-        <a href="index.html" class="logo-link">
 
-            <img
-                src="https://dummyimage.com/320x100/ffffff/1769c2&text=YourPrimePlus"
-                alt="YourPrimePlus"
-                class="site-logo"
+        <!-- LOGO -->
+
+        <a href="index.html" class="logo">
+
+            <svg
+                class="logo-svg"
+                viewBox="0 0 620 190"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="YourPrimePlus Logo"
             >
+
+                <path
+                    d="M55 68 Q145 25 275 105 Q165 55 55 68Z"
+                    fill="#19c7c4"
+                />
+
+                <path
+                    d="M55 68 Q170 45 275 105 Q165 70 55 68Z"
+                    fill="#1769e8"
+                />
+
+                <path
+                    d="M275 105 Q400 25 555 68 Q410 65 275 105Z"
+                    fill="#1478e8"
+                />
+
+                <path
+                    d="M55 82 Q165 68 275 115 Q395 68 555 82
+                       Q410 83 275 135 Q155 83 55 82Z"
+                    fill="#063b87"
+                />
+
+                <path
+                    d="M275 135 Q235 105 190 78
+                       Q235 88 275 112
+                       Q320 85 370 78
+                       Q315 105 275 135Z"
+                    fill="#ffffff"
+                />
+
+                <path
+                    d="M235 85 L235 35 L255 25 L255 92Z"
+                    fill="#1264e8"
+                />
+
+                <path
+                    d="M265 92 L265 15 L287 4 L287 92Z"
+                    fill="#28cbd0"
+                />
+
+                <path
+                    d="M298 90 L298 28 L320 17 L320 90Z"
+                    fill="#12a9c9"
+                />
+
+                <path
+                    d="M327 92 L327 46 L350 34 L350 92Z"
+                    fill="#ff9f1c"
+                />
+
+                <path
+                    d="M277 92 L303 56 L315 66 L286 103Z"
+                    fill="#ff6b00"
+                />
+
+                <text
+                    x="310"
+                    y="158"
+                    text-anchor="middle"
+                    font-family="Arial, Helvetica, sans-serif"
+                    font-size="43"
+                    font-weight="800"
+                    fill="#111827"
+                >
+                    YourPrime<tspan fill="#1677e8">Plus</tspan>
+                </text>
+
+                <text
+                    x="310"
+                    y="180"
+                    text-anchor="middle"
+                    font-family="Arial, Helvetica, sans-serif"
+                    font-size="9"
+                    font-weight="600"
+                    letter-spacing="1.5"
+                    fill="#4b5563"
+                >
+                    TECHNOLOGY • EDUCATION • GAMING • UPDATES
+                </text>
+
+            </svg>
 
         </a>
 
 
-        <!-- =================================================
-             NAVIGATION
-        ================================================== -->
+        <!-- NAVIGATION -->
 
-        <nav class="nav" aria-label="Main Navigation">
+        <nav>
 
             <a href="index.html" class="active">
                 Home
@@ -82,64 +1599,95 @@
 
 
 
-<!-- =====================================================
-     MAIN CONTENT
-===================================================== -->
+<!-- =========================
+     HERO
+========================= -->
 
-<main>
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="hero-badge">
+            ✦ Welcome to YourPrimePlus
+        </div>
+
+        <h1>
+            Discover.
+            <span>Learn.</span>
+            Explore.
+        </h1>
+
+        <p>
+            Technology, education, gaming and useful
+            updates — carefully explained in one modern,
+            easy-to-use platform.
+        </p>
 
 
-    <!-- =================================================
-         HERO / SEARCH
-    ================================================== -->
+        <div class="hero-buttons">
 
-    <section class="hero">
+            <a
+                href="#featured"
+                class="hero-button primary"
+            >
+                Explore Articles →
+            </a>
 
-        <div class="hero-content">
-
-            <h1>
-                YourPrimePlus
-            </h1>
-
-            <p>
-                Technology, Education, Gaming and Latest Updates
-            </p>
-
-
-            <!-- SEARCH -->
-
-            <div class="search-box">
-
-                <label for="siteSearch" class="sr-only">
-                    Search articles
-                </label>
-
-                <input
-                    type="search"
-                    id="siteSearch"
-                    placeholder="Search articles..."
-                    autocomplete="off"
-                >
-
-                <button
-                    type="button"
-                    id="searchButton"
-                    onclick="searchArticles()"
-                >
-                    Search
-                </button>
-
-            </div>
+            <a
+                href="about.html"
+                class="hero-button secondary"
+            >
+                About Us
+            </a>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
 
-    <!-- =================================================
-         FEATURED
-    ================================================== -->
+<!-- =========================
+     SEARCH
+========================= -->
+
+<div class="search-wrapper">
+
+    <div class="search-box">
+
+        <span class="search-icon">
+            🔎
+        </span>
+
+        <input
+            type="search"
+            id="siteSearch"
+            placeholder="Search articles..."
+            aria-label="Search articles"
+        >
+
+        <button
+            type="button"
+            onclick="searchArticles()"
+        >
+            Search
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================
+     MAIN
+========================= -->
+
+<main class="container">
+
+
+    <!-- FEATURED -->
 
     <section id="featured">
 
@@ -160,62 +1708,85 @@
         </div>
 
 
-        <!-- IMPORTANT:
-             script.js automatically fills this area
-        -->
-
-        <div
-            class="featured"
-            id="dynamicFeatured"
-        >
-
-            <div class="featured-loading">
-
-                Loading latest articles...
-
-            </div>
-
-        </div>
-
-    </section>
+        <div class="featured">
 
 
+            <article class="featured-main searchable"
+                     data-title="10 useful Android tips every user should know">
 
-    <!-- =================================================
-         LATEST ARTICLES
-    ================================================== -->
+                <div class="tag">
+                    TECHNOLOGY
+                </div>
 
-    <section id="latest">
-
-        <div class="section-heading">
-
-            <div>
-
-                <h2>
-                    Latest Articles
-                </h2>
+                <h3>
+                    10 Useful Android Tips
+                    Every User Should Know
+                </h3>
 
                 <p>
-                    Discover our latest useful content.
+                    Discover simple Android features,
+                    settings and practical tips that can
+                    improve your everyday smartphone experience.
                 </p>
 
-            </div>
+                <a
+                    href="technology.html"
+                    class="hero-button secondary"
+                    style="margin-top:20px;width:max-content;"
+                >
+                    Read More →
+                </a>
 
-        </div>
+            </article>
 
 
-        <!-- IMPORTANT:
-             script.js automatically adds articles here
-        -->
+            <div class="featured-side">
 
-        <div
-            class="articles"
-            id="articles"
-        >
 
-            <div class="featured-loading">
+                <a
+                    href="education.html"
+                    class="mini-feature searchable"
+                    data-title="study smarter education study techniques"
+                >
 
-                Loading articles...
+                    <div class="mini-icon">
+                        📚
+                    </div>
+
+                    <h3>
+                        Study Smarter
+                    </h3>
+
+                    <p>
+                        Useful study techniques,
+                        education information and
+                        career guidance.
+                    </p>
+
+                </a>
+
+
+                <a
+                    href="gaming.html"
+                    class="mini-feature searchable"
+                    data-title="gaming guides tips settings"
+                >
+
+                    <div class="mini-icon">
+                        🎮
+                    </div>
+
+                    <h3>
+                        Gaming Guides
+                    </h3>
+
+                    <p>
+                        Gaming tips, settings,
+                        guides and useful updates.
+                    </p>
+
+                </a>
+
 
             </div>
 
@@ -225,9 +1796,7 @@
 
 
 
-    <!-- =================================================
-         CATEGORIES
-    ================================================== -->
+    <!-- CATEGORIES -->
 
     <section>
 
@@ -251,9 +1820,7 @@
         <div class="categories">
 
 
-            <!-- TECHNOLOGY -->
-
-            <article class="category-card">
+            <div class="category">
 
                 <div class="category-icon">
                     💻
@@ -264,27 +1831,24 @@
                 </h3>
 
                 <p>
-                    Smartphones, apps, AI, digital tools and
-                    technology tips.
+                    Smartphones, apps, AI,
+                    digital tools and technology tips.
                 </p>
 
                 <a
                     href="technology.html"
-                    class="hero-button secondary"
+                    class="category-link"
                 >
                     Explore →
                 </a>
 
-            </article>
+            </div>
 
 
-
-            <!-- EDUCATION -->
-
-            <article class="category-card">
+            <div class="category">
 
                 <div class="category-icon">
-                    🎓
+                    📚
                 </div>
 
                 <h3>
@@ -292,24 +1856,21 @@
                 </h3>
 
                 <p>
-                    Study tips, student guides, education
-                    information and useful resources.
+                    Study tips, courses, exams
+                    and career information.
                 </p>
 
                 <a
                     href="education.html"
-                    class="hero-button secondary"
+                    class="category-link"
                 >
                     Explore →
                 </a>
 
-            </article>
+            </div>
 
 
-
-            <!-- GAMING -->
-
-            <article class="category-card">
+            <div class="category">
 
                 <div class="category-icon">
                     🎮
@@ -320,24 +1881,21 @@
                 </h3>
 
                 <p>
-                    Gaming tips, settings, guides and useful
-                    updates for mobile gamers.
+                    Gaming guides, settings,
+                    tips and latest updates.
                 </p>
 
                 <a
                     href="gaming.html"
-                    class="hero-button secondary"
+                    class="category-link"
                 >
                     Explore →
                 </a>
 
-            </article>
+            </div>
 
 
-
-            <!-- UPDATES -->
-
-            <article class="category-card">
+            <div class="category">
 
                 <div class="category-icon">
                     📰
@@ -348,13 +1906,225 @@
                 </h3>
 
                 <p>
-                    Useful information and important latest
-                    updates in one place.
+                    Useful information and
+                    important latest updates.
                 </p>
 
                 <a
                     href="updates.html"
-                    class="hero-button secondary"
+                    class="category-link"
+                >
+                    Explore →
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- LATEST ARTICLES -->
+
+    <section id="articles">
+
+        <div class="section-heading">
+
+            <div>
+
+                <h2>
+                    Latest Articles
+                </h2>
+
+                <p>
+                    Fresh and useful content.
+                </p>
+
+            </div>
+
+            <a
+                href="updates.html"
+                class="section-link"
+            >
+                View All →
+            </a>
+
+        </div>
+
+
+        <div class="posts">
+
+
+            <article
+                class="card searchable"
+                data-title="10 useful Android tips every user should know"
+            >
+
+                <div class="card-category">
+                    Technology
+                </div>
+
+                <h3>
+                    10 Useful Android Tips
+                    Every User Should Know
+                </h3>
+
+                <p>
+                    Discover simple Android tips,
+                    hidden features and settings
+                    that can improve your phone experience.
+                </p>
+
+                <a
+                    href="technology.html"
+                    class="read"
+                >
+                    Read Article →
+                </a>
+
+            </article>
+
+
+            <article
+                class="card searchable"
+                data-title="latest smartphone technology"
+            >
+
+                <div class="card-category">
+                    Technology
+                </div>
+
+                <h3>
+                    Latest Smartphone Technology
+                </h3>
+
+                <p>
+                    Learn about useful smartphone
+                    features, settings and modern
+                    technology.
+                </p>
+
+                <a
+                    href="technology.html"
+                    class="read"
+                >
+                    Read Articles →
+                </a>
+
+            </article>
+
+
+            <article
+                class="card searchable"
+                data-title="study tips for students"
+            >
+
+                <div class="card-category">
+                    Education
+                </div>
+
+                <h3>
+                    Study Tips for Students
+                </h3>
+
+                <p>
+                    Improve your preparation with
+                    simple study techniques,
+                    planning and revision tips.
+                </p>
+
+                <a
+                    href="education.html"
+                    class="read"
+                >
+                    Read Articles →
+                </a>
+
+            </article>
+
+
+            <article
+                class="card searchable"
+                data-title="best gaming tips improve gaming skills"
+            >
+
+                <div class="card-category">
+                    Gaming
+                </div>
+
+                <h3>
+                    Improve Your Gaming Skills
+                </h3>
+
+                <p>
+                    Learn practical tips for better
+                    aim, movement, settings and
+                    overall gaming performance.
+                </p>
+
+                <a
+                    href="gaming.html"
+                    class="read"
+                >
+                    Read Articles →
+                </a>
+
+            </article>
+
+
+            <article
+                class="card searchable"
+                data-title="latest useful updates"
+            >
+
+                <div class="card-category">
+                    Updates
+                </div>
+
+                <h3>
+                    Latest Useful Updates
+                </h3>
+
+                <p>
+                    Stay informed about useful
+                    information, digital updates
+                    and important topics.
+                </p>
+
+                <a
+                    href="updates.html"
+                    class="read"
+                >
+                    Read Updates →
+                </a>
+
+            </article>
+
+
+            <article
+                class="card searchable"
+                data-title="career and education information"
+            >
+
+                <div class="card-category">
+                    Education
+                </div>
+
+                <h3>
+                    Career & Education Information
+                </h3>
+
+                <p>
+                    Explore courses, career options,
+                    study resources and useful
+                    information for students.
+                </p>
+
+                <a
+                    href="education.html"
+                    class="read"
                 >
                     Explore →
                 </a>
@@ -367,209 +2137,146 @@
     </section>
 
 
-
-    <!-- =================================================
-         ABOUT YOURPRIMEPLUS
-    ================================================== -->
-
-    <section class="about-section">
-
-        <div class="section-heading">
-
-            <div>
-
-                <h2>
-                    About YourPrimePlus
-                </h2>
-
-                <p>
-                    Simple, useful and practical information.
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="about-content">
-
-            <p>
-                Welcome to <strong>YourPrimePlus</strong>.
-                Our goal is to provide useful information
-                about technology, education, gaming and
-                important digital updates.
-            </p>
-
-            <p>
-                We focus on simple explanations, practical
-                guides and helpful information that users
-                can understand easily.
-            </p>
-
-        </div>
-
-    </section>
-
-
-
-    <!-- =================================================
-         CALL TO ACTION
-    ================================================== -->
-
-    <section class="cta-section">
-
-        <div>
-
-            <h2>
-                Find Something Useful
-            </h2>
-
-            <p>
-                Explore our latest articles and guides.
-            </p>
-
-            <a
-                href="#latest"
-                class="hero-button"
-            >
-                Explore Articles →
-            </a>
-
-        </div>
-
-    </section>
-
-
 </main>
 
 
 
-<!-- =====================================================
+<!-- =========================
      FOOTER
-===================================================== -->
+========================= -->
 
-<footer class="site-footer">
+<footer>
 
-    <div class="footer-inner">
+    <h3>
+        YourPrimePlus
+    </h3>
 
-
-        <div class="footer-column">
-
-            <h3>
-                YourPrimePlus
-            </h3>
-
-            <p>
-                Technology • Education • Gaming • Updates
-            </p>
-
-        </div>
+    <p>
+        Technology • Education • Gaming • Updates
+    </p>
 
 
+    <div class="footer-links">
 
-        <div class="footer-column">
+        <a href="index.html">
+            Home
+        </a>
 
-            <h3>
-                Quick Links
-            </h3>
+        <a href="technology.html">
+            Technology
+        </a>
 
-            <a href="index.html">
-                Home
-            </a>
+        <a href="education.html">
+            Education
+        </a>
 
-            <a href="technology.html">
-                Technology
-            </a>
+        <a href="gaming.html">
+            Gaming
+        </a>
 
-            <a href="education.html">
-                Education
-            </a>
+        <a href="updates.html">
+            Updates
+        </a>
 
-            <a href="gaming.html">
-                Gaming
-            </a>
+        <a href="about.html">
+            About
+        </a>
 
-            <a href="updates.html">
-                Updates
-            </a>
-
-        </div>
-
-
-
-        <div class="footer-column">
-
-            <h3>
-                Information
-            </h3>
-
-            <a href="about.html">
-                About
-            </a>
-
-            <a href="contact.html">
-                Contact
-            </a>
-
-        </div>
-
+        <a href="contact.html">
+            Contact
+        </a>
 
     </div>
 
 
-    <div class="footer-bottom">
-
-        <p>
-            © 2026 YourPrimePlus. All Rights Reserved.
-        </p>
-
-    </div>
+    <p>
+        © 2026 YourPrimePlus.
+        All Rights Reserved.
+    </p>
 
 </footer>
 
 
 
-<!-- =====================================================
-     JAVASCRIPT
-===================================================== -->
-
-<script src="script.js"></script>
-
-
-<!-- =====================================================
-     SEARCH FALLBACK
-     This makes Enter key work even if script.js changes.
-===================================================== -->
+<!-- =========================
+     SEARCH SCRIPT
+========================= -->
 
 <script>
 
-document.addEventListener("DOMContentLoaded", function () {
+function searchArticles() {
 
-    const searchInput =
+    const input =
         document.getElementById("siteSearch");
 
-    if (searchInput) {
+    const query =
+        input.value
+        .trim()
+        .toLowerCase();
 
-        searchInput.addEventListener(
-            "keydown",
-            function (event) {
+    const articles =
+        document.querySelectorAll(".searchable");
 
-                if (event.key === "Enter") {
 
-                    if (typeof searchArticles === "function") {
+    if (!query) {
 
-                        searchArticles();
+        articles.forEach(function(article) {
 
-                    }
+            article.style.display = "";
 
-                }
+        });
 
-            }
-        );
-
+        return;
     }
 
-});
+
+    articles.forEach(function(article) {
+
+        const title =
+            (
+                article.getAttribute("data-title") || ""
+            ).toLowerCase();
+
+        const content =
+            article.innerText.toLowerCase();
+
+
+        if (
+            title.includes(query) ||
+            content.includes(query)
+        ) {
+
+            article.style.display = "";
+
+        } else {
+
+            article.style.display = "none";
+
+        }
+
+    });
+
+
+    document
+        .getElementById("articles")
+        .scrollIntoView({
+            behavior: "smooth"
+        });
+
+}
+
+
+document
+    .getElementById("siteSearch")
+    .addEventListener("keydown", function(event) {
+
+        if (event.key === "Enter") {
+
+            searchArticles();
+
+        }
+
+    });
 
 </script>
 
