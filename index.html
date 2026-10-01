@@ -2043,7 +2043,80 @@ function escapeAttribute(text) {
 
 </script>
 
+<script>
+async function loadAutomaticArticles() {
 
+    try {
+
+        const response = await fetch("manual-articles.json");
+
+        if (!response.ok) {
+            throw new Error("Article file not found");
+        }
+
+        const data = await response.json();
+
+        const articles = data.items || [];
+
+        const postsContainer = document.querySelector(".posts");
+
+        if (!postsContainer) {
+            console.error("Posts container not found");
+            return;
+        }
+
+        if (articles.length === 0) {
+            postsContainer.innerHTML = `
+                <div class="loading">
+                    No articles available yet.
+                </div>
+            `;
+            return;
+        }
+
+        postsContainer.innerHTML = "";
+
+        articles.forEach(article => {
+
+            const card = document.createElement("article");
+
+            card.className = "card";
+
+            card.innerHTML = `
+                <div class="card-category">
+                    ${article.category || "UPDATES"}
+                </div>
+
+                <h3>
+                    ${article.title || "Untitled Article"}
+                </h3>
+
+                <p>
+                    ${article.description || ""}
+                </p>
+
+                <a
+                    class="read"
+                    href="${article.url || "#"}"
+                >
+                    Read Article →
+                </a>
+            `;
+
+            postsContainer.appendChild(card);
+
+        });
+
+    } catch (error) {
+
+        console.error("Automatic article error:", error);
+
+    }
+
+}
+
+loadAutomaticArticles();
+</script>
 </body>
 
 </html>
