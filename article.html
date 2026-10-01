@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<meta name="description"
+      content="YourPrimePlus Article">
+
+<meta name="theme-color"
+      content="#071a3a">
+
+<title>Article | YourPrimePlus</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f7fb;
+    color: #111827;
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* HEADER */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    background: rgba(255,255,255,0.92);
+
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.header-inner {
+    max-width: 1100px;
+    margin: auto;
+
+    min-height: 80px;
+
+    padding: 10px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 210px;
+}
+
+.logo-svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* NAV */
+
+nav {
+    display: flex;
+    gap: 5px;
+
+    padding: 5px;
+
+    border-radius: 50px;
+
+    background: rgba(255,255,255,0.8);
+
+    border: 1px solid #e5e7eb;
+
+    overflow-x: auto;
+}
+
+nav a {
+    white-space: nowrap;
+
+    padding: 10px 18px;
+
+    border-radius: 30px;
+
+    color: #374151;
+
+    font-weight: 600;
+}
+
+nav a:hover {
+    background: #eff6ff;
+    color: #0b5ed7;
+}
+
+
+/* ARTICLE */
+
+.article-container {
+
+    max-width: 900px;
+
+    margin: 50px auto;
+
+    padding: 0 20px;
+}
+
+.article-card {
+
+    background: white;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 24px;
+
+    padding: 45px;
+
+    box-shadow:
+        0 15px 40px rgba(15,23,42,0.06);
+}
+
+
+/* CATEGORY */
+
+.article-category {
+
+    display: inline-block;
+
+    padding: 7px 14px;
+
+    border-radius: 30px;
+
+    background: #eff6ff;
+
+    color: #0b5ed7;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: 0.7px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 18px;
+}
+
+
+/* TITLE */
+
+.article-title {
+
+    font-size: 42px;
+
+    line-height: 1.2;
+
+    margin-bottom: 15px;
+
+    color: #111827;
+}
+
+
+/* META */
+
+.article-meta {
+
+    color: #6b7280;
+
+    font-size: 14px;
+
+    margin-bottom: 30px;
+}
+
+
+/* IMAGE */
+
+.article-image {
+
+    width: 100%;
+
+    max-height: 500px;
+
+    object-fit: cover;
+
+    border-radius: 18px;
+
+    margin-bottom: 35px;
+}
+
+
+/* CONTENT */
+
+.article-content {
+
+    font-size: 17px;
+
+    color: #374151;
+}
+
+.article-content p {
+
+    margin-bottom: 20px;
+}
+
+.article-content h2 {
+
+    font-size: 27px;
+
+    color: #111827;
+
+    margin-top: 35px;
+
+    margin-bottom: 15px;
+}
+
+.article-content h3 {
+
+    font-size: 22px;
+
+    color: #111827;
+
+    margin-top: 30px;
+
+    margin-bottom: 12px;
+}
+
+.article-content ul,
+.article-content ol {
+
+    margin: 15px 0 20px 25px;
+}
+
+.article-content li {
+
+    margin-bottom: 8px;
+}
+
+.article-content strong {
+
+    color: #111827;
+}
+
+
+/* BUTTONS */
+
+.article-actions {
+
+    display: flex;
+
+    gap: 12px;
+
+    flex-wrap: wrap;
+
+    margin-top: 40px;
+
+    padding-top: 25px;
+
+    border-top: 1px solid #e5e7eb;
+}
+
+.btn {
+
+    display: inline-block;
+
+    padding: 12px 20px;
+
+    border-radius: 12px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    border: none;
+}
+
+.back-btn {
+
+    background: #111827;
+
+    color: white;
+}
+
+.share-btn {
+
+    background: #0b5ed7;
+
+    color: white;
+}
+
+
+/* LOADING */
+
+.loading {
+
+    text-align: center;
+
+    padding: 80px 20px;
+
+    color: #6b7280;
+
+    font-size: 18px;
+}
+
+
+/* ERROR */
+
+.error {
+
+    text-align: center;
+
+    padding: 80px 20px;
+}
+
+.error h1 {
+
+    font-size: 30px;
+
+    margin-bottom: 10px;
+}
+
+.error p {
+
+    color: #6b7280;
+
+    margin-bottom: 25px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    .header-inner {
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        gap: 12px;
+
+    }
+
+    .logo {
+
+        width: 190px;
+
+        margin: auto;
+    }
+
+    nav {
+
+        justify-content: flex-start;
+    }
+
+    .article-container {
+
+        margin: 25px auto;
+
+        padding: 0 14px;
+    }
+
+    .article-card {
+
+        padding: 25px 20px;
+
+        border-radius: 20px;
+    }
+
+    .article-title {
+
+        font-size: 30px;
+    }
+
+    .article-content {
+
+        font-size: 16px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="header-inner">
+
+<a href="index.html" class="logo">
+
+<svg
+class="logo-svg"
+viewBox="0 0 500 150"
+xmlns="http://www.w3.org/2000/svg"
+>
+
+<path
+d="M35 85
+C110 30 180 35 250 70
+C320 105 390 105 465 65"
+fill="none"
+stroke="#0b5ed7"
+stroke-width="18"
+/>
+
+<path
+d="M40 105
+C120 65 180 70 250 100
+C325 130 390 125 460 95"
+fill="none"
+stroke="#111827"
+stroke-width="8"
+/>
+
+<rect
+x="190"
+y="35"
+width="18"
+height="65"
+fill="#0b5ed7"
+/>
+
+<rect
+x="215"
+y="20"
+width="18"
+height="80"
+fill="#14b8a6"
+/>
+
+<rect
+x="240"
+y="45"
+width="18"
+height="55"
+fill="#f59e0b"
+/>
+
+<text
+x="125"
+y="135"
+font-size="34"
+font-family="Arial"
+font-weight="700"
+fill="#111827"
+>
+YourPrime<tspan fill="#0b5ed7">Plus</tspan>
+</text>
+
+</svg>
+
+</a>
+
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="index.html#technology">
+Technology
+</a>
+
+<a href="index.html#education">
+Education
+</a>
+
+<a href="index.html#gaming">
+Gaming
+</a>
+
+<a href="index.html#updates">
+Updates
+</a>
+
+</nav>
+
+</div>
+
+</header>
+
+
+
+<main>
+
+<div
+id="articleContainer"
+class="article-container"
+>
+
+<div class="loading">
+
+Loading article...
+
+</div>
+
+</div>
+
+</main>
+
+
+
+<script>
+
+async function loadArticle() {
+
+    const container =
+        document.getElementById("articleContainer");
+
+    try {
+
+        const params =
+            new URLSearchParams(window.location.search);
+
+        const id =
+            params.get("id");
+
+        if (!id) {
+
+            throw new Error("Article ID missing");
+
+        }
+
+        const response =
+            await fetch("manual-articles.json");
+
+        if (!response.ok) {
+
+            throw new Error(
+                "Could not load articles"
+            );
+
+        }
+
+        const data =
+            await response.json();
+
+        const articles =
+            data.items || [];
+
+        const article =
+            articles.find(
+                item =>
+                    String(item.id) === String(id)
+            );
+
+        if (!article) {
+
+            container.innerHTML = `
+
+                <div class="article-card error">
+
+                    <h1>
+                        Article Not Found
+                    </h1>
+
+                    <p>
+                        The article you are looking for
+                        does not exist.
+                    </p>
+
+                    <a
+                        href="index.html"
+                        class="btn back-btn"
+                    >
+                        ← Back to Home
+                    </a>
+
+                </div>
+
+            `;
+
+            return;
+
+        }
+
+
+        document.title =
+            article.title +
+            " | YourPrimePlus";
+
+
+        let content =
+            article.content || "";
+
+
+        /*
+        Convert simple new lines
+        into paragraphs.
+        */
+
+        content =
+            content
+            .split(/\n\s*\n/)
+            .map(
+                paragraph =>
+                    `<p>${paragraph
+                    .replace(/\n/g, "<br>")}</p>`
+            )
+            .join("");
+
+
+        let imageHTML = "";
+
+        if (article.image) {
+
+            imageHTML = `
+
+                <img
+                    src="${article.image}"
+                    alt="${article.title}"
+                    class="article-image"
+                >
+
+            `;
+
+        }
+
+
+        container.innerHTML = `
+
+            <article class="article-card">
+
+                <div class="article-category">
+
+                    ${article.category || "UPDATES"}
+
+                </div>
+
+
+                <h1 class="article-title">
+
+                    ${article.title || "Untitled Article"}
+
+                </h1>
+
+
+                <div class="article-meta">
+
+                    Published:
+                    ${article.published || "Recently"}
+
+                </div>
+
+
+                ${imageHTML}
+
+
+                <div class="article-content">
+
+                    ${
+                        content ||
+                        "<p>No article content available.</p>"
+                    }
+
+                </div>
+
+
+                <div class="article-actions">
+
+                    <a
+                        href="index.html"
+                        class="btn back-btn"
+                    >
+                        ← Back
+                    </a>
+
+
+                    <button
+                        class="btn share-btn"
+                        onclick="shareArticle()"
+                    >
+                        Share Article
+                    </button>
+
+                </div>
+
+            </article>
+
+        `;
+
+
+        window.currentArticleTitle =
+            article.title || "YourPrimePlus Article";
+
+    }
+
+    catch (error) {
+
+        console.error(error);
+
+        container.innerHTML = `
+
+            <div class="article-card error">
+
+                <h1>
+                    Unable to Load Article
+                </h1>
+
+                <p>
+                    Please try again later.
+                </p>
+
+                <a
+                    href="index.html"
+                    class="btn back-btn"
+                >
+                    ← Back to Home
+                </a>
+
+            </div>
+
+        `;
+
+    }
+
+}
+
+
+
+async function shareArticle() {
+
+    const title =
+        window.currentArticleTitle ||
+        "YourPrimePlus Article";
+
+    const url =
+        window.location.href;
+
+
+    if (navigator.share) {
+
+        try {
+
+            await navigator.share({
+
+                title: title,
+
+                text:
+                    "Read this article on YourPrimePlus",
+
+                url: url
+
+            });
+
+        }
+
+        catch (error) {
+
+            console.log(
+                "Share cancelled"
+            );
+
+        }
+
+    }
+
+    else {
+
+        try {
+
+            await navigator.clipboard.writeText(url);
+
+            alert(
+                "Article link copied!"
+            );
+
+        }
+
+        catch (error) {
+
+            alert(
+                "Copy this URL: " + url
+            );
+
+        }
+
+    }
+
+}
+
+
+loadArticle();
+
+</script>
+
+
+</body>
+
+  </html>
