@@ -1,0 +1,1424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<meta name="description"
+      content="YourPrimePlus Education - Study Tips, Courses, Exams and Career Information">
+
+<title>Education | YourPrimePlus</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f7fb;
+    color: #111827;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    background:
+        rgba(255,255,255,0.88);
+
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.header-inner {
+    max-width: 1200px;
+    min-height: 78px;
+
+    margin: auto;
+    padding: 8px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 25px;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    width: 220px;
+    flex-shrink: 0;
+}
+
+.logo-svg {
+    width: 220px;
+    height: auto;
+    display: block;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+nav {
+    display: flex;
+    align-items: center;
+
+    gap: 5px;
+    padding: 5px;
+
+    border-radius: 50px;
+
+    background:
+        rgba(255,255,255,0.65);
+
+    border:
+        1px solid rgba(15,23,42,0.07);
+}
+
+nav a {
+    color: #374151;
+
+    padding: 9px 13px;
+
+    border-radius: 30px;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    white-space: nowrap;
+
+    transition: 0.25s;
+}
+
+nav a:hover {
+    color: #0b5ed7;
+
+    background:
+        rgba(11,94,215,0.06);
+}
+
+
+/* ACTIVE EDUCATION */
+
+nav a.active {
+    color: #0b5ed7;
+
+    background:
+        rgba(255,255,255,0.60);
+
+    border:
+        1px solid rgba(11,94,215,0.18);
+
+    box-shadow:
+        0 4px 14px rgba(15,23,42,0.08);
+
+    backdrop-filter: blur(12px);
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.page-hero {
+
+    max-width: 1200px;
+
+    margin: 28px auto 0;
+
+    padding: 65px 25px;
+
+    border-radius: 26px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    text-align: center;
+
+    color: white;
+
+    background:
+        linear-gradient(
+            135deg,
+            #061633,
+            #0b3d91,
+            #06234d
+        );
+
+    box-shadow:
+        0 20px 50px
+        rgba(0,35,90,0.16);
+}
+
+.page-hero::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 280px;
+    height: 280px;
+
+    top: -140px;
+    left: -100px;
+
+    border-radius: 50%;
+
+    background:
+        rgba(56,189,248,0.15);
+}
+
+.page-hero::after {
+
+    content: "";
+
+    position: absolute;
+
+    width: 250px;
+    height: 250px;
+
+    right: -100px;
+    bottom: -130px;
+
+    border-radius: 50%;
+
+    background:
+        rgba(20,184,166,0.14);
+}
+
+.page-hero-content {
+
+    position: relative;
+
+    z-index: 2;
+
+    max-width: 750px;
+
+    margin: auto;
+}
+
+.page-icon {
+
+    width: 65px;
+    height: 65px;
+
+    margin: 0 auto 16px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 18px;
+
+    background:
+        rgba(255,255,255,0.10);
+
+    border:
+        1px solid
+        rgba(255,255,255,0.20);
+
+    font-size: 31px;
+
+    backdrop-filter: blur(12px);
+}
+
+.page-hero h1 {
+
+    font-size:
+        clamp(32px, 6vw, 50px);
+
+    line-height: 1.1;
+
+    margin-bottom: 15px;
+}
+
+.page-hero h1 span {
+    color: #38bdf8;
+}
+
+.page-hero p {
+
+    color: #dbeafe;
+
+    max-width: 650px;
+
+    margin: auto;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   SEARCH
+========================= */
+
+.search-wrapper {
+
+    max-width: 700px;
+
+    margin: -27px auto 0;
+
+    position: relative;
+
+    z-index: 10;
+
+    padding: 0 20px;
+}
+
+.search-box {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 7px;
+
+    background:
+        rgba(255,255,255,0.94);
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 16px;
+
+    box-shadow:
+        0 15px 35px
+        rgba(15,23,42,0.12);
+
+    backdrop-filter: blur(15px);
+}
+
+.search-icon {
+
+    padding-left: 12px;
+
+    font-size: 18px;
+}
+
+.search-box input {
+
+    flex: 1;
+
+    min-width: 0;
+
+    border: 0;
+
+    outline: none;
+
+    background: transparent;
+
+    padding: 12px 4px;
+
+    font-size: 14px;
+}
+
+.search-box button {
+
+    border: 0;
+
+    cursor: pointer;
+
+    padding: 11px 18px;
+
+    border-radius: 11px;
+
+    background: #0b5ed7;
+
+    color: white;
+
+    font-weight: 700;
+}
+
+
+/* =========================
+   MAIN
+========================= */
+
+.container {
+
+    max-width: 1200px;
+
+    margin: 60px auto;
+
+    padding: 0 20px;
+}
+
+.section-heading {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    margin-bottom: 22px;
+}
+
+.section-heading h2 {
+
+    font-size: 27px;
+
+    letter-spacing: -0.5px;
+}
+
+.section-heading p {
+
+    color: #6b7280;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   EDUCATION TOPICS
+========================= */
+
+.topics {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 17px;
+
+    margin-bottom: 55px;
+}
+
+.topic {
+
+    background: white;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 18px;
+
+    padding: 22px;
+
+    transition: 0.25s;
+}
+
+.topic:hover {
+
+    transform:
+        translateY(-4px);
+
+    box-shadow:
+        0 14px 30px
+        rgba(15,23,42,0.08);
+}
+
+.topic-icon {
+
+    font-size: 27px;
+
+    margin-bottom: 9px;
+}
+
+.topic h3 {
+
+    font-size: 17px;
+
+    margin-bottom: 5px;
+}
+
+.topic p {
+
+    color: #6b7280;
+
+    font-size: 13px;
+}
+
+
+/* =========================
+   ARTICLES
+========================= */
+
+.articles {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.article {
+
+    background: white;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 18px;
+
+    padding: 25px;
+
+    transition: 0.25s;
+}
+
+.article:hover {
+
+    transform:
+        translateY(-4px);
+
+    box-shadow:
+        0 15px 30px
+        rgba(15,23,42,0.08);
+}
+
+.article-category {
+
+    display: inline-block;
+
+    color: #0b5ed7;
+
+    background: #eff6ff;
+
+    border-radius: 20px;
+
+    padding: 5px 9px;
+
+    font-size: 10px;
+
+    font-weight: 800;
+
+    text-transform: uppercase;
+
+    letter-spacing: .6px;
+
+    margin-bottom: 13px;
+}
+
+.article h3 {
+
+    font-size: 19px;
+
+    line-height: 1.4;
+
+    margin-bottom: 10px;
+}
+
+.article p {
+
+    color: #6b7280;
+
+    font-size: 14px;
+
+    line-height: 1.65;
+}
+
+.article-link {
+
+    display: inline-block;
+
+    margin-top: 17px;
+
+    color: #111827;
+
+    font-size: 13px;
+
+    font-weight: 800;
+}
+
+.article-link:hover {
+    color: #0b5ed7;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+
+    margin-top: 80px;
+
+    padding: 45px 20px;
+
+    text-align: center;
+
+    color: white;
+
+    background: #071a3a;
+}
+
+footer h3 {
+
+    font-size: 21px;
+
+    margin-bottom: 8px;
+}
+
+footer p {
+
+    color: #bfdbfe;
+
+    font-size: 13px;
+
+    margin-top: 7px;
+}
+
+.footer-links {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 18px;
+
+    margin-top: 20px;
+}
+
+.footer-links a {
+
+    color: #dbeafe;
+
+    font-size: 13px;
+
+    font-weight: 600;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 950px) {
+
+    .header-inner {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        padding: 10px 15px;
+    }
+
+    .logo {
+        width: 205px;
+    }
+
+    .logo-svg {
+        width: 205px;
+    }
+
+    nav {
+
+        width: 100%;
+
+        overflow-x: auto;
+
+        justify-content: flex-start;
+
+        scrollbar-width: none;
+    }
+
+    nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .topics {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .articles {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .page-hero {
+
+        margin:
+            15px 12px 0;
+
+        padding:
+            55px 20px;
+
+        border-radius:
+            22px;
+    }
+
+    .page-hero h1 {
+        font-size: 34px;
+    }
+
+    .page-hero p {
+        font-size: 14px;
+    }
+
+    .search-wrapper {
+        padding: 0 12px;
+    }
+
+    .search-box button {
+
+        padding:
+            10px 13px;
+
+        font-size: 12px;
+    }
+
+    .container {
+
+        margin: 45px auto;
+
+        padding: 0 15px;
+    }
+
+    .section-heading h2 {
+        font-size: 22px;
+    }
+
+    .topics {
+        grid-template-columns: 1fr;
+    }
+
+    .articles {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<header>
+
+<div class="header-inner">
+
+
+<a href="index.html" class="logo">
+
+<svg
+class="logo-svg"
+viewBox="0 0 620 190"
+xmlns="http://www.w3.org/2000/svg"
+role="img"
+aria-label="YourPrimePlus Logo"
+>
+
+<path
+d="M55 68 Q145 25 275 105 Q165 55 55 68Z"
+fill="#19c7c4"
+/>
+
+<path
+d="M55 68 Q170 45 275 105 Q165 70 55 68Z"
+fill="#1769e8"
+/>
+
+<path
+d="M275 105 Q400 25 555 68 Q410 65 275 105Z"
+fill="#1478e8"
+/>
+
+<path
+d="M55 82 Q165 68 275 115 Q395 68 555 82
+Q410 83 275 135 Q155 83 55 82Z"
+fill="#063b87"
+/>
+
+<path
+d="M275 135 Q235 105 190 78
+Q235 88 275 112
+Q320 85 370 78
+Q315 105 275 135Z"
+fill="#ffffff"
+/>
+
+<path
+d="M235 85 L235 35 L255 25 L255 92Z"
+fill="#1264e8"
+/>
+
+<path
+d="M265 92 L265 15 L287 4 L287 92Z"
+fill="#28cbd0"
+/>
+
+<path
+d="M298 90 L298 28 L320 17 L320 90Z"
+fill="#12a9c9"
+/>
+
+<path
+d="M327 92 L327 46 L350 34 L350 92Z"
+fill="#ff9f1c"
+/>
+
+<path
+d="M277 92 L303 56 L315 66 L286 103Z"
+fill="#ff6b00"
+/>
+
+<text
+x="310"
+y="158"
+text-anchor="middle"
+font-family="Arial, Helvetica, sans-serif"
+font-size="43"
+font-weight="800"
+fill="#111827"
+>
+YourPrime<tspan fill="#1677e8">Plus</tspan>
+</text>
+
+<text
+x="310"
+y="180"
+text-anchor="middle"
+font-family="Arial, Helvetica, sans-serif"
+font-size="9"
+font-weight="600"
+letter-spacing="1.5"
+fill="#4b5563"
+>
+TECHNOLOGY • EDUCATION • GAMING • UPDATES
+</text>
+
+</svg>
+
+</a>
+
+
+<nav>
+
+<a href="index.html">
+Home
+</a>
+
+<a href="technology.html">
+Technology
+</a>
+
+<a
+href="education.html"
+class="active"
+>
+Education
+</a>
+
+<a href="gaming.html">
+Gaming
+</a>
+
+<a href="updates.html">
+Updates
+</a>
+
+<a href="about.html">
+About
+</a>
+
+<a href="contact.html">
+Contact
+</a>
+
+</nav>
+
+</div>
+
+</header>
+
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="page-hero">
+
+<div class="page-hero-content">
+
+<div class="page-icon">
+📚
+</div>
+
+<h1>
+Education <span>Hub</span>
+</h1>
+
+<p>
+Study tips, courses, exams, career guidance
+and useful educational information for students.
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================
+     SEARCH
+========================= -->
+
+<div class="search-wrapper">
+
+<div class="search-box">
+
+<span class="search-icon">
+🔎
+</span>
+
+<input
+type="search"
+id="educationSearch"
+placeholder="Search education articles..."
+>
+
+<button
+type="button"
+onclick="searchEducation()"
+>
+Search
+</button>
+
+</div>
+
+</div>
+
+
+
+<!-- =========================
+     MAIN
+========================= -->
+
+<main class="container">
+
+
+<!-- =========================
+     TOPICS
+========================= -->
+
+<section>
+
+<div class="section-heading">
+
+<div>
+
+<h2>
+Education Topics
+</h2>
+
+<p>
+Explore useful topics for students.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="topics">
+
+
+<div class="topic">
+
+<div class="topic-icon">
+📝
+</div>
+
+<h3>
+Study Tips
+</h3>
+
+<p>
+Simple study techniques,
+revision methods and planning.
+</p>
+
+</div>
+
+
+<div class="topic">
+
+<div class="topic-icon">
+🎓
+</div>
+
+<h3>
+Courses
+</h3>
+
+<p>
+Explore courses, degrees
+and useful career options.
+</p>
+
+</div>
+
+
+<div class="topic">
+
+<div class="topic-icon">
+📖
+</div>
+
+<h3>
+Exams
+</h3>
+
+<p>
+Exam preparation, notes,
+practice and revision tips.
+</p>
+
+</div>
+
+
+<div class="topic">
+
+<div class="topic-icon">
+💼
+</div>
+
+<h3>
+Career
+</h3>
+
+<p>
+Career guidance, skills
+and future opportunities.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<!-- =========================
+     ARTICLES
+========================= -->
+
+<section id="educationArticles">
+
+<div class="section-heading">
+
+<div>
+
+<h2>
+Education Articles
+</h2>
+
+<p>
+Useful guides and information for students.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="articles">
+
+
+<!-- ARTICLE 1 -->
+
+<article
+class="article searchable"
+data-title="best study tips for students"
+>
+
+<div class="article-category">
+Study Tips
+</div>
+
+<h3>
+Best Study Tips for Students
+</h3>
+
+<p>
+Learn simple and practical study
+techniques that can help you
+prepare more effectively.
+</p>
+
+<a
+href="education.html"
+class="article-link"
+>
+Read Article →
+</a>
+
+</article>
+
+
+
+<!-- ARTICLE 2 -->
+
+<article
+class="article searchable"
+data-title="how to prepare for exams"
+>
+
+<div class="article-category">
+Exams
+</div>
+
+<h3>
+How to Prepare for Exams
+</h3>
+
+<p>
+Create a simple preparation plan,
+revise important topics and improve
+your exam performance.
+</p>
+
+<a
+href="education.html"
+class="article-link"
+>
+Read Article →
+</a>
+
+</article>
+
+
+
+<!-- ARTICLE 3 -->
+
+<article
+class="article searchable"
+data-title="career options after graduation"
+>
+
+<div class="article-category">
+Career
+</div>
+
+<h3>
+Career Options After Graduation
+</h3>
+
+<p>
+Understand different career paths,
+skills and opportunities after
+completing your studies.
+</p>
+
+<a
+href="education.html"
+class="article-link"
+>
+Read Article →
+</a>
+
+</article>
+
+
+
+<!-- ARTICLE 4 -->
+
+<article
+class="article searchable"
+data-title="useful courses for students"
+>
+
+<div class="article-category">
+Courses
+</div>
+
+<h3>
+Useful Courses for Students
+</h3>
+
+<p>
+Explore useful courses that can
+help students develop practical
+knowledge and career skills.
+</p>
+
+<a
+href="education.html"
+class="article-link"
+>
+Read Article →
+</a>
+
+</article>
+
+
+
+<!-- ARTICLE 5 -->
+
+<article
+class="article searchable"
+data-title="how to make study timetable"
+>
+
+<div class="article-category">
+Planning
+</div>
+
+<h3>
+How to Make a Study Timetable
+</h3>
+
+<p>
+Learn how to create a realistic
+study timetable for regular
+learning and revision.
+</p>
+
+<a
+href="education.html"
+class="article-link"
+>
+Read Article →
+</a>
+
+</article>
+
+
+
+<!-- ARTICLE 6 -->
+
+<article
+class="article searchable"
+data-title="important skills for students"
+>
+
+<div class="article-category">
+Skills
+</div>
+
+<h3>
+Important Skills for Students
+</h3>
+
+<p>
+Discover useful digital,
+communication and practical skills
+for your academic journey.
+</p>
+
+<a
+href="education.html"
+class="article-link"
+>
+Read Article →
+</a>
+
+</article>
+
+
+</div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+<h3>
+YourPrimePlus
+</h3>
+
+<p>
+Technology • Education • Gaming • Updates
+</p>
+
+
+<div class="footer-links">
+
+<a href="index.html">
+Home
+</a>
+
+<a href="technology.html">
+Technology
+</a>
+
+<a href="education.html">
+Education
+</a>
+
+<a href="gaming.html">
+Gaming
+</a>
+
+<a href="updates.html">
+Updates
+</a>
+
+<a href="about.html">
+About
+</a>
+
+<a href="contact.html">
+Contact
+</a>
+
+</div>
+
+
+<p>
+© 2026 YourPrimePlus.
+All Rights Reserved.
+</p>
+
+</footer>
+
+
+
+<!-- =========================
+     SEARCH SCRIPT
+========================= -->
+
+<script>
+
+function searchEducation() {
+
+    const input =
+        document.getElementById(
+            "educationSearch"
+        );
+
+    const query =
+        input.value
+        .trim()
+        .toLowerCase();
+
+    const articles =
+        document.querySelectorAll(
+            ".searchable"
+        );
+
+
+    articles.forEach(function(article) {
+
+        const title =
+            article
+            .getAttribute("data-title")
+            .toLowerCase();
+
+        const content =
+            article.innerText
+            .toLowerCase();
+
+
+        if (
+            !query ||
+            title.includes(query) ||
+            content.includes(query)
+        ) {
+
+            article.style.display = "";
+
+        } else {
+
+            article.style.display = "none";
+
+        }
+
+    });
+
+
+    document
+        .getElementById("educationArticles")
+        .scrollIntoView({
+            behavior: "smooth"
+        });
+
+}
+
+
+document
+    .getElementById("educationSearch")
+    .addEventListener(
+        "keydown",
+        function(event) {
+
+            if (event.key === "Enter") {
+
+                searchEducation();
+
+            }
+
+        }
+    );
+
+</script>
+
+
+</body>
+
+</html>

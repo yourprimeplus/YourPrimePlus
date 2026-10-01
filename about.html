@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<meta name="description"
+      content="About YourPrimePlus - Technology, Education, Gaming and Useful Updates">
+
+<meta name="theme-color"
+      content="#071a3a">
+
+<title>About | YourPrimePlus</title>
+
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f7fb;
+    color: #111827;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    background: rgba(255,255,255,0.88);
+
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.header-inner {
+    max-width: 1200px;
+    min-height: 78px;
+
+    margin: auto;
+    padding: 8px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 25px;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    width: 220px;
+
+    flex-shrink: 0;
+}
+
+.logo-svg {
+    width: 220px;
+    height: auto;
+
+    display: block;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+nav {
+    display: flex;
+    align-items: center;
+
+    gap: 5px;
+    padding: 5px;
+
+    border-radius: 50px;
+
+    background:
+        rgba(255,255,255,0.65);
+
+    border:
+        1px solid rgba(15,23,42,0.07);
+}
+
+nav a {
+    color: #374151;
+
+    padding: 9px 13px;
+
+    border-radius: 30px;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    white-space: nowrap;
+
+    transition: 0.25s;
+}
+
+nav a:hover {
+    color: #0b5ed7;
+
+    background:
+        rgba(11,94,215,0.06);
+}
+
+
+/* ACTIVE ABOUT */
+
+nav a.active {
+    color: #0b5ed7;
+
+    background:
+        rgba(255,255,255,0.60);
+
+    border:
+        1px solid rgba(11,94,215,0.18);
+
+    box-shadow:
+        0 4px 14px
+        rgba(15,23,42,0.08);
+
+    backdrop-filter: blur(12px);
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.page-hero {
+
+    max-width: 1200px;
+
+    margin: 28px auto 0;
+
+    padding: 70px 25px;
+
+    border-radius: 26px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    text-align: center;
+
+    color: white;
+
+    background:
+        linear-gradient(
+            135deg,
+            #061633,
+            #0b3d91,
+            #06234d
+        );
+
+    box-shadow:
+        0 20px 50px
+        rgba(0,35,90,0.16);
+}
+
+.page-hero::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 280px;
+    height: 280px;
+
+    top: -140px;
+    left: -100px;
+
+    border-radius: 50%;
+
+    background:
+        rgba(56,189,248,0.15);
+}
+
+.page-hero::after {
+
+    content: "";
+
+    position: absolute;
+
+    width: 250px;
+    height: 250px;
+
+    right: -100px;
+    bottom: -130px;
+
+    border-radius: 50%;
+
+    background:
+        rgba(20,184,166,0.14);
+}
+
+.page-hero-content {
+
+    position: relative;
+
+    z-index: 2;
+
+    max-width: 750px;
+
+    margin: auto;
+}
+
+.page-icon {
+
+    width: 65px;
+    height: 65px;
+
+    margin: 0 auto 16px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 18px;
+
+    background:
+        rgba(255,255,255,0.10);
+
+    border:
+        1px solid
+        rgba(255,255,255,0.20);
+
+    font-size: 31px;
+
+    backdrop-filter: blur(12px);
+}
+
+.page-hero h1 {
+
+    font-size:
+        clamp(32px, 6vw, 50px);
+
+    line-height: 1.1;
+
+    margin-bottom: 15px;
+}
+
+.page-hero h1 span {
+    color: #38bdf8;
+}
+
+.page-hero p {
+
+    color: #dbeafe;
+
+    max-width: 650px;
+
+    margin: auto;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   MAIN
+========================= */
+
+.container {
+
+    max-width: 1200px;
+
+    margin: 60px auto;
+
+    padding: 0 20px;
+}
+
+
+/* =========================
+   ABOUT CARDS
+========================= */
+
+.about-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 20px;
+
+    margin-bottom: 25px;
+}
+
+.about-card {
+
+    background: white;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    transition: 0.25s;
+}
+
+.about-card:hover {
+
+    transform:
+        translateY(-4px);
+
+    box-shadow:
+        0 15px 30px
+        rgba(15,23,42,0.08);
+}
+
+.about-icon {
+
+    width: 52px;
+    height: 52px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 17px;
+
+    border-radius: 15px;
+
+    background:
+        #eff6ff;
+
+    font-size: 25px;
+}
+
+.about-card h2 {
+
+    font-size: 23px;
+
+    margin-bottom: 11px;
+}
+
+.about-card p {
+
+    color: #6b7280;
+
+    font-size: 14px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   MISSION
+========================= */
+
+.mission {
+
+    margin-top: 20px;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    color: white;
+
+    background:
+        linear-gradient(
+            135deg,
+            #071a3a,
+            #0b3d91
+        );
+
+    box-shadow:
+        0 15px 35px
+        rgba(0,35,90,0.14);
+}
+
+.mission h2 {
+
+    font-size: 25px;
+
+    margin-bottom: 12px;
+}
+
+.mission p {
+
+    max-width: 850px;
+
+    color: #dbeafe;
+
+    font-size: 14px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   VALUES
+========================= */
+
+.values {
+
+    margin-top: 50px;
+}
+
+.values-heading {
+
+    margin-bottom: 22px;
+}
+
+.values-heading h2 {
+
+    font-size: 27px;
+}
+
+.values-heading p {
+
+    color: #6b7280;
+
+    font-size: 14px;
+}
+
+.value-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 17px;
+}
+
+.value {
+
+    background: white;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 18px;
+
+    padding: 23px;
+}
+
+.value-icon {
+
+    font-size: 27px;
+
+    margin-bottom: 9px;
+}
+
+.value h3 {
+
+    font-size: 17px;
+
+    margin-bottom: 5px;
+}
+
+.value p {
+
+    color: #6b7280;
+
+    font-size: 13px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+
+    margin-top: 80px;
+
+    padding: 45px 20px;
+
+    text-align: center;
+
+    color: white;
+
+    background: #071a3a;
+}
+
+footer h3 {
+
+    font-size: 21px;
+
+    margin-bottom: 8px;
+}
+
+footer p {
+
+    color: #bfdbfe;
+
+    font-size: 13px;
+
+    margin-top: 7px;
+}
+
+.footer-links {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 18px;
+
+    margin-top: 20px;
+}
+
+.footer-links a {
+
+    color: #dbeafe;
+
+    font-size: 13px;
+
+    font-weight: 600;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 950px) {
+
+    .header-inner {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        padding: 10px 15px;
+    }
+
+    .logo {
+        width: 205px;
+    }
+
+    .logo-svg {
+        width: 205px;
+    }
+
+    nav {
+
+        width: 100%;
+
+        overflow-x: auto;
+
+        justify-content: flex-start;
+
+        scrollbar-width: none;
+    }
+
+    nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .about-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .value-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .page-hero {
+
+        margin:
+            15px 12px 0;
+
+        padding:
+            55px 20px;
+
+        border-radius:
+            22px;
+    }
+
+    .page-hero h1 {
+        font-size: 34px;
+    }
+
+    .page-hero p {
+        font-size: 14px;
+    }
+
+    .container {
+
+        margin: 45px auto;
+
+        padding: 0 15px;
+    }
+
+    .about-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+    .value-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+    .about-card {
+
+        padding: 24px;
+    }
+
+    .mission {
+
+        padding: 27px 22px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<header>
+
+<div class="header-inner">
+
+
+<a href="index.html" class="logo">
+
+<svg
+class="logo-svg"
+viewBox="0 0 620 190"
+xmlns="http://www.w3.org/2000/svg"
+role="img"
+aria-label="YourPrimePlus Logo"
+>
+
+<path
+d="M55 68 Q145 25 275 105 Q165 55 55 68Z"
+fill="#19c7c4"
+/>
+
+<path
+d="M55 68 Q170 45 275 105 Q165 70 55 68Z"
+fill="#1769e8"
+/>
+
+<path
+d="M275 105 Q400 25 555 68 Q410 65 275 105Z"
+fill="#1478e8"
+/>
+
+<path
+d="M55 82 Q165 68 275 115 Q395 68 555 82
+Q410 83 275 135 Q155 83 55 82Z"
+fill="#063b87"
+/>
+
+<path
+d="M275 135 Q235 105 190 78
+Q235 88 275 112
+Q320 85 370 78
+Q315 105 275 135Z"
+fill="#ffffff"
+/>
+
+<path
+d="M235 85 L235 35 L255 25 L255 92Z"
+fill="#1264e8"
+/>
+
+<path
+d="M265 92 L265 15 L287 4 L287 92Z"
+fill="#28cbd0"
+/>
+
+<path
+d="M298 90 L298 28 L320 17 L320 90Z"
+fill="#12a9c9"
+/>
+
+<path
+d="M327 92 L327 46 L350 34 L350 92Z"
+fill="#ff9f1c"
+/>
+
+<path
+d="M277 92 L303 56 L315 66 L286 103Z"
+fill="#ff6b00"
+/>
+
+<text
+x="310"
+y="158"
+text-anchor="middle"
+font-family="Arial, Helvetica, sans-serif"
+font-size="43"
+font-weight="800"
+fill="#111827"
+>
+YourPrime<tspan fill="#1677e8">Plus</tspan>
+</text>
+
+<text
+x="310"
+y="180"
+text-anchor="middle"
+font-family="Arial, Helvetica, sans-serif"
+font-size="9"
+font-weight="600"
+letter-spacing="1.5"
+fill="#4b5563"
+>
+TECHNOLOGY • EDUCATION • GAMING • UPDATES
+</text>
+
+</svg>
+
+</a>
+
+
+<nav>
+
+<a href="index.html">
+Home
+</a>
+
+<a href="technology.html">
+Technology
+</a>
+
+<a href="education.html">
+Education
+</a>
+
+<a href="gaming.html">
+Gaming
+</a>
+
+<a href="updates.html">
+Updates
+</a>
+
+<a
+href="about.html"
+class="active"
+>
+About
+</a>
+
+<a href="contact.html">
+Contact
+</a>
+
+</nav>
+
+</div>
+
+</header>
+
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="page-hero">
+
+<div class="page-hero-content">
+
+<div class="page-icon">
+ℹ️
+</div>
+
+<h1>
+About <span>YourPrimePlus</span>
+</h1>
+
+<p>
+A simple and useful platform for technology,
+education, gaming and important updates.
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================
+     MAIN
+========================= -->
+
+<main class="container">
+
+
+<!-- =========================
+     ABOUT
+========================= -->
+
+<section class="about-grid">
+
+
+<div class="about-card">
+
+<div class="about-icon">
+🚀
+</div>
+
+<h2>
+What is YourPrimePlus?
+</h2>
+
+<p>
+YourPrimePlus is an information platform
+created to provide useful and easy-to-understand
+content about technology, education, gaming
+and important updates.
+</p>
+
+</div>
+
+
+
+<div class="about-card">
+
+<div class="about-icon">
+💡
+</div>
+
+<h2>
+What We Provide
+</h2>
+
+<p>
+We focus on practical information, helpful
+guides, useful tips and easy explanations
+that can help students, technology users
+and gaming enthusiasts.
+</p>
+
+</div>
+
+
+</section>
+
+
+
+<!-- =========================
+     MISSION
+========================= -->
+
+<section class="mission">
+
+<h2>
+Our Mission
+</h2>
+
+<p>
+Our mission is to make useful information
+simple, accessible and easy to understand.
+YourPrimePlus aims to bring technology,
+education, gaming and important updates
+together in one clean and useful platform.
+</p>
+
+</section>
+
+
+
+<!-- =========================
+     VALUES
+========================= -->
+
+<section class="values">
+
+<div class="values-heading">
+
+<h2>
+What We Believe
+</h2>
+
+<p>
+The principles behind YourPrimePlus.
+</p>
+
+</div>
+
+
+<div class="value-grid">
+
+
+<div class="value">
+
+<div class="value-icon">
+🎯
+</div>
+
+<h3>
+Useful
+</h3>
+
+<p>
+Content should provide
+real value to readers.
+</p>
+
+</div>
+
+
+
+<div class="value">
+
+<div class="value-icon">
+📖
+</div>
+
+<h3>
+Simple
+</h3>
+
+<p>
+Information should be
+easy to understand.
+</p>
+
+</div>
+
+
+
+<div class="value">
+
+<div class="value-icon">
+🔎
+</div>
+
+<h3>
+Helpful
+</h3>
+
+<p>
+We focus on practical
+guides and useful tips.
+</p>
+
+</div>
+
+
+
+<div class="value">
+
+<div class="value-icon">
+🌐
+</div>
+
+<h3>
+Accessible
+</h3>
+
+<p>
+Useful information should
+be available to everyone.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+<h3>
+YourPrimePlus
+</h3>
+
+<p>
+Technology • Education • Gaming • Updates
+</p>
+
+
+<div class="footer-links">
+
+<a href="index.html">
+Home
+</a>
+
+<a href="technology.html">
+Technology
+</a>
+
+<a href="education.html">
+Education
+</a>
+
+<a href="gaming.html">
+Gaming
+</a>
+
+<a href="updates.html">
+Updates
+</a>
+
+<a href="about.html">
+About
+</a>
+
+<a href="contact.html">
+Contact
+</a>
+
+</div>
+
+
+<p>
+© 2026 YourPrimePlus.
+All Rights Reserved.
+</p>
+
+</footer>
+
+
+</body>
+
+</html>

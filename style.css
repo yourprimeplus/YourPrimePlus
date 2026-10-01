@@ -1,0 +1,687 @@
+/* =====================================================
+   YOURPRIMEPLUS - GLOBAL STYLE
+   ===================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f7fb;
+    color: #111827;
+    line-height: 1.6;
+}
+
+
+/* =====================================================
+   HEADER
+   ===================================================== */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    background: rgba(255, 255, 255, 0.78);
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+
+    padding: 12px 20px;
+}
+
+.header-inner {
+    max-width: 1180px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 25px;
+}
+
+
+/* =====================================================
+   LOGO
+   ===================================================== */
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+
+    min-width: 245px;
+}
+
+.logo-svg {
+    width: 245px;
+    height: auto;
+
+    display: block;
+}
+
+
+/* =====================================================
+   NAVIGATION
+   ===================================================== */
+
+nav {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+}
+
+nav a {
+    position: relative;
+
+    display: inline-block;
+
+    padding: 10px 16px;
+
+    border-radius: 50px;
+
+    color: #1f2937;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    white-space: nowrap;
+
+    transition: all 0.25s ease;
+}
+
+
+/* Hover */
+
+nav a:hover {
+    color: #1677e8;
+
+    background: rgba(255, 255, 255, 0.55);
+
+    border: 1px solid rgba(255, 255, 255, 0.7);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+
+/* =====================================================
+   ACTIVE NAVIGATION - GLASS PILL
+   ===================================================== */
+
+nav a.active {
+    color: #1677e8;
+
+    background: rgba(255, 255, 255, 0.42);
+
+    border: 1px solid rgba(255, 255, 255, 0.8);
+
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+
+    box-shadow:
+        0 6px 20px rgba(0, 0, 0, 0.08),
+        inset 0 1px 2px rgba(255, 255, 255, 0.9);
+
+    font-weight: 700;
+}
+
+
+/* Remove underline */
+
+nav a.active::after {
+    display: none;
+}
+
+
+/* =====================================================
+   HERO
+   ===================================================== */
+
+.hero {
+    max-width: 1180px;
+
+    margin: 30px auto;
+
+    padding: 70px 25px;
+
+    border-radius: 24px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #071a3a,
+            #0b3d91,
+            #06204a
+        );
+
+    color: white;
+
+    text-align: center;
+
+    box-shadow:
+        0 15px 40px rgba(0, 30, 80, 0.18);
+}
+
+.hero h1 {
+    font-size: 42px;
+
+    line-height: 1.15;
+
+    margin-bottom: 18px;
+}
+
+.hero h1 span {
+    color: #38bdf8;
+}
+
+.hero p {
+    max-width: 680px;
+
+    margin: auto;
+
+    color: #dbeafe;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+}
+
+.hero-badge {
+    display: inline-block;
+
+    padding: 7px 14px;
+
+    margin-bottom: 18px;
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+    border-radius: 30px;
+
+    color: #dbeafe;
+
+    background: rgba(255, 255, 255, 0.07);
+
+    font-size: 12px;
+}
+
+.hero-button {
+    display: inline-block;
+
+    margin-top: 28px;
+
+    padding: 14px 24px;
+
+    background: white;
+
+    color: #0b3d91;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    transition: 0.2s;
+}
+
+.hero-button:hover {
+    transform: translateY(-2px);
+}
+
+
+/* =====================================================
+   MAIN CONTAINER
+   ===================================================== */
+
+.container {
+    max-width: 1180px;
+
+    margin: 45px auto;
+
+    padding: 0 20px;
+}
+
+
+/* =====================================================
+   SECTION HEADING
+   ===================================================== */
+
+.section-heading {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.section-heading h2 {
+    font-size: 25px;
+}
+
+.section-heading a {
+    color: #1677e8;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: bold;
+}
+
+
+/* =====================================================
+   CATEGORIES
+   ===================================================== */
+
+.categories {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(210px, 1fr)
+        );
+
+    gap: 17px;
+
+    margin-bottom: 50px;
+}
+
+.category {
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 17px;
+
+    border: 1px solid #e5e7eb;
+
+    transition: 0.25s;
+
+    text-decoration: none;
+
+    color: inherit;
+
+    display: block;
+}
+
+.category:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+.category-icon {
+    font-size: 29px;
+
+    margin-bottom: 14px;
+}
+
+.category h3 {
+    margin-bottom: 8px;
+
+    font-size: 18px;
+}
+
+.category p {
+    color: #6b7280;
+
+    line-height: 1.6;
+
+    font-size: 14px;
+}
+
+
+/* =====================================================
+   POSTS / ARTICLES
+   ===================================================== */
+
+.posts {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(270px, 1fr)
+        );
+
+    gap: 20px;
+}
+
+.card {
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 17px;
+
+    border: 1px solid #e5e7eb;
+
+    transition: 0.25s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.card-category {
+    color: #1677e8;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.6px;
+
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 19px;
+
+    line-height: 1.4;
+
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #6b7280;
+
+    line-height: 1.65;
+
+    font-size: 14px;
+}
+
+.read {
+    display: inline-block;
+
+    margin-top: 18px;
+
+    color: #111827;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    font-size: 14px;
+}
+
+.read:hover {
+    color: #1677e8;
+}
+
+
+/* =====================================================
+   FILTER BUTTONS
+   ===================================================== */
+
+.filters {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-bottom: 30px;
+}
+
+.filter-btn {
+    border: 1px solid #dbe1e8;
+
+    background: white;
+
+    color: #374151;
+
+    padding: 10px 20px;
+
+    border-radius: 50px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.filter-btn:hover {
+    color: #1677e8;
+
+    border-color: #1677e8;
+}
+
+.filter-btn.active {
+    background: #1677e8;
+
+    color: white;
+
+    border-color: #1677e8;
+
+    box-shadow:
+        0 5px 15px rgba(22, 119, 232, 0.2);
+}
+
+
+/* =====================================================
+   UPDATE CARDS
+   ===================================================== */
+
+.updates-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(280px, 1fr)
+        );
+
+    gap: 20px;
+}
+
+.update-card {
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 18px;
+
+    border: 1px solid #e5e7eb;
+
+    transition: 0.25s;
+}
+
+.update-card:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =====================================================
+   FOOTER
+   ===================================================== */
+
+footer {
+    margin-top: 70px;
+
+    background: #071a3a;
+
+    color: white;
+
+    padding: 45px 20px;
+
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 21px;
+
+    margin-bottom: 8px;
+}
+
+footer p {
+    color: #bfdbfe;
+
+    font-size: 13px;
+
+    margin-top: 7px;
+}
+
+.footer-links {
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 18px;
+
+    margin-top: 18px;
+}
+
+.footer-links a {
+    color: #dbeafe;
+
+    text-decoration: none;
+
+    font-size: 13px;
+}
+
+.footer-links a:hover {
+    color: #38bdf8;
+}
+
+
+/* =====================================================
+   MOBILE
+   ===================================================== */
+
+@media (max-width: 850px) {
+
+    header {
+        padding: 10px 15px;
+    }
+
+    .header-inner {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 10px;
+    }
+
+    .logo {
+        min-width: auto;
+    }
+
+    .logo-svg {
+        width: 230px;
+    }
+
+    nav {
+        width: 100%;
+
+        overflow-x: auto;
+
+        padding: 4px 2px 8px;
+
+        gap: 5px;
+
+        scrollbar-width: none;
+    }
+
+    nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    nav a {
+        font-size: 14px;
+
+        padding: 9px 14px;
+    }
+
+    .hero {
+        margin: 20px 15px;
+
+        padding: 55px 20px;
+
+        border-radius: 20px;
+    }
+
+    .hero h1 {
+        font-size: 31px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .container {
+        margin: 35px auto;
+
+        padding: 0 18px;
+    }
+
+    .section-heading h2 {
+        font-size: 24px;
+    }
+
+    .categories,
+    .posts,
+    .updates-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+   ===================================================== */
+
+@media (max-width: 480px) {
+
+    .logo-svg {
+        width: 210px;
+    }
+
+    nav a {
+        font-size: 13px;
+
+        padding: 8px 12px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+}
