@@ -30,17 +30,9 @@
         }
 
         body {
-            font-family:
-                Arial,
-                Helvetica,
-                sans-serif;
-
-            background:
-                #f5f7fb;
-
-            color:
-                #111827;
-
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f7fb;
+            color: #111827;
             line-height: 1.6;
         }
 
@@ -54,52 +46,32 @@
         ========================= */
 
         header {
-
             position: sticky;
-
             top: 0;
-
             z-index: 1000;
 
-            background:
-                rgba(255,255,255,0.88);
+            background: rgba(255,255,255,0.88);
 
-            backdrop-filter:
-                blur(18px);
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
 
-            -webkit-backdrop-filter:
-                blur(18px);
-
-            border-bottom:
-                1px solid rgba(229,231,235,0.8);
+            border-bottom: 1px solid rgba(229,231,235,0.8);
         }
 
 
         .header-inner {
+            max-width: 1200px;
+            margin: auto;
 
-            max-width:
-                1200px;
+            min-height: 78px;
 
-            margin:
-                auto;
+            padding: 8px 20px;
 
-            min-height:
-                78px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
 
-            padding:
-                8px 20px;
-
-            display:
-                flex;
-
-            align-items:
-                center;
-
-            justify-content:
-                space-between;
-
-            gap:
-                25px;
+            gap: 25px;
         }
 
 
@@ -108,31 +80,18 @@
         ========================= */
 
         .logo {
+            display: flex;
+            align-items: center;
 
-            display:
-                flex;
+            width: 220px;
 
-            align-items:
-                center;
-
-            width:
-                220px;
-
-            flex-shrink:
-                0;
+            flex-shrink: 0;
         }
 
-
         .logo-svg {
-
-            width:
-                220px;
-
-            height:
-                auto;
-
-            display:
-                block;
+            width: 220px;
+            height: auto;
+            display: block;
         }
 
 
@@ -141,86 +100,53 @@
         ========================= */
 
         nav {
+            display: flex;
+            align-items: center;
 
-            display:
-                flex;
+            gap: 5px;
 
-            align-items:
-                center;
+            padding: 5px;
 
-            gap:
-                5px;
+            border-radius: 50px;
 
-            padding:
-                5px;
+            background: rgba(255,255,255,0.65);
 
-            border-radius:
-                50px;
-
-            background:
-                rgba(255,255,255,0.65);
-
-            border:
-                1px solid rgba(15,23,42,0.07);
+            border: 1px solid rgba(15,23,42,0.07);
         }
-
 
         nav a {
+            position: relative;
 
-            position:
-                relative;
+            color: #374151;
 
-            color:
-                #374151;
+            padding: 9px 13px;
 
-            padding:
-                9px 13px;
+            border-radius: 30px;
 
-            border-radius:
-                30px;
+            font-size: 13px;
+            font-weight: 700;
 
-            font-size:
-                13px;
+            white-space: nowrap;
 
-            font-weight:
-                700;
-
-            white-space:
-                nowrap;
-
-            transition:
-                0.25s;
+            transition: 0.25s;
         }
-
 
         nav a:hover {
-
-            color:
-                #0b5ed7;
-
-            background:
-                rgba(11,94,215,0.06);
+            color: #0b5ed7;
+            background: rgba(11,94,215,0.06);
         }
 
-
         nav a.active {
+            color: #0b5ed7;
 
-            color:
-                #0b5ed7;
+            background: rgba(255,255,255,0.55);
 
-            background:
-                rgba(255,255,255,0.55);
-
-            border:
-                1px solid
-                rgba(11,94,215,0.18);
+            border: 1px solid rgba(11,94,215,0.18);
 
             box-shadow:
-                0 4px 14px
-                rgba(15,23,42,0.08);
+                0 4px 14px rgba(15,23,42,0.08);
 
-            backdrop-filter:
-                blur(12px);
+            backdrop-filter: blur(12px);
         }
 
 
@@ -229,30 +155,21 @@
         ========================= */
 
         .hero {
+            max-width: 1200px;
 
-            max-width:
-                1200px;
+            margin: 28px auto 0;
 
-            margin:
-                28px auto 0;
+            padding: 80px 25px;
 
-            padding:
-                80px 25px;
+            border-radius: 28px;
 
-            border-radius:
-                28px;
+            overflow: hidden;
 
-            overflow:
-                hidden;
+            position: relative;
 
-            position:
-                relative;
+            text-align: center;
 
-            text-align:
-                center;
-
-            color:
-                white;
+            color: white;
 
             background:
                 linear-gradient(
@@ -263,250 +180,166 @@
                 );
 
             box-shadow:
-                0 20px 55px
-                rgba(0,35,90,0.18);
+                0 20px 55px rgba(0,35,90,0.18);
         }
 
 
         .hero::before {
+            content: "";
 
-            content:
-                "";
+            position: absolute;
 
-            position:
-                absolute;
+            width: 300px;
+            height: 300px;
 
-            width:
-                300px;
+            top: -150px;
+            left: -100px;
 
-            height:
-                300px;
+            border-radius: 50%;
 
-            top:
-                -150px;
+            background: rgba(56,189,248,0.16);
 
-            left:
-                -100px;
-
-            border-radius:
-                50%;
-
-            background:
-                rgba(56,189,248,0.16);
-
-            filter:
-                blur(5px);
+            filter: blur(5px);
         }
 
 
         .hero::after {
+            content: "";
 
-            content:
-                "";
+            position: absolute;
 
-            position:
-                absolute;
+            width: 280px;
+            height: 280px;
 
-            width:
-                280px;
+            right: -120px;
+            bottom: -150px;
 
-            height:
-                280px;
+            border-radius: 50%;
 
-            right:
-                -120px;
+            background: rgba(20,184,166,0.14);
 
-            bottom:
-                -150px;
-
-            border-radius:
-                50%;
-
-            background:
-                rgba(20,184,166,0.14);
-
-            filter:
-                blur(5px);
+            filter: blur(5px);
         }
 
 
         .hero-content {
+            position: relative;
 
-            position:
-                relative;
+            z-index: 2;
 
-            z-index:
-                2;
+            max-width: 760px;
 
-            max-width:
-                760px;
-
-            margin:
-                auto;
+            margin: auto;
         }
 
 
         .hero-badge {
+            display: inline-flex;
 
-            display:
-                inline-flex;
+            align-items: center;
 
-            align-items:
-                center;
+            gap: 7px;
 
-            gap:
-                7px;
+            padding: 7px 15px;
 
-            padding:
-                7px 15px;
+            margin-bottom: 20px;
 
-            margin-bottom:
-                20px;
+            border-radius: 50px;
 
-            border-radius:
-                50px;
+            color: #dbeafe;
 
-            color:
-                #dbeafe;
+            background: rgba(255,255,255,0.08);
 
-            background:
-                rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.2);
 
-            border:
-                1px solid
-                rgba(255,255,255,0.2);
+            backdrop-filter: blur(12px);
 
-            backdrop-filter:
-                blur(12px);
+            font-size: 12px;
 
-            font-size:
-                12px;
-
-            font-weight:
-                700;
+            font-weight: 700;
         }
 
 
         .hero h1 {
+            font-size: clamp(34px, 6vw, 58px);
 
-            font-size:
-                clamp(34px, 6vw, 58px);
+            line-height: 1.08;
 
-            line-height:
-                1.08;
+            letter-spacing: -1.5px;
 
-            letter-spacing:
-                -1.5px;
-
-            margin-bottom:
-                20px;
+            margin-bottom: 20px;
         }
 
 
         .hero h1 span {
-
-            color:
-                #38bdf8;
+            color: #38bdf8;
         }
 
 
         .hero p {
+            max-width: 680px;
 
-            max-width:
-                680px;
+            margin: auto;
 
-            margin:
-                auto;
+            color: #dbeafe;
 
-            color:
-                #dbeafe;
+            font-size: 16px;
 
-            font-size:
-                16px;
-
-            line-height:
-                1.8;
+            line-height: 1.8;
         }
 
 
         .hero-buttons {
+            margin-top: 30px;
 
-            margin-top:
-                30px;
+            display: flex;
 
-            display:
-                flex;
+            justify-content: center;
 
-            justify-content:
-                center;
+            gap: 12px;
 
-            gap:
-                12px;
-
-            flex-wrap:
-                wrap;
+            flex-wrap: wrap;
         }
 
 
         .hero-button {
+            display: inline-flex;
 
-            display:
-                inline-flex;
+            align-items: center;
 
-            align-items:
-                center;
+            justify-content: center;
 
-            justify-content:
-                center;
+            padding: 13px 22px;
 
-            padding:
-                13px 22px;
+            border-radius: 12px;
 
-            border-radius:
-                12px;
+            font-weight: 800;
 
-            font-weight:
-                800;
+            font-size: 14px;
 
-            font-size:
-                14px;
-
-            transition:
-                0.25s;
+            transition: 0.25s;
         }
 
 
         .hero-button.primary {
-
-            background:
-                white;
-
-            color:
-                #0b3d91;
+            background: white;
+            color: #0b3d91;
         }
 
 
         .hero-button.secondary {
+            color: white;
 
-            color:
-                white;
+            background: rgba(255,255,255,0.08);
 
-            background:
-                rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.25);
 
-            border:
-                1px solid
-                rgba(255,255,255,0.25);
-
-            backdrop-filter:
-                blur(12px);
+            backdrop-filter: blur(12px);
         }
 
 
         .hero-button:hover {
-
-            transform:
-                translateY(-3px);
+            transform: translateY(-3px);
         }
 
 
@@ -515,116 +348,79 @@
         ========================= */
 
         .search-wrapper {
+            max-width: 700px;
 
-            max-width:
-                700px;
+            margin: -28px auto 0;
 
-            margin:
-                -28px auto 0;
+            position: relative;
 
-            position:
-                relative;
+            z-index: 10;
 
-            z-index:
-                10;
-
-            padding:
-                0 20px;
+            padding: 0 20px;
         }
 
 
         .search-box {
+            display: flex;
 
-            display:
-                flex;
+            align-items: center;
 
-            align-items:
-                center;
+            gap: 10px;
 
-            gap:
-                10px;
+            padding: 7px;
 
-            padding:
-                7px;
+            background: rgba(255,255,255,0.92);
 
-            background:
-                rgba(255,255,255,0.92);
+            border: 1px solid #e5e7eb;
 
-            border:
-                1px solid #e5e7eb;
-
-            border-radius:
-                16px;
+            border-radius: 16px;
 
             box-shadow:
-                0 15px 35px
-                rgba(15,23,42,0.12);
+                0 15px 35px rgba(15,23,42,0.12);
 
-            backdrop-filter:
-                blur(16px);
+            backdrop-filter: blur(16px);
         }
 
 
         .search-icon {
-
-            padding-left:
-                12px;
-
-            font-size:
-                18px;
+            padding-left: 12px;
+            font-size: 18px;
         }
 
 
         .search-box input {
+            flex: 1;
 
-            flex:
-                1;
+            min-width: 0;
 
-            min-width:
-                0;
+            border: 0;
 
-            border:
-                0;
+            outline: none;
 
-            outline:
-                none;
+            background: transparent;
 
-            background:
-                transparent;
+            font-size: 14px;
 
-            font-size:
-                14px;
+            color: #111827;
 
-            color:
-                #111827;
-
-            padding:
-                12px 4px;
+            padding: 12px 4px;
         }
 
 
         .search-box button {
+            border: 0;
 
-            border:
-                0;
+            cursor: pointer;
 
-            cursor:
-                pointer;
+            padding: 11px 18px;
 
-            padding:
-                11px 18px;
+            border-radius: 11px;
 
-            border-radius:
-                11px;
+            background: #0b5ed7;
 
-            background:
-                #0b5ed7;
+            color: white;
 
-            color:
-                white;
-
-            font-weight:
-                700;
+            font-weight: 700;
         }
 
 
@@ -633,15 +429,11 @@
         ========================= */
 
         .container {
+            max-width: 1200px;
 
-            max-width:
-                1200px;
+            margin: 60px auto;
 
-            margin:
-                60px auto;
-
-            padding:
-                0 20px;
+            padding: 0 20px;
         }
 
 
@@ -650,54 +442,38 @@
         ========================= */
 
         .section-heading {
+            display: flex;
 
-            display:
-                flex;
+            align-items: center;
 
-            align-items:
-                center;
+            justify-content: space-between;
 
-            justify-content:
-                space-between;
+            gap: 15px;
 
-            gap:
-                15px;
-
-            margin-bottom:
-                22px;
+            margin-bottom: 22px;
         }
 
 
         .section-heading h2 {
+            font-size: 27px;
 
-            font-size:
-                27px;
-
-            letter-spacing:
-                -0.5px;
+            letter-spacing: -0.5px;
         }
 
 
         .section-heading p {
+            color: #6b7280;
 
-            color:
-                #6b7280;
-
-            font-size:
-                14px;
+            font-size: 14px;
         }
 
 
         .section-link {
+            color: #0b5ed7;
 
-            color:
-                #0b5ed7;
+            font-size: 14px;
 
-            font-size:
-                14px;
-
-            font-weight:
-                800;
+            font-weight: 800;
         }
 
 
@@ -706,49 +482,34 @@
         ========================= */
 
         .featured {
+            display: grid;
 
-            display:
-                grid;
+            grid-template-columns: 1.5fr 1fr;
 
-            grid-template-columns:
-                1.5fr 1fr;
+            gap: 20px;
 
-            gap:
-                20px;
-
-            margin-bottom:
-                60px;
+            margin-bottom: 60px;
         }
 
 
         .featured-main {
+            min-height: 330px;
 
-            min-height:
-                330px;
+            padding: 35px;
 
-            padding:
-                35px;
+            border-radius: 22px;
 
-            border-radius:
-                22px;
+            color: white;
 
-            color:
-                white;
+            position: relative;
 
-            position:
-                relative;
+            overflow: hidden;
 
-            overflow:
-                hidden;
+            display: flex;
 
-            display:
-                flex;
+            flex-direction: column;
 
-            flex-direction:
-                column;
-
-            justify-content:
-                flex-end;
+            justify-content: flex-end;
 
             background:
                 linear-gradient(
@@ -758,164 +519,114 @@
                 );
 
             box-shadow:
-                0 15px 35px
-                rgba(15,23,42,0.12);
+                0 15px 35px rgba(15,23,42,0.12);
         }
 
 
         .featured-main::after {
+            content: "✦";
 
-            content:
-                "✦";
+            position: absolute;
 
-            position:
-                absolute;
+            right: 30px;
 
-            right:
-                30px;
+            top: 20px;
 
-            top:
-                20px;
+            font-size: 100px;
 
-            font-size:
-                100px;
-
-            color:
-                rgba(255,255,255,0.06);
+            color: rgba(255,255,255,0.06);
         }
 
 
         .featured-main .tag {
+            display: inline-block;
 
-            display:
-                inline-block;
+            width: fit-content;
 
-            width:
-                fit-content;
+            padding: 6px 10px;
 
-            padding:
-                6px 10px;
+            border-radius: 20px;
 
-            border-radius:
-                20px;
+            background: rgba(255,255,255,0.12);
 
-            background:
-                rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.15);
 
-            border:
-                1px solid
-                rgba(255,255,255,0.15);
+            font-size: 11px;
 
-            font-size:
-                11px;
+            font-weight: 800;
 
-            font-weight:
-                800;
-
-            margin-bottom:
-                14px;
+            margin-bottom: 14px;
         }
 
 
         .featured-main h3 {
+            font-size: 28px;
 
-            font-size:
-                28px;
+            line-height: 1.25;
 
-            line-height:
-                1.25;
+            max-width: 600px;
 
-            max-width:
-                600px;
-
-            margin-bottom:
-                12px;
+            margin-bottom: 12px;
         }
 
 
         .featured-main p {
+            color: #dbeafe;
 
-            color:
-                #dbeafe;
+            max-width: 600px;
 
-            max-width:
-                600px;
-
-            font-size:
-                14px;
+            font-size: 14px;
         }
 
 
         .featured-side {
+            display: grid;
 
-            display:
-                grid;
-
-            gap:
-                20px;
+            gap: 20px;
         }
 
 
         .mini-feature {
+            background: white;
 
-            background:
-                white;
+            border: 1px solid #e5e7eb;
 
-            border:
-                1px solid #e5e7eb;
+            border-radius: 20px;
 
-            border-radius:
-                20px;
+            padding: 25px;
 
-            padding:
-                25px;
-
-            transition:
-                0.25s;
+            transition: 0.25s;
         }
 
 
         .mini-feature:hover {
-
-            transform:
-                translateY(-4px);
+            transform: translateY(-4px);
 
             box-shadow:
-                0 14px 30px
-                rgba(15,23,42,0.08);
+                0 14px 30px rgba(15,23,42,0.08);
         }
 
 
         .mini-icon {
+            font-size: 28px;
 
-            font-size:
-                28px;
-
-            margin-bottom:
-                10px;
+            margin-bottom: 10px;
         }
 
 
         .mini-feature h3 {
+            font-size: 18px;
 
-            font-size:
-                18px;
-
-            margin-bottom:
-                6px;
+            margin-bottom: 6px;
         }
 
 
         .mini-feature p {
+            color: #6b7280;
 
-            color:
-                #6b7280;
+            font-size: 13px;
 
-            font-size:
-                13px;
-
-            line-height:
-                1.6;
+            line-height: 1.6;
         }
 
 
@@ -924,118 +635,83 @@
         ========================= */
 
         .categories {
-
-            display:
-                grid;
+            display: grid;
 
             grid-template-columns:
                 repeat(4, 1fr);
 
-            gap:
-                17px;
+            gap: 17px;
 
-            margin-bottom:
-                60px;
+            margin-bottom: 60px;
         }
 
 
         .category {
+            background: rgba(255,255,255,0.9);
 
-            background:
-                rgba(255,255,255,0.9);
+            border: 1px solid #e5e7eb;
 
-            border:
-                1px solid #e5e7eb;
+            border-radius: 18px;
 
-            border-radius:
-                18px;
+            padding: 24px;
 
-            padding:
-                24px;
-
-            transition:
-                0.25s;
+            transition: 0.25s;
         }
 
 
         .category:hover {
-
-            transform:
-                translateY(-5px);
+            transform: translateY(-5px);
 
             box-shadow:
-                0 15px 30px
-                rgba(15,23,42,0.08);
+                0 15px 30px rgba(15,23,42,0.08);
         }
 
 
         .category-icon {
+            width: 48px;
 
-            width:
-                48px;
+            height: 48px;
 
-            height:
-                48px;
+            display: flex;
 
-            display:
-                flex;
+            align-items: center;
 
-            align-items:
-                center;
+            justify-content: center;
 
-            justify-content:
-                center;
+            border-radius: 14px;
 
-            border-radius:
-                14px;
+            background: #eff6ff;
 
-            background:
-                #eff6ff;
+            font-size: 24px;
 
-            font-size:
-                24px;
-
-            margin-bottom:
-                15px;
+            margin-bottom: 15px;
         }
 
 
         .category h3 {
+            font-size: 18px;
 
-            font-size:
-                18px;
-
-            margin-bottom:
-                7px;
+            margin-bottom: 7px;
         }
 
 
         .category p {
+            color: #6b7280;
 
-            color:
-                #6b7280;
+            font-size: 13px;
 
-            font-size:
-                13px;
+            line-height: 1.6;
 
-            line-height:
-                1.6;
-
-            margin-bottom:
-                14px;
+            margin-bottom: 14px;
         }
 
 
         .category-link {
+            color: #0b5ed7;
 
-            color:
-                #0b5ed7;
+            font-size: 13px;
 
-            font-size:
-                13px;
-
-            font-weight:
-                800;
+            font-weight: 800;
         }
 
 
@@ -1044,122 +720,120 @@
         ========================= */
 
         .posts {
-
-            display:
-                grid;
+            display: grid;
 
             grid-template-columns:
                 repeat(3, 1fr);
 
-            gap:
-                20px;
+            gap: 20px;
         }
 
 
         .card {
+            background: white;
 
-            background:
-                white;
+            padding: 25px;
 
-            padding:
-                25px;
+            border: 1px solid #e5e7eb;
 
-            border:
-                1px solid #e5e7eb;
+            border-radius: 18px;
 
-            border-radius:
-                18px;
-
-            transition:
-                0.25s;
+            transition: 0.25s;
         }
 
 
         .card:hover {
-
-            transform:
-                translateY(-4px);
+            transform: translateY(-4px);
 
             box-shadow:
-                0 15px 30px
-                rgba(15,23,42,0.08);
+                0 15px 30px rgba(15,23,42,0.08);
         }
 
 
         .card-category {
+            color: #0b5ed7;
 
-            color:
-                #0b5ed7;
+            font-size: 11px;
 
-            font-size:
-                11px;
+            font-weight: 800;
 
-            font-weight:
-                800;
+            letter-spacing: 0.8px;
 
-            letter-spacing:
-                0.8px;
+            text-transform: uppercase;
 
-            text-transform:
-                uppercase;
-
-            margin-bottom:
-                10px;
+            margin-bottom: 10px;
         }
 
 
         .card h3 {
+            font-size: 19px;
 
-            font-size:
-                19px;
+            line-height: 1.4;
 
-            line-height:
-                1.4;
-
-            margin-bottom:
-                9px;
+            margin-bottom: 9px;
         }
 
 
         .card p {
+            color: #6b7280;
 
-            color:
-                #6b7280;
+            font-size: 14px;
 
-            font-size:
-                14px;
-
-            line-height:
-                1.65;
+            line-height: 1.65;
         }
 
 
         .read {
+            display: inline-block;
 
-            display:
-                inline-block;
+            margin-top: 17px;
 
-            margin-top:
-                17px;
+            color: #111827;
 
-            color:
-                #111827;
+            font-size: 13px;
 
-            font-size:
-                13px;
+            font-weight: 800;
 
-            font-weight:
-                800;
-
-            transition:
-                0.2s;
+            transition: 0.2s;
         }
 
 
         .read:hover {
+            color: #0b5ed7;
+        }
 
-            color:
-                #0b5ed7;
+
+        /* =========================
+           LOADING
+        ========================= */
+
+        .loading {
+            grid-column: 1 / -1;
+
+            text-align: center;
+
+            padding: 45px 20px;
+
+            color: #6b7280;
+
+            font-size: 15px;
+        }
+
+
+        .error-message {
+            grid-column: 1 / -1;
+
+            padding: 25px;
+
+            border-radius: 15px;
+
+            background: #fff1f2;
+
+            border: 1px solid #fecdd3;
+
+            color: #be123c;
+
+            text-align: center;
         }
 
 
@@ -1168,83 +842,58 @@
         ========================= */
 
         footer {
+            margin-top: 80px;
 
-            margin-top:
-                80px;
+            padding: 45px 20px;
 
-            padding:
-                45px 20px;
+            text-align: center;
 
-            text-align:
-                center;
+            color: white;
 
-            color:
-                white;
-
-            background:
-                #071a3a;
+            background: #071a3a;
         }
 
 
         footer h3 {
+            font-size: 21px;
 
-            font-size:
-                21px;
-
-            margin-bottom:
-                8px;
+            margin-bottom: 8px;
         }
 
 
         footer p {
+            color: #bfdbfe;
 
-            color:
-                #bfdbfe;
+            font-size: 13px;
 
-            font-size:
-                13px;
-
-            margin-top:
-                7px;
+            margin-top: 7px;
         }
 
 
         .footer-links {
+            display: flex;
 
-            display:
-                flex;
+            justify-content: center;
 
-            justify-content:
-                center;
+            flex-wrap: wrap;
 
-            flex-wrap:
-                wrap;
+            gap: 18px;
 
-            gap:
-                18px;
-
-            margin-top:
-                20px;
+            margin-top: 20px;
         }
 
 
         .footer-links a {
+            color: #dbeafe;
 
-            color:
-                #dbeafe;
+            font-size: 13px;
 
-            font-size:
-                13px;
-
-            font-weight:
-                600;
+            font-weight: 600;
         }
 
 
         .footer-links a:hover {
-
-            color:
-                white;
+            color: white;
         }
 
 
@@ -1255,74 +904,54 @@
         @media (max-width: 950px) {
 
             .header-inner {
+                flex-direction: column;
 
-                flex-direction:
-                    column;
+                align-items: flex-start;
 
-                align-items:
-                    flex-start;
-
-                padding:
-                    10px 15px;
+                padding: 10px 15px;
             }
 
 
             .logo {
-
-                width:
-                    205px;
+                width: 205px;
             }
 
 
             .logo-svg {
-
-                width:
-                    205px;
+                width: 205px;
             }
 
 
             nav {
+                width: 100%;
 
-                width:
-                    100%;
+                overflow-x: auto;
 
-                overflow-x:
-                    auto;
+                justify-content: flex-start;
 
-                justify-content:
-                    flex-start;
+                padding: 4px;
 
-                padding:
-                    4px;
-
-                scrollbar-width:
-                    none;
+                scrollbar-width: none;
             }
 
 
             nav::-webkit-scrollbar {
-
-                display:
-                    none;
+                display: none;
             }
 
 
             .featured {
-
-                grid-template-columns:
-                    1fr;
+                grid-template-columns: 1fr;
             }
 
 
             .categories {
-
                 grid-template-columns:
                     repeat(2, 1fr);
             }
 
 
             .posts {
-
                 grid-template-columns:
                     repeat(2, 1fr);
             }
@@ -1333,115 +962,82 @@
         @media (max-width: 600px) {
 
             .hero {
+                margin: 15px 12px 0;
 
-                margin:
-                    15px 12px 0;
+                padding: 60px 20px;
 
-                padding:
-                    60px 20px;
-
-                border-radius:
-                    22px;
+                border-radius: 22px;
             }
 
 
             .hero h1 {
-
-                font-size:
-                    34px;
+                font-size: 34px;
             }
 
 
             .hero p {
-
-                font-size:
-                    14px;
+                font-size: 14px;
             }
 
 
             .search-wrapper {
-
-                padding:
-                    0 12px;
+                padding: 0 12px;
             }
 
 
             .search-box {
-
-                border-radius:
-                    14px;
+                border-radius: 14px;
             }
 
 
             .search-box button {
+                padding: 10px 13px;
 
-                padding:
-                    10px 13px;
-
-                font-size:
-                    12px;
+                font-size: 12px;
             }
 
 
             .container {
+                margin: 45px auto;
 
-                margin:
-                    45px auto;
-
-                padding:
-                    0 15px;
+                padding: 0 15px;
             }
 
 
             .section-heading h2 {
-
-                font-size:
-                    22px;
+                font-size: 22px;
             }
 
 
             .featured-main {
+                min-height: 300px;
 
-                min-height:
-                    300px;
-
-                padding:
-                    25px;
+                padding: 25px;
             }
 
 
             .featured-main h3 {
-
-                font-size:
-                    23px;
+                font-size: 23px;
             }
 
 
             .categories {
-
-                grid-template-columns:
-                    1fr;
+                grid-template-columns: 1fr;
             }
 
 
             .posts {
-
-                grid-template-columns:
-                    1fr;
+                grid-template-columns: 1fr;
             }
 
 
             .hero-buttons {
-
-                flex-direction:
-                    column;
+                flex-direction: column;
             }
 
 
             .hero-button {
-
-                width:
-                    100%;
+                width: 100%;
             }
 
         }
@@ -1462,8 +1058,6 @@
 
     <div class="header-inner">
 
-
-        <!-- LOGO -->
 
         <a href="index.html" class="logo">
 
@@ -1541,7 +1135,7 @@
                     YourPrime<tspan fill="#1677e8">Plus</tspan>
                 </text>
 
-                <text
+                <
                     x="310"
                     y="180"
                     text-anchor="middle"
@@ -1552,14 +1146,16 @@
                     fill="#4b5563"
                 >
                     TECHNOLOGY • EDUCATION • GAMING • UPDATES
-                </text>
+                                </text>
 
             </svg>
 
         </a>
 
 
-        <!-- NAVIGATION -->
+        <!-- =========================
+             NAVIGATION
+        ========================= -->
 
         <nav>
 
@@ -1598,9 +1194,8 @@
 </header>
 
 
-
 <!-- =========================
-     HERO
+     HERO SECTION
 ========================= -->
 
 <section class="hero">
@@ -1623,7 +1218,6 @@
             easy-to-use platform.
         </p>
 
-
         <div class="hero-buttons">
 
             <a
@@ -1645,7 +1239,6 @@
     </div>
 
 </section>
-
 
 
 <!-- =========================
@@ -1679,15 +1272,16 @@
 </div>
 
 
-
 <!-- =========================
-     MAIN
+     MAIN CONTENT
 ========================= -->
 
 <main class="container">
 
 
-    <!-- FEATURED -->
+    <!-- =========================
+         FEATURED ARTICLES
+    ========================= -->
 
     <section id="featured">
 
@@ -1711,8 +1305,9 @@
         <div class="featured">
 
 
-            <article class="featured-main searchable"
-                     data-title="10 useful Android tips every user should know">
+            <!-- MAIN FEATURE -->
+
+            <article class="featured-main">
 
                 <div class="tag">
                     TECHNOLOGY
@@ -1740,13 +1335,14 @@
             </article>
 
 
+            <!-- SIDE FEATURES -->
+
             <div class="featured-side">
 
 
                 <a
                     href="education.html"
-                    class="mini-feature searchable"
-                    data-title="study smarter education study techniques"
+                    class="mini-feature"
                 >
 
                     <div class="mini-icon">
@@ -1768,8 +1364,7 @@
 
                 <a
                     href="gaming.html"
-                    class="mini-feature searchable"
-                    data-title="gaming guides tips settings"
+                    class="mini-feature"
                 >
 
                     <div class="mini-icon">
@@ -1795,8 +1390,9 @@
     </section>
 
 
-
-    <!-- CATEGORIES -->
+    <!-- =========================
+         CATEGORIES
+    ========================= -->
 
     <section>
 
@@ -1819,6 +1415,8 @@
 
         <div class="categories">
 
+
+            <!-- TECHNOLOGY -->
 
             <div class="category">
 
@@ -1845,6 +1443,8 @@
             </div>
 
 
+            <!-- EDUCATION -->
+
             <div class="category">
 
                 <div class="category-icon">
@@ -1870,6 +1470,8 @@
             </div>
 
 
+            <!-- GAMING -->
+
             <div class="category">
 
                 <div class="category-icon">
@@ -1894,6 +1496,8 @@
 
             </div>
 
+
+            <!-- UPDATES -->
 
             <div class="category">
 
@@ -1925,8 +1529,9 @@
     </section>
 
 
-
-    <!-- LATEST ARTICLES -->
+    <!-- =========================
+         LATEST ARTICLES
+    ========================= -->
 
     <section id="articles">
 
@@ -1954,183 +1559,32 @@
         </div>
 
 
-        <div class="posts">
+        <!--
+            AUTOMATIC ARTICLES
+            articles.json से articles यहाँ आएंगे
+        -->
 
+        <div
+            class="posts"
+            id="articleContainer"
+        >
 
-            <article
-                class="card searchable"
-                data-title="10 useful Android tips every user should know"
-            >
+            <article class="card">
 
                 <div class="card-category">
-                    Technology
+                    Loading
                 </div>
 
                 <h3>
-                    10 Useful Android Tips
-                    Every User Should Know
+                    Loading latest articles...
                 </h3>
 
                 <p>
-                    Discover simple Android tips,
-                    hidden features and settings
-                    that can improve your phone experience.
+                    Please wait while the latest
+                    articles are being loaded.
                 </p>
 
-                <a
-                    href="technology.html"
-                    class="read"
-                >
-                    Read Article →
-                </a>
-
             </article>
-
-
-            <article
-                class="card searchable"
-                data-title="latest smartphone technology"
-            >
-
-                <div class="card-category">
-                    Technology
-                </div>
-
-                <h3>
-                    Latest Smartphone Technology
-                </h3>
-
-                <p>
-                    Learn about useful smartphone
-                    features, settings and modern
-                    technology.
-                </p>
-
-                <a
-                    href="technology.html"
-                    class="read"
-                >
-                    Read Articles →
-                </a>
-
-            </article>
-
-
-            <article
-                class="card searchable"
-                data-title="study tips for students"
-            >
-
-                <div class="card-category">
-                    Education
-                </div>
-
-                <h3>
-                    Study Tips for Students
-                </h3>
-
-                <p>
-                    Improve your preparation with
-                    simple study techniques,
-                    planning and revision tips.
-                </p>
-
-                <a
-                    href="education.html"
-                    class="read"
-                >
-                    Read Articles →
-                </a>
-
-            </article>
-
-
-            <article
-                class="card searchable"
-                data-title="best gaming tips improve gaming skills"
-            >
-
-                <div class="card-category">
-                    Gaming
-                </div>
-
-                <h3>
-                    Improve Your Gaming Skills
-                </h3>
-
-                <p>
-                    Learn practical tips for better
-                    aim, movement, settings and
-                    overall gaming performance.
-                </p>
-
-                <a
-                    href="gaming.html"
-                    class="read"
-                >
-                    Read Articles →
-                </a>
-
-            </article>
-
-
-            <article
-                class="card searchable"
-                data-title="latest useful updates"
-            >
-
-                <div class="card-category">
-                    Updates
-                </div>
-
-                <h3>
-                    Latest Useful Updates
-                </h3>
-
-                <p>
-                    Stay informed about useful
-                    information, digital updates
-                    and important topics.
-                </p>
-
-                <a
-                    href="updates.html"
-                    class="read"
-                >
-                    Read Updates →
-                </a>
-
-            </article>
-
-
-            <article
-                class="card searchable"
-                data-title="career and education information"
-            >
-
-                <div class="card-category">
-                    Education
-                </div>
-
-                <h3>
-                    Career & Education Information
-                </h3>
-
-                <p>
-                    Explore courses, career options,
-                    study resources and useful
-                    information for students.
-                </p>
-
-                <a
-                    href="education.html"
-                    class="read"
-                >
-                    Explore →
-                </a>
-
-            </article>
-
 
         </div>
 
@@ -2138,7 +1592,6 @@
 
 
 </main>
-
 
 
 <!-- =========================
@@ -2197,86 +1650,396 @@
 </footer>
 
 
-
 <!-- =========================
-     SEARCH SCRIPT
+     JAVASCRIPT
 ========================= -->
 
 <script>
+// @ts-nocheck
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function () {
+
+        loadArticles();
+
+    }
+);
+
+
+/* =========================
+   LOAD ARTICLES
+========================= */
+
+async function loadArticles() {
+
+    const articleContainer =
+        document.getElementById(
+            "articleContainer"
+        );
+
+    if (!articleContainer) {
+        return;
+    }
+
+
+    try {
+
+        const response =
+            await fetch("articles.json");
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                "Unable to load articles.json"
+            );
+
+        }
+
+
+        const data =
+            await response.json();
+
+
+        /*
+         * Support both formats:
+         *
+         * 1. Array
+         * [
+         *   {...},
+         *   {...}
+         * ]
+         *
+         * 2. Object
+         * {
+         *   "items": [
+         *      {...}
+         *   ]
+         * }
+         */
+
+        const articles =
+            Array.isArray(data)
+                ? data
+                : data.items;
+
+
+        if (
+            !articles ||
+            articles.length === 0
+        ) {
+
+            articleContainer.innerHTML = `
+                <article class="card">
+                    <div class="card-category">
+                        UPDATES
+                    </div>
+
+                    <h3>
+                        No Articles Found
+                    </h3>
+
+                    <p>
+                        No articles are available
+                        right now.
+                    </p>
+                </article>
+            `;
+
+            return;
+        }
+
+
+        /*
+         * Clear loading message
+         */
+
+        articleContainer.innerHTML = "";
+
+
+        /*
+         * Display latest 6 articles
+         */
+
+        articles
+            .slice(0, 6)
+            .forEach(function (article) {
+
+                const card =
+                    document.createElement(
+                        "article"
+                    );
+
+
+                card.className =
+                    "card searchable";
+
+
+                /*
+                 * Article title for search
+                 */
+
+                card.setAttribute(
+                    "data-title",
+                    article.title || ""
+                );
+
+
+                /*
+                 * Article content
+                 */
+
+                const category =
+                    article.category ||
+                    "LATEST";
+
+
+                const title =
+                    article.title ||
+                    "Untitled Article";
+
+
+                const description =
+                    article.description ||
+                    "Read this article on YourPrimePlus.";
+
+
+                const url =
+                    article.url ||
+                    "#";
+
+
+                card.innerHTML = `
+
+                    <div class="card-category">
+                        ${escapeHTML(category)}
+                    </div>
+
+                    <h3>
+                        ${escapeHTML(title)}
+                    </h3>
+
+                    <p>
+                        ${escapeHTML(description)}
+                    </p>
+
+                    <a
+                        href="${escapeAttribute(url)}"
+                        class="read"
+                    >
+                        Read Article →
+                    </a>
+
+                `;
+
+
+                articleContainer.appendChild(
+                    card
+                );
+
+            });
+
+    }
+
+
+    catch (error) {
+
+        console.error(
+            "Article loading error:",
+            error
+        );
+
+
+        articleContainer.innerHTML = `
+
+            <article class="card">
+
+                <div class="card-category">
+                    ERROR
+                </div>
+
+                <h3>
+                    Unable to Load Articles
+                </h3>
+
+                <p>
+                    Please check that
+                    <strong>articles.json</strong>
+                    exists in the same folder
+                    as index.html.
+                </p>
+
+            </article>
+
+        `;
+
+    }
+
+}
+
+
+/* =========================
+   SEARCH ARTICLES
+========================= */
 
 function searchArticles() {
 
     const input =
-        document.getElementById("siteSearch");
+        document.getElementById(
+            "siteSearch"
+        );
+
+
+    if (!input) {
+        return;
+    }
+
 
     const query =
         input.value
-        .trim()
-        .toLowerCase();
+            .trim()
+            .toLowerCase();
+
 
     const articles =
-        document.querySelectorAll(".searchable");
+        document.querySelectorAll(
+            ".searchable"
+        );
 
+
+    /*
+     * Empty search
+     */
 
     if (!query) {
 
-        articles.forEach(function(article) {
+        articles.forEach(
+            function (article) {
 
-            article.style.display = "";
+                article.style.display = "";
 
-        });
+            }
+        );
 
         return;
     }
 
 
-    articles.forEach(function(article) {
+    /*
+     * Search
+     */
 
-        const title =
-            (
-                article.getAttribute("data-title") || ""
-            ).toLowerCase();
+    articles.forEach(
+        function (article) {
 
-        const content =
-            article.innerText.toLowerCase();
+            const title =
+                (
+                    article.getAttribute(
+                        "data-title"
+                    ) || ""
+                ).toLowerCase();
 
 
-        if (
-            title.includes(query) ||
-            content.includes(query)
-        ) {
+            const content =
+                article.innerText
+                    .toLowerCase();
 
-            article.style.display = "";
 
-        } else {
+            if (
+                title.includes(query) ||
+                content.includes(query)
+            ) {
 
-            article.style.display = "none";
+                article.style.display = "";
+
+            } else {
+
+                article.style.display =
+                    "none";
+
+            }
 
         }
+    );
 
-    });
+
+    /*
+     * Scroll to articles
+     */
+
+    const articleSection =
+        document.getElementById(
+            "articles"
+        );
 
 
-    document
-        .getElementById("articles")
-        .scrollIntoView({
+    if (articleSection) {
+
+        articleSection.scrollIntoView({
             behavior: "smooth"
         });
+
+    }
 
 }
 
 
-document
-    .getElementById("siteSearch")
-    .addEventListener("keydown", function(event) {
+/* =========================
+   ENTER KEY SEARCH
+========================= */
 
-        if (event.key === "Enter") {
+const searchInput =
+    document.getElementById(
+        "siteSearch"
+    );
 
-            searchArticles();
+
+if (searchInput) {
+
+    searchInput.addEventListener(
+        "keydown",
+        function (event) {
+
+            if (
+                event.key === "Enter"
+            ) {
+
+                searchArticles();
+
+            }
 
         }
+    );
 
-    });
+}
+
+
+/* =========================
+   HTML SECURITY
+========================= */
+
+function escapeHTML(text) {
+
+    return String(text)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+
+}
+
+
+function escapeAttribute(text) {
+
+    return String(text)
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+
+}
 
 </script>
 
