@@ -10,7 +10,7 @@
     "source": "YourPrimePlus"
   },
   {
-    "id": "auto-5067200226354528748",
+    "id": "auto-4788596920087128332",
     "title": "On-Device AI: Powering the Future of Computing - Coursera",
     "category": "TECHNOLOGY",
     "description": "On-Device AI: Powering the Future of Computing Coursera",
@@ -19,7 +19,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-2728891880428162953",
+    "id": "auto-799301801909942085",
     "title": "Harvard Researchers Develop AI Smartphone Navigation App for Blind and Low-Vision Users - Tech Briefs",
     "category": "TECHNOLOGY",
     "description": "Harvard Researchers Develop AI Smartphone Navigation App for Blind and Low-Vision Users Tech Briefs",
@@ -28,7 +28,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-3028583812370449531",
+    "id": "auto-2503696800267696839",
     "title": "Forget apps: Qualcomm CEO says AI agents will change how we use smartphones - WION",
     "category": "TECHNOLOGY",
     "description": "Forget apps: Qualcomm CEO says AI agents will change how we use smartphones WION",
@@ -37,7 +37,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-6097887225897293547",
+    "id": "auto-8166781635583627328",
     "title": "What is AI, how do apps like ChatGPT work and why are there concerns? - BBC",
     "category": "TECHNOLOGY",
     "description": "What is AI, how do apps like ChatGPT work and why are there concerns? BBC",
@@ -46,7 +46,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-2470483213432384864",
+    "id": "auto-1643036553159300400",
     "title": "From apps to 'intent': How AI agents will rewrite the way we use next‑generation smartphones - The Times of India",
     "category": "TECHNOLOGY",
     "description": "From apps to 'intent': How AI agents will rewrite the way we use next‑generation smartphones The Times of India",
@@ -55,7 +55,16 @@
     "source": "Google News"
   },
   {
-    "id": "auto-465401462986402273",
+    "id": "auto-7982003814616560673",
+    "title": "Google Ordered to Give A.I. Rivals More Access on Android Smartphones - The New York Times",
+    "category": "TECHNOLOGY",
+    "description": "Google Ordered to Give A.I. Rivals More Access on Android Smartphones The New York Times",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9TS19fVno2VUZKRmVxRVFtcHFRZnRmcjdfRlV3OW0zUm1BTllQUnBuTmk5enF5alJLM2k1SktMUEtCeXAtU0c0M3JlX3dfX3hCcGFkQ1dDMTMzbHA1aFg1NVZMNzJ6THF3cnR1NGVZZFozN0otZE9B?oc=5",
+    "published": "Thu, 16 Jul 2026 07:00:00 GMT",
+    "source": "Google News"
+  },
+  {
+    "id": "auto-3102473699832425112",
     "title": "OpenAI’s next bet: Smartphones with AI agents that replace apps and challenge the iPhone - The Indian Express",
     "category": "TECHNOLOGY",
     "description": "OpenAI’s next bet: Smartphones with AI agents that replace apps and challenge the iPhone The Indian Express",
@@ -64,25 +73,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-5615894256815754702",
-    "title": "Qualcomm CEO says AI agents will replace apps — as chip giant works on 40 new AI-powered devices - CNBC",
-    "category": "TECHNOLOGY",
-    "description": "Qualcomm CEO says AI agents will replace apps — as chip giant works on 40 new AI-powered devices CNBC",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LamVsYm05bGU1c1pmZWFUTzh0elVFNURzeWRtQWZHdWlfVkoyVUt6ZV9kem5uenFfUW5sOUxVWjMxdkxkdlQ1bkhnU1dzMVVtSkpkaWdrS0poX0dpeXQzUkhBMU9VUnlTRi1KYjdhUmpYRU5ETmfSAXtBVV95cUxNOU4wNXM1aElZeFB1RHhMeVgtd0JvanpvUEE5WkxDYVdUbkJmbXNMWkhWVXRJQ1ZDc1BVR1lpMnJWRUxxU01hdjJRS2RXWDJnN2pFamo2c3BVaHpXVF92Sk1UeEdORHNiMnpnVDJmSTBlc3NDeWZtcUxKMTg?oc=5",
-    "published": "Tue, 16 Jun 2026 07:00:00 GMT",
-    "source": "Google News"
-  },
-  {
-    "id": "auto-1251642453298135713",
-    "title": "The Best AI Apps For Android Phones - SlashGear",
-    "category": "TECHNOLOGY",
-    "description": "The Best AI Apps For Android Phones SlashGear",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42S3ZZYWcwMXRaMnZvY1hxZ2RnQWJDTm9ESFdFbTVFcDA5bF9sMldUS2pSSnZqdFpJVlRXQ0l6eWZjWGtIMVpRNUIxT2tPN2k1NkpTNGlHT0dvSFIwWjRyZWUtVkdkVVFHUWppZXE3QQ?oc=5",
-    "published": "Tue, 09 Jun 2026 07:00:00 GMT",
-    "source": "Google News"
-  },
-  {
-    "id": "auto-2348346071738802601",
+    "id": "auto-3856379522055236155",
     "title": "The best anti-AI smartphones in 2026: Expert tested and recommended - ZDNET",
     "category": "TECHNOLOGY",
     "description": "The best anti-AI smartphones in 2026: Expert tested and recommended ZDNET",
@@ -91,16 +82,25 @@
     "source": "Google News"
   },
   {
-    "id": "auto-2291347210617507250",
-    "title": "China’s StepFun beats Apple and OpenAI to ‘world’s first AI phone’ - South China Morning Post",
+    "id": "auto-8029565369991343440",
+    "title": "Qualcomm CEO says AI agents will replace apps — as chip giant works on 40 new AI-powered devices - CNBC",
     "category": "TECHNOLOGY",
-    "description": "China’s StepFun beats Apple and OpenAI to ‘world’s first AI phone’ South China Morning Post",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVUpwaFJVVU1DVktheGlJZ3IyOUJhZWNHTVVrWllXLWE3QzdGdG1Wek9TYjhVak9lUmpjb2k2RUlyWEpQWUYybVowU2FmZW4zc0dmOXBINmZiUHE0a25uRjEzZkZIbXV0Z2txY0RmQzExRmY5V3ltSzdNYXRqMGFta29Za29scVJTenRvYXJtVUM4Q2NVUFh6TTVxSTNJT3YwVUpncXZaVUhaSHdmaVBaSTVpbkkxQdIBtgFBVV95cUxOOVlhajB3TXJxNlBRbHdjOWQ1VUFITG05VDhlYXphNDBqamVOUVpHbS1KMFJkZGpvdFBUWUFWcVhBeUlKclRyYVBoVkVVeDVweWlSMmlNWWZCejVvbmhabWhVZFF2UEc0b2Jfd2hnS3hLYzVpQnF2TU4yWnJmS0hrbXNZU2lSQlUzWEU5b3hERFhyalp2cXZJMmR6dzJQajBlcnVlcVBja3lzZ2NXdEZpb2FDUDhBUQ?oc=5",
-    "published": "Tue, 14 Jul 2026 07:00:00 GMT",
+    "description": "Qualcomm CEO says AI agents will replace apps — as chip giant works on 40 new AI-powered devices CNBC",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LamVsYm05bGU1c1pmZWFUTzh0elVFNURzeWRtQWZHdWlfVkoyVUt6ZV9kem5uenFfUW5sOUxVWjMxdkxkdlQ1bkhnU1dzMVVtSkpkaWdrS0poX0dpeXQzUkhBMU9VUnlTRi1KYjdhUmpYRU5ETmfSAXtBVV95cUxNOU4wNXM1aElZeFB1RHhMeVgtd0JvanpvUEE5WkxDYVdUbkJmbXNMWkhWVXRJQ1ZDc1BVR1lpMnJWRUxxU01hdjJRS2RXWDJnN2pFamo2c3BVaHpXVF92Sk1UeEdORHNiMnpnVDJmSTBlc3NDeWZtcUxKMTg?oc=5",
+    "published": "Tue, 16 Jun 2026 07:00:00 GMT",
     "source": "Google News"
   },
   {
-    "id": "auto-7144921646452863667",
+    "id": "auto-1351478117527490535",
+    "title": "The Best AI Apps For Android Phones - SlashGear",
+    "category": "TECHNOLOGY",
+    "description": "The Best AI Apps For Android Phones SlashGear",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42S3ZZYWcwMXRaMnZvY1hxZ2RnQWJDTm9ESFdFbTVFcDA5bF9sMldUS2pSSnZqdFpJVlRXQ0l6eWZjWGtIMVpRNUIxT2tPN2k1NkpTNGlHT0dvSFIwWjRyZWUtVkdkVVFHUWppZXE3QQ?oc=5",
+    "published": "Tue, 09 Jun 2026 07:00:00 GMT",
+    "source": "Google News"
+  },
+  {
+    "id": "auto-3885408659529503366",
     "title": "Assam teachers’ body seeks primary scholarship exam revival, sets Oct 15 deadline - The Assam Tribune",
     "category": "EDUCATION",
     "description": "Assam teachers’ body seeks primary scholarship exam revival, sets Oct 15 deadline The Assam Tribune",
@@ -109,7 +109,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-7154255278743742004",
+    "id": "auto-6289554535279189114",
     "title": "ALLEN TALLENTEX 2027: Last Date for Registration is 11 October - Allen",
     "category": "EDUCATION",
     "description": "ALLEN TALLENTEX 2027: Last Date for Registration is 11 October Allen",
@@ -118,25 +118,16 @@
     "source": "Google News"
   },
   {
-    "id": "auto-6257395297536355375",
-    "title": "Scholarship for 12th Class Students 2026-27: Government and Private Schemes, Eligibility, Amount and How to Apply - Shiksha.com",
+    "id": "auto-8188472319150733542",
+    "title": "Scholarship for 10th Class Students 2026-27: Apply, Amount - Shiksha.com",
     "category": "EDUCATION",
-    "description": "Scholarship for 12th Class Students 2026-27: Government and Private Schemes, Eligibility, Amount and How to Apply Shiksha.com",
-    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPS0dlc2QtSW94X2hJSllwa3BuWFRIZmNFVjVnSXd3LS1PTHpwUDNCb21IVXpGOHBZeVFIT011OWdUR3VhUWt2WGxKb0ljNVJnZC00aG5BWDRGcFViaWlya0JaLUJYZ3BHM2o3SEw1a3VCWHNFREdpSS10MUNrOHpHd19FOXVmcDZEMmZoY1lKSnExNjBNZENfSVJFbnItZFZEX1dmTVhVZ1pZLUl1VDM0UDdQa2RsU282aXVXakxMNGMtNEx6V3JQNk1rSmxGdEVGSmgyTDdSTDdvT3ZNRmMyMW5KdE44R3Q0eEZOTXB3VFB0RkloM3dieA?oc=5",
-    "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+    "description": "Scholarship for 10th Class Students 2026-27: Apply, Amount Shiksha.com",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPM2d2TkVEM1ZRbVdYb1hidmtvTkNCd193RUpVZ2FwMVdzWmJOOU5yYjVxcW1EdFMtQVNCV1ZSOHc0QzR0LUpvX0ktY1NBQzJXRlVKX21XMWN5X2tRNEtRRDhoNi1qV0NjWnFBTFBKMUFBQUI5dmwycUtYaEFjR05tQ3o5WHJPS1FXUG1uSVEzVk04Q2lSaHhIcXJyZFZ5VDUtLUh0eW9rN2x5VnpQTU15UGd6VTVnR0Q1ZC1Kc1BYVl9maXVKZmdYdmlOT2JrQ0h3dmhwMjBubnVzR3QxNW9teEpkbmkyZGxT?oc=5",
+    "published": "Wed, 23 Sep 2026 07:00:00 GMT",
     "source": "Google News"
   },
   {
-    "id": "auto-5410051946024635135",
-    "title": "NSP Scholarship Last Date 2026-27: Pre & Post Matric Deadlines - Careers360",
-    "category": "EDUCATION",
-    "description": "NSP Scholarship Last Date 2026-27: Pre & Post Matric Deadlines Careers360",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB0NzU5U0gwS25JUURsMzZkbW5Ib0xpVHNKX2RNNk8zY3NmbUJINm1WZlBJbDFVT3BnOUVucUdzWURjNVF4OUFVdFdkd2FsTVM4eEs0SUZLVXl4V3J6SFM4dkg0NjBTeTF2U3NILVpZZ212SDBkd3pwdzFQLVg?oc=5",
-    "published": "Wed, 30 Sep 2026 07:00:00 GMT",
-    "source": "Google News"
-  },
-  {
-    "id": "auto-2674689288289470134",
+    "id": "auto-8458884051083960072",
     "title": "PW NSAT Scholarship 2025 Phase 2, Apply Now for PW National Scholarship Test - PW",
     "category": "EDUCATION",
     "description": "PW NSAT Scholarship 2025 Phase 2, Apply Now for PW National Scholarship Test PW",
@@ -145,7 +136,16 @@
     "source": "Google News"
   },
   {
-    "id": "auto-4036342408996459861",
+    "id": "auto-4777728126431613511",
+    "title": "NSP Scholarship Last Date 2026-27: Pre & Post Matric Deadlines - Careers360",
+    "category": "EDUCATION",
+    "description": "NSP Scholarship Last Date 2026-27: Pre & Post Matric Deadlines Careers360",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB0NzU5U0gwS25JUURsMzZkbW5Ib0xpVHNKX2RNNk8zY3NmbUJINm1WZlBJbDFVT3BnOUVucUdzWURjNVF4OUFVdFdkd2FsTVM4eEs0SUZLVXl4V3J6SFM4dkg0NjBTeTF2U3NILVpZZ212SDBkd3pwdzFQLVg?oc=5",
+    "published": "Wed, 30 Sep 2026 07:00:00 GMT",
+    "source": "Google News"
+  },
+  {
+    "id": "auto-1104642707942252020",
     "title": "NMMSS 2026: Delhi to conduct Class 8 scholarship exam on December 5, applications open till October 5 - The Times of India",
     "category": "EDUCATION",
     "description": "NMMSS 2026: Delhi to conduct Class 8 scholarship exam on December 5, applications open till October 5 The Times of India",
@@ -154,7 +154,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-434785402077962760",
+    "id": "auto-2801023486997423815",
     "title": "Viral “Easy Exam” Student Did Not Score 193 in 2026 Scholarship Results - Fact Crescendo Sri Lanka",
     "category": "EDUCATION",
     "description": "Viral “Easy Exam” Student Did Not Score 193 in 2026 Scholarship Results Fact Crescendo Sri Lanka",
@@ -163,7 +163,16 @@
     "source": "Google News"
   },
   {
-    "id": "auto-1740779588915957907",
+    "id": "auto-5729557705407260760",
+    "title": "Scholarship for 12th Class Students 2026-27: Government and Private Schemes, Eligibility, Amount and How to Apply - Shiksha.com",
+    "category": "EDUCATION",
+    "description": "Scholarship for 12th Class Students 2026-27: Government and Private Schemes, Eligibility, Amount and How to Apply Shiksha.com",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPS0dlc2QtSW94X2hJSllwa3BuWFRIZmNFVjVnSXd3LS1PTHpwUDNCb21IVXpGOHBZeVFIT011OWdUR3VhUWt2WGxKb0ljNVJnZC00aG5BWDRGcFViaWlya0JaLUJYZ3BHM2o3SEw1a3VCWHNFREdpSS10MUNrOHpHd19FOXVmcDZEMmZoY1lKSnExNjBNZENfSVJFbnItZFZEX1dmTVhVZ1pZLUl1VDM0UDdQa2RsU282aXVXakxMNGMtNEx6V3JQNk1rSmxGdEVGSmgyTDdSTDdvT3ZNRmMyMW5KdE44R3Q0eEZOTXB3VFB0RkloM3dieA?oc=5",
+    "published": "Tue, 22 Sep 2026 07:00:00 GMT",
+    "source": "Google News"
+  },
+  {
+    "id": "auto-6459342588147865823",
     "title": "PM-YASASVI Scholarship: Classes 9 To 12 Students Can Apply, Check Details - NDTV",
     "category": "EDUCATION",
     "description": "PM-YASASVI Scholarship: Classes 9 To 12 Students Can Apply, Check Details NDTV",
@@ -172,7 +181,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-6342772619017925021",
+    "id": "auto-1206099518795490876",
     "title": "PWSAT SAT 5.0 2026: Registration Dates, Exam Schedule, Eligibility & Scholarship Details - PW",
     "category": "EDUCATION",
     "description": "PWSAT SAT 5.0 2026: Registration Dates, Exam Schedule, Eligibility & Scholarship Details PW",
@@ -181,16 +190,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-5321079693031268409",
-    "title": "PhysicsWallah, NWWA Partner for Navy Family Scholarships - Education Today",
-    "category": "EDUCATION",
-    "description": "PhysicsWallah, NWWA Partner for Navy Family Scholarships Education Today",
-    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPUlkweWtiS0VwVkwtRlJGNERhREtVaWF6V1d2NW5xNFRGUEl0QVViLXQ4YkNjZWM4TXhRVnpPQTVrNnFqWnR0cjdlZTFSbWtvSzIyM3dlb3Jmai1tbUFlSWh0VTlTZWVDWmFXWXIzMXJ3NnVjTzFkWFRHU2Jzem4xWHNxT0FCUnhGX3c0SVdsNzg0MnNyNXJTZ2JTRjRkZXY2cUpkcl9xQ1ptc19TV2x1cE5lbm1lUmFBWVlBMFVLRjZMWjZtaWlib0xhanllakVoMjAyZWd3cmZYQjZPRHc4Wlg5dENHeE9yRWdDMmlubzA?oc=5",
-    "published": "Wed, 29 Jul 2026 09:57:18 GMT",
-    "source": "Google News"
-  },
-  {
-    "id": "auto-3349522042162232741",
+    "id": "auto-1839074150574801508",
     "title": "BGMI Lite is Officially Coming to India: Everything You Need to Know - PaidFreeDroid",
     "category": "GAMING",
     "description": "BGMI Lite is Officially Coming to India: Everything You Need to Know PaidFreeDroid",
@@ -199,16 +199,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-9158432396023270278",
-    "title": "How to Get Free BGMI UC—Battlegrounds Mobile India October 2026 Guide - Insider Gaming",
-    "category": "GAMING",
-    "description": "How to Get Free BGMI UC—Battlegrounds Mobile India October 2026 Guide Insider Gaming",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FLXo4QV9aajlfR0ljZHBVYVhUTElGZVpnWkRlUUw1NzhSaTFPYW5NVkxIYnU2a1RGaDh6V0ljRTFobWZVOEE4T0ZnRGtmeTAyclBmVW13YlhIejl5Sk5FaA?oc=5",
-    "published": "Fri, 02 Oct 2026 14:45:16 GMT",
-    "source": "Google News"
-  },
-  {
-    "id": "auto-387859196853571998",
+    "id": "auto-1184562237505190666",
     "title": "A Historic First for Indian Gaming: CarryMinati Enters BGMI as a Fully Playable Character, with an Entire In-Game Collection Designed by NotYourType - thewire.in",
     "category": "GAMING",
     "description": "A Historic First for Indian Gaming: CarryMinati Enters BGMI as a Fully Playable Character, with an Entire In-Game Collection Designed by NotYourType thewire.in",
@@ -217,7 +208,16 @@
     "source": "Google News"
   },
   {
-    "id": "auto-418425545737869355",
+    "id": "auto-4521417518525750825",
+    "title": "How to Get Free BGMI UC—Battlegrounds Mobile India October 2026 Guide - Insider Gaming",
+    "category": "GAMING",
+    "description": "How to Get Free BGMI UC—Battlegrounds Mobile India October 2026 Guide Insider Gaming",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FLXo4QV9aajlfR0ljZHBVYVhUTElGZVpnWkRlUUw1NzhSaTFPYW5NVkxIYnU2a1RGaDh6V0ljRTFobWZVOEE4T0ZnRGtmeTAyclBmVW13YlhIejl5Sk5FaA?oc=5",
+    "published": "Fri, 02 Oct 2026 14:45:16 GMT",
+    "source": "Google News"
+  },
+  {
+    "id": "auto-1654240203704820357",
     "title": "From Goa to glory: How Jonathan Gaming became India's esports king - Esports Charts",
     "category": "GAMING",
     "description": "From Goa to glory: How Jonathan Gaming became India's esports king Esports Charts",
@@ -226,7 +226,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-8872521766260932673",
+    "id": "auto-7325067270545554652",
     "title": "Krafton doubles down on India with another $250M bet beyond gaming - TechCrunch",
     "category": "GAMING",
     "description": "Krafton doubles down on India with another $250M bet beyond gaming TechCrunch",
@@ -235,16 +235,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-6378101183514080546",
-    "title": "Bigg Boss 20: From PUBG Mobile star to popular gaming creator and earning Rs 30 lakhs a month; all about - The Times of India",
-    "category": "GAMING",
-    "description": "Bigg Boss 20: From PUBG Mobile star to popular gaming creator and earning Rs 30 lakhs a month; all about The Times of India",
-    "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPaDFVdzZ6WThkRnlvZ3E2MEVCeHNXUXozUkVjTzc5cnJZbVFtRTloZVRzM1A3OC1USWVMV1RMXzBnRjVaUC0xYm5HLU1wMTFHQXB1VHE3dkdUTUVWTVA1eUMxWFMwMXlMOFd0Vll0eFN0T3FURVdqMzY2MldGOUlTaHo4Z2h3RWRRRjl3WjV5MUFRbGQ5NkhTc2U5dU5YOEV3NHVKUGVVWVBzQ0pUaHJ1MS1PMkZtREpiS3dDYzBsUXBMWTdGNUJYUXRrS0NtREJvdkZYamRRRzhyUXpjeFlBMlNRckRZNFRNY0FQM0F1eG56RXJFNWRDNEFaOWZseFZaVzkzLWNJUjdNTmZrSC1jMGkycWpOU09XZ2hmcGRCQWZVb0h3VkU0ZC04d9IBsAJBVV95cUxNYTBFbTBOWllaSS10WnEwcFBwVFdUT3U1SnNWLUJ5Q3pOU3IxVllDVlBITW92d3dNbE80eTBSb2JCTmFzSGJ0QzlhNm0xZXNsWjRMWUZ4dFoyUjhQMDRNUTEzSWNHRmV4eE5TWURnYUhmSzFxcHdhWVNmVjJxOEhuRURocUFwSGNtLXFESHhUczBCZW5MY0hPWVJzZFJpZFJZTmRkeGFpSU0zakpOeDlMZFJCRkpLZERLcnZGbHhIbks0cE5tdTJQVEtrMHI0UlZIVlVXRkdyNmVXMzFIdXBuR1o0c191Y0x3Y0xuck5xNGhYay05MkNLWEtkRTdjWlp5cDVicjMteDdtdDNsU01mVlp5cUF3dWVxQWhmcUxNdVQ4SWFuaWRQTTVfY3VQNy1f?oc=5",
-    "published": "Mon, 07 Sep 2026 07:00:00 GMT",
-    "source": "Google News"
-  },
-  {
-    "id": "auto-2017092503397475363",
+    "id": "auto-5143204460085848614",
     "title": "BGMI Lite Finally Becomes Official, Bringing a Lighter Version of the Battle Royale to Budget Devices - IGN India",
     "category": "GAMING",
     "description": "BGMI Lite Finally Becomes Official, Bringing a Lighter Version of the Battle Royale to Budget Devices IGN India",
@@ -253,16 +244,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-3556671927525911838",
-    "title": "PUBG Mobile Light to launch in 2026 with lower device requirements - Pocket Gamer.biz",
-    "category": "GAMING",
-    "description": "PUBG Mobile Light to launch in 2026 with lower device requirements Pocket Gamer.biz",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa3JGVEdIaE9EU0xybUo5djdVR3g4cVNvNVZBSXNnWHhuU21iYzl1UnVteXdtWHMwcGN4cnJqNk5UMi1MbThwcnJSODNYR3BmOUJEbVMxTFIxRS02STVMS3V6bXQ4dkpzcFF1QTdYNEdVeVNVTWxDZHlSb1MwTWZQZldHZDg4MUtjSndWeWFfdjUxQWRlbTB3WVloVQ?oc=5",
-    "published": "Mon, 17 Aug 2026 07:00:00 GMT",
-    "source": "Google News"
-  },
-  {
-    "id": "auto-6199966753944512984",
+    "id": "auto-4761294992115863898",
     "title": "KRAFTON India Announces Launch of BGMI LITE by the End of 2026, Opens Pre-Registration for Android Users On 25th August - The Tribune",
     "category": "GAMING",
     "description": "KRAFTON India Announces Launch of BGMI LITE by the End of 2026, Opens Pre-Registration for Android Users On 25th August The Tribune",
@@ -271,7 +253,16 @@
     "source": "Google News"
   },
   {
-    "id": "auto-2685877100811850141",
+    "id": "auto-3759157304329641575",
+    "title": "PUBG Mobile Light to launch in 2026 with lower device requirements - Pocket Gamer.biz",
+    "category": "GAMING",
+    "description": "PUBG Mobile Light to launch in 2026 with lower device requirements Pocket Gamer.biz",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa3JGVEdIaE9EU0xybUo5djdVR3g4cVNvNVZBSXNnWHhuU21iYzl1UnVteXdtWHMwcGN4cnJqNk5UMi1MbThwcnJSODNYR3BmOUJEbVMxTFIxRS02STVMS3V6bXQ4dkpzcFF1QTdYNEdVeVNVTWxDZHlSb1MwTWZQZldHZDg4MUtjSndWeWFfdjUxQWRlbTB3WVloVQ?oc=5",
+    "published": "Mon, 17 Aug 2026 07:00:00 GMT",
+    "source": "Google News"
+  },
+  {
+    "id": "auto-598082567734860605",
     "title": "BGMI Lite Set To Launch In India By End Of 2026 For Gamers: Here’s What You Can Expect - News18",
     "category": "GAMING",
     "description": "BGMI Lite Set To Launch In India By End Of 2026 For Gamers: Here’s What You Can Expect News18",
@@ -280,7 +271,16 @@
     "source": "Google News"
   },
   {
-    "id": "auto-4192264639798213654",
+    "id": "auto-2338664068296909615",
+    "title": "Bigg Boss 20: From PUBG Mobile star to popular gaming creator and earning Rs 30 lakhs a month; all about - The Times of India",
+    "category": "GAMING",
+    "description": "Bigg Boss 20: From PUBG Mobile star to popular gaming creator and earning Rs 30 lakhs a month; all about The Times of India",
+    "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPaDFVdzZ6WThkRnlvZ3E2MEVCeHNXUXozUkVjTzc5cnJZbVFtRTloZVRzM1A3OC1USWVMV1RMXzBnRjVaUC0xYm5HLU1wMTFHQXB1VHE3dkdUTUVWTVA1eUMxWFMwMXlMOFd0Vll0eFN0T3FURVdqMzY2MldGOUlTaHo4Z2h3RWRRRjl3WjV5MUFRbGQ5NkhTc2U5dU5YOEV3NHVKUGVVWVBzQ0pUaHJ1MS1PMkZtREpiS3dDYzBsUXBMWTdGNUJYUXRrS0NtREJvdkZYamRRRzhyUXpjeFlBMlNRckRZNFRNY0FQM0F1eG56RXJFNWRDNEFaOWZseFZaVzkzLWNJUjdNTmZrSC1jMGkycWpOU09XZ2hmcGRCQWZVb0h3VkU0ZC04d9IBsAJBVV95cUxNYTBFbTBOWllaSS10WnEwcFBwVFdUT3U1SnNWLUJ5Q3pOU3IxVllDVlBITW92d3dNbE80eTBSb2JCTmFzSGJ0QzlhNm0xZXNsWjRMWUZ4dFoyUjhQMDRNUTEzSWNHRmV4eE5TWURnYUhmSzFxcHdhWVNmVjJxOEhuRURocUFwSGNtLXFESHhUczBCZW5MY0hPWVJzZFJpZFJZTmRkeGFpSU0zakpOeDlMZFJCRkpLZERLcnZGbHhIbks0cE5tdTJQVEtrMHI0UlZIVlVXRkdyNmVXMzFIdXBuR1o0c191Y0x3Y0xuck5xNGhYay05MkNLWEtkRTdjWlp5cDVicjMteDdtdDNsU01mVlp5cUF3dWVxQWhmcUxNdVQ4SWFuaWRQTTVfY3VQNy1f?oc=5",
+    "published": "Mon, 07 Sep 2026 07:00:00 GMT",
+    "source": "Google News"
+  },
+  {
+    "id": "auto-7464475486548078807",
     "title": "India and Romania sign three agreements in the fields of Science and Technology, Education and Sports - News On AIR",
     "category": "UPDATES",
     "description": "India and Romania sign three agreements in the fields of Science and Technology, Education and Sports News On AIR",
@@ -289,7 +289,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-3040611478856600850",
+    "id": "auto-5822348177126076111",
     "title": "From access to transformation: reimagining India's engineering education - ET Education",
     "category": "UPDATES",
     "description": "From access to transformation: reimagining India's engineering education ET Education",
@@ -298,7 +298,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-4523622722990980673",
+    "id": "auto-4191301975624785927",
     "title": "National Digital University Initiative Expands Access to Higher Education, Focuses on Future Skills - Entrepreneur India",
     "category": "UPDATES",
     "description": "National Digital University Initiative Expands Access to Higher Education, Focuses on Future Skills Entrepreneur India",
@@ -307,7 +307,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-8880006776834858546",
+    "id": "auto-3891805155163764382",
     "title": "India using technology at massive scale for financial inclusion, education, telemedicine, agriculture: PM Modi at VivaTech 2026 - ANI News",
     "category": "UPDATES",
     "description": "India using technology at massive scale for financial inclusion, education, telemedicine, agriculture: PM Modi at VivaTech 2026 ANI News",
@@ -316,7 +316,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-6923438881802989809",
+    "id": "auto-5525408199608443821",
     "title": "How China is redesigning higher education, and should India follow? - Business Standard",
     "category": "UPDATES",
     "description": "How China is redesigning higher education, and should India follow? Business Standard",
@@ -325,7 +325,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-4242101162917232517",
+    "id": "auto-9098794066891288482",
     "title": "Ancient India’s Scientific Heritage Should Be Integrated into Modern Education - Pioneer Daily",
     "category": "UPDATES",
     "description": "Ancient India’s Scientific Heritage Should Be Integrated into Modern Education Pioneer Daily",
@@ -334,7 +334,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-4749861828831890783",
+    "id": "auto-33545114578974441",
     "title": "India and Slovakia sign MoUs on education, research and talent mobility - BusinessLine",
     "category": "UPDATES",
     "description": "India and Slovakia sign MoUs on education, research and talent mobility BusinessLine",
@@ -343,7 +343,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-8979779009412750257",
+    "id": "auto-2201710641410744037",
     "title": "Google launches AI education initiatives for teachers and students in India - The Indian Express",
     "category": "UPDATES",
     "description": "Google launches AI education initiatives for teachers and students in India The Indian Express",
@@ -352,7 +352,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-1108522109070470021",
+    "id": "auto-2508189215874213509",
     "title": "National Technology Day: AI Courses Are India's New Craze. But Are They Helping Students Land Jobs? - NDTV",
     "category": "UPDATES",
     "description": "National Technology Day: AI Courses Are India's New Craze. But Are They Helping Students Land Jobs? NDTV",
@@ -361,7 +361,7 @@
     "source": "Google News"
   },
   {
-    "id": "auto-2834491264529928285",
+    "id": "auto-6395163974505924760",
     "title": "How India's new AI literacy mission will reshape education - The Week",
     "category": "UPDATES",
     "description": "How India's new AI literacy mission will reshape education The Week",
